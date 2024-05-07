@@ -1,0 +1,2467 @@
+fileFormatVersion: 2
+guid: 259d58630c8dc4b4889ca6657034820f
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: f3268c876daf4890b6af6cd462063137, type: 3}
+  _reimportOnDependencyChange: 1
+  _pixelsPerUnit: 16
+  _sprites:
+  - name: LevelArt_Atlas_0
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 128
+      width: 16
+      height: 16
+    spriteID: a7a068a367d72e54d91ef6ec9fa8d348
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 7bb73e9965b9d61409249cdb06dc1a25
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 8}
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 128
+      width: 16
+      height: 16
+    spriteID: d1654bac054840749b35a6e5abd8b33f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 098cdbc6cc66c0244bd96bbd032cb5fa
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 8}
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_4
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 56983d4bf604e7643bdb193afca95651
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_5
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 128
+      width: 16
+      height: 16
+    spriteID: a56e4c5109d5dc848ba0c6cfdf5e78a2
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 8}
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_6
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 5c345561c7f24ef45a493b12738f5507
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 8}
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_7
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 128
+      width: 16
+      height: 16
+    spriteID: f6db10d3b01c08a4fb0947928e8c133e
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 8}
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_8
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 170fc7d7856478d42a36673c190e0176
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_9
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 7a8fd03817685b243a759a072d6d7fea
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_10
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 128
+      width: 16
+      height: 16
+    spriteID: cf1582a579add084299a3fe1caaea0e6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_11
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 7bc496877b432024b966f9cba1b14315
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_12
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 87741858f9df10545a96fddefa3c0f46
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_13
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 128
+      width: 16
+      height: 16
+    spriteID: dcea410a2d25b6d4cafffb61c3cf5638
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_14
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 128
+      width: 16
+      height: 16
+    spriteID: e84cef1fa3056c140aef53877fcd0437
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_15
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 59af510624ad5ed4ba5f1a744c0ef4c1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_16
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 07d2670468e7ba54a8d8437d6dd933e5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_17
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 82a1e939ef9bb8349b97a32eb4dddd01
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_18
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 112
+      width: 16
+      height: 16
+    spriteID: c2aaf052decd28c42872d58bcdc6e2ea
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_19
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 112
+      width: 16
+      height: 16
+    spriteID: c106cb37371988c4f984258085439dd7
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 8}
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_20
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 61ef6dccf4e0c8342b6214e0976bd775
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 8}
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_21
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 0f1392679a3eb084e9e1652446742121
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_22
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 112
+      width: 16
+      height: 16
+    spriteID: d8f178c730da02848aceeb2ba5c340d1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_23
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 6b28f2878224d814bae6e281fe299c37
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_24
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 112
+      width: 16
+      height: 16
+    spriteID: a87ab30ccf341384098a9d1db0f32af1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_25
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 27af2a924c288fe4c8a23e9d6ab679b6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_26
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 112
+      width: 16
+      height: 16
+    spriteID: bd7f1f9a5db42104b9a888c6388c6a76
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_27
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 150ece636d8bf8c43a8fcd39e184cec3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_28
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 224425a445ab8744e81b685515cb9bb9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_29
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 8577187f70462144eb1c71e5f9d0518f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_30
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 112
+      width: 16
+      height: 16
+    spriteID: ce71a4b291fd2a544b8162658e017834
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_31
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 5fe7a25f5ce8a4f4cb4dfa93f2710977
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_32
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 112
+      width: 16
+      height: 16
+    spriteID: c764ebe8bc45940458ee7d950ca4a2cc
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_33
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 5994bfe3fe4b43c47a49482af95fb6eb
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_34
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 453417bc9650d544296f059b470db9c0
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_35
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 54d737e943385ae42b09cc0d7b83d6eb
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_36
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 96
+      width: 16
+      height: 16
+    spriteID: d9602f95fd9fef44aaf6bc5511302ab2
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 8}
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_37
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 5bb5399f70d25a64981ef0da86d01110
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 8}
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_38
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 19323598d48a7bb49ae97e6593aa9d88
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_39
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 96
+      width: 16
+      height: 16
+    spriteID: de5f6cfbcabfbc840b836103aee92c7d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_40
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 0c5d05b5740f4034489d71c50203821b
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 8}
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_41
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 7589202f14b81004fad027ce87cd5582
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 8}
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_42
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 28976ed19b14e9a47a34acf84c5f2e01
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 8}
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_43
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 4e8aadc22e8e70044a4a80ed37d0ff1a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_44
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 6991ed3f7bb68c64090306c102c8e98b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_45
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 13df0815198a2184fb8e30bed1a79968
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_46
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 74393f7478251254495f1d34ea98237c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_47
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 96
+      width: 16
+      height: 16
+    spriteID: b9d1ba9929d5bc84b8141cd8a712be81
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_48
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 770f43f4b77656245badd45ba39bc719
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_49
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 86db439825464534ea4501791207919f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_50
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 96
+      width: 16
+      height: 16
+    spriteID: d3e93ebbcce7f5c418aa919fbe04028b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_51
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 96
+      width: 16
+      height: 16
+    spriteID: afd90a33c5fdc3b4fa3936abb5b784fe
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_52
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 74b9dbdcd343c1147ab1ff9f08c2d5b3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_53
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 96
+      width: 16
+      height: 16
+    spriteID: cd0f7d714c0be4d459a3c6428aef98a1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_54
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 13dd17312bce5f0469249511bc8f1121
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_55
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 32d45c77267a8714dbfc23f9c6ffa77d
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 8}
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_56
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 80
+      width: 16
+      height: 16
+    spriteID: d1ec6d7072ed4544f942722023f45160
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_57
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 2b34585794a9d0c479c9fc26714d478f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_58
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 35bb3435353f04045ba41860986ff718
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 8}
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_59
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 80
+      width: 16
+      height: 16
+    spriteID: ed32c714c83affa4eb1d2126dc189826
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 8}
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_60
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 0e1a0f43742484046b091d7ab75aed00
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 8}
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_61
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 82882d6c9abed1c41a106aca26ecf6c8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_62
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 42935876d8db82d479b2662546ce42e3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_63
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 1f4c408b336aa1a4194f259c31167ade
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_64
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 5f8b06ce71ce4db44b47fc0e6c62ab28
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_65
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 8468843a5727bf243a27aa0fc28fa5d6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_66
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 4cbb557bccf94f447b065d6f7fc6dde2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_67
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 80
+      width: 16
+      height: 16
+    spriteID: e837c24f7b3d0ee4788fd5434769d3ca
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_68
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 80
+      width: 16
+      height: 16
+    spriteID: b9713af9eec46da42914ef32bc4bf462
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_69
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 80
+      width: 16
+      height: 16
+    spriteID: baa3c94341e59e045b166af666e4fb57
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_70
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 80
+      width: 16
+      height: 16
+    spriteID: ffa0ce3e940c62d48aba6b72f6faade8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_71
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 6fd29886ebee70c4cb321201480549b8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_72
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 64
+      width: 16
+      height: 16
+    spriteID: d6c5dfd03266b6b4e9f4ec64607c42f1
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 8}
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_73
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 4eb1d9be61fa84b4f84b624cc98a65bd
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 8}
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_74
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 701f29305afc2034e86ffe636dc1761f
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 8}
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_75
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 283f6d1b1fa447f4cb49fb4dc941aa3d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_76
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 64
+      width: 16
+      height: 16
+    spriteID: b7c2e2ede51d3864b85890c5ba2cebb2
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 8}
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_77
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 92738af7d9394fe4e848f868f48bcb8d
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 8}
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_78
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 4336e240de2a808499e5a49a2014f29f
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 8}
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_79
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 8f566fbc03d0e9742a57c909a5aa6231
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_80
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 95a6324044f861740a52c9c1a16ab59f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_81
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 64
+      width: 16
+      height: 16
+    spriteID: fedd05b96b28f9049a3be2fcffbd5a0e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_82
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 81a937724ceaebb44a9bbc86335f7ef6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_83
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 2418d801718f6164b95883e2068209fb
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_84
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 64
+      width: 16
+      height: 16
+    spriteID: e56e3a7eeea0d864caa8f968fbf026d4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_85
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 9d9db5f402a71cc429a441a1c7b074ab
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_86
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 64
+      width: 16
+      height: 16
+    spriteID: faa9a129a9c3511429335c3d92717240
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_87
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 9ffc0a199e7d71941a62a3782e06eed6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_88
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 4912e09e8d862eb4e90b170a25641203
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_89
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 64
+      width: 16
+      height: 16
+    spriteID: d767a3b517c1bb042afd4ea34d53eb8f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_90
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 48
+      width: 16
+      height: 16
+    spriteID: ce92ba6a5f786d94388ec6668a568a93
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_91
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 5510e896aae39c5468f735b73417f151
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 8}
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_92
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 30f9bb5f2c9a04640af52b72ae64c699
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_93
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 48
+      width: 16
+      height: 16
+    spriteID: ad9beb2785dc1954086c81adf6dac8f7
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_94
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 0cab3cfd8492ba24abe73711cc9938c4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_95
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 48
+      width: 16
+      height: 16
+    spriteID: f646ee06a3911ea4aab78a74166fb5c7
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_96
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 48
+      width: 16
+      height: 16
+    spriteID: b718754943db49943a8f4e9a1a35fea5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_97
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 2b238cce682f2554787723c84068c72b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_98
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 98661173afcf20448985b982a387ab73
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_99
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 48
+      width: 16
+      height: 16
+    spriteID: cf35319ef23505c4cb7e2af7ef26fbf9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_100
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 48
+      width: 16
+      height: 16
+    spriteID: a131a419ead17624782a088ce73f9bfe
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_101
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 9b1c2fabb255b5243ba8c5620c6f606f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_102
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 47aa04cebd749574a8e38bd33bf0f6b9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_103
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 8426a158cc665d947bee3294e8e3c13d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_104
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 07bd567ff6bcad74794c744f2a74f51c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_105
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 48
+      width: 16
+      height: 16
+    spriteID: ce0bc73a4683a4948bb07d34e119b98b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_106
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 48
+      width: 16
+      height: 16
+    spriteID: f7da47f7da80fba4dbf039f643493581
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_107
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 48
+      width: 16
+      height: 16
+    spriteID: c6b1670852b0ca84889bd6351799e880
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_108
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 9f856a5c4314fd1478a01a26a16c9c34
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_109
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 3b756aba9131ff34e910ecd22846ee4a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_110
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 9c50908f6b539ac43a54056d19b20039
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 8}
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_111
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 770ab01bf16d64d4c904df34575e0e1c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_112
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 00d88adbef4c4a440be4734942f99d6a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_113
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 8579a35cbf81ef64e8006e896b9cfab1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_114
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 2e2e5771819ac6545b2ab4014bcccd35
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 8}
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_115
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 32
+      width: 16
+      height: 16
+    spriteID: eb21d120cf2fb914dad963dab9f1fd58
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 8}
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_116
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 0a4018973e3077847b5c33f769ca0b7a
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 8}
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_117
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 63ab6134e9bdcf74ea47301cc8b6b1c9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_118
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 32
+      width: 16
+      height: 16
+    spriteID: bc008315165d7d44c872934f28e931b7
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_119
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 32
+      width: 16
+      height: 16
+    spriteID: bfb5f1cd8f4a44d4f8e917fb8ad88de4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_120
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 924d63176a08ccb449fc28f6ddad8cd4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_121
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 5c718535f5804944c85baa2b96a5ae29
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_122
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 67ed5c573f410ea4cab80b6f607ff9e7
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_123
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 298db7429abb6c644b82ab5c58345cd5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_124
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 56d6d338f06939a4c839ee5a4ad26065
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_125
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 0181f165830f8774fa786131469dc7a0
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_126
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 16
+      width: 16
+      height: 16
+    spriteID: c6a747b94b0f52248a9ecef4af5b402b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_127
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 09826ff2b27c4d84a8378581ce7fb23d
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 8}
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_128
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 7932cf5bb47e8ce4eb573431a8fa2a63
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 8}
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_129
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 6133192ebb133aa4e8f7c794887e97be
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 8}
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_130
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 16
+      width: 16
+      height: 16
+    spriteID: f294bfe257e8d4a46a96f0fa38a87a75
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 8}
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_131
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 4083de734249abd42ae2e5cdb93418ce
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_132
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 812532455c90eff47acb662ac96f5fe3
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 8}
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_133
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 0c29a7d73f8299844b1c069d787f945e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_134
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 3d9e3383e9d99204f80e0a75cc820e56
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 8}
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_135
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 16
+      width: 16
+      height: 16
+    spriteID: fb7f56d755d02434d9498005e29f1217
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_136
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 2658585a844e46842a9cf32ecff06e2a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_137
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 16
+      width: 16
+      height: 16
+    spriteID: b9d19a3c53c0dc140af76f4674133028
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_138
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 6aeacdc4fdf74404d9846dfb0718b8ff
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_139
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 9aa39f3c98b8276439bf265dff97137a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_140
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 6a553f493a58b1d4fa28f5742aae3f1c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_141
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 510be6c81f7460b4a82ae272f4fc27ee
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_142
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 902e67a51c8cd67459f74776944759ee
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_143
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 66eb225b92dcaeb419e4b146d1e65302
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_144
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 16
+      height: 16
+    spriteID: af8c0bd28439a8f439283e1b82287575
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_145
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 83a9f1e867b1f3a40bf2752846ec53e0
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_146
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 0
+      width: 16
+      height: 16
+    spriteID: cc48a020e293fd0408b9a5a61d551a8c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_147
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 09fa9d253ebc6094a96527d7fda4218a
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 8}
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_148
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 16020cd72b507494383ba7a65d4e7f5d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_149
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 0
+      width: 16
+      height: 16
+    spriteID: a754a7bbcafa84644b87831f7aa5b824
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_150
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 6899462fe353e014b84895c7b9a31a66
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 8}
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_151
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 0
+      width: 16
+      height: 16
+    spriteID: e42136ba7e215ad47a4887bead247c49
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 8}
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_152
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 0
+      width: 16
+      height: 16
+    spriteID: ec526a52781227a4f97a890c2cd50580
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 8}
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_153
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 623c5ca7f67d9ef4d89395f896207753
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_154
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 0
+      width: 16
+      height: 16
+    spriteID: a860e88369602f84bb64def4eb4d6102
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_155
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 353eb8354ec010345a80ea78e949c36b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_156
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 0
+      width: 16
+      height: 16
+    spriteID: e24f5d5fd5a7f7d45b9154c3610cd310
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_157
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 0
+      width: 16
+      height: 16
+    spriteID: dfe7d73d67c98154d926192f90446c1a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_158
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 40cfeb1e24877f24ca9be95525c28b41
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_159
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 9a4d18f984377ff44972f4db7ade92cc
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_160
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 51145cd1c6336804e89abaf113900a57
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LevelArt_Atlas_161
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 0
+      width: 16
+      height: 16
+    spriteID: b84d120d85f045f429404b6ff37c1568
+    spriteOutline: []
+    tessellationDetail: 0
+  _secondaryTextures: []

@@ -1,0 +1,123 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using static UnityEngine.GraphicsBuffer;
+
+public class A_Throwing : MonoBehaviour
+{
+    //throwing
+    //set the player sprite to throw
+    //enable throw helper ui
+    //directionally show 
+    [SerializeField] private A_Inventory _inventory;
+    [SerializeField] private A_Input _input;
+    [SerializeField] private A_Movement _movement;
+    [SerializeField] private GenericItemDataList _itemDatabase;
+    [SerializeField] private A_Crafting _crafting;
+
+    [SerializeField] private SpriteRenderer _playerSpriteRenderer;//lazy,removelater when animating
+    [SerializeField] private Sprite _throwingSprite, _idleSprite;
+
+    [SerializeField] private Transform _throwingIndicator;
+    [SerializeField] private Transform _targetSpawnThrownLocation;
+
+    [SerializeField] private float _postThrowTime = 1;
+
+    public int angleOffset = 275;
+
+    private bool _throwing = false;
+
+    public bool throwing
+    {
+        get { return _throwing; }
+    }
+
+    private bool _postThrow = false;
+
+    private Vector3 _throwDirection;
+
+    private float _postThrowTimer = 0;
+
+    private void Start()
+    {
+        _input.BDown += StartThrowing;
+        _input.BUp += EndThrowing;
+    }
+
+    private void Update()
+    {
+        if (_throwing)
+        {
+
+            _throwDirection = new Vector3(_input.LSX, _input.LSY, 0);
+
+
+            _throwDirection = _throwDirection.normalized;
+            float angleDir = Mathf.Atan2(_throwDirection.y, _throwDirection.x) * Mathf.Rad2Deg;
+            angleDir += angleOffset;
+
+            _throwingIndicator.eulerAngles = new Vector3(_throwingIndicator.eulerAngles.x, _throwingIndicator.eulerAngles.y, angleDir);
+        }
+
+        if(_postThrowTimer > 0)
+        {
+            if (_postThrow)
+            {
+                _postThrowTimer -= Time.deltaTime;
+            }
+            else
+            {
+                _postThrow = true;
+                _movement.PauseMovement = true;
+            }
+        }
+        else
+        {
+            if (_postThrow)
+            {
+                _postThrow = false;
+                _movement.PauseMovement = false;
+            }
+        }
+    }
+
+    private void StartThrowing()
+    {
+        if (_crafting.crafting)
+        {
+            return;
+        }
+        if (!_inventory.SelectedItemNotNull())
+        {
+            return;
+        }
+
+        _throwingIndicator.gameObject.SetActive(true);
+        _throwing = true;
+        _movement.PauseMovement = true;
+        _playerSpriteRenderer.sprite = _throwingSprite;
+    }
+
+    private void EndThrowing()
+    {
+        if (!_throwing)
+        {
+            return;
+        }
+
+        //check current selected item
+        string id = _inventory.ReturnSelectedItem();
+
+        ThrowableObject tObj = Instantiate(_itemDatabase.ReturnItemData(id)._throwablePrefab, _targetSpawnThrownLocation.position, Quaternion.identity);
+        tObj.rb.AddForce(_throwDirection * tObj.throwForce, ForceMode2D.Impulse);
+        tObj.Throw();
+
+        _inventory.RemoveItemSelected();
+        _throwingIndicator.gameObject.SetActive(false);
+        _throwing = false;
+        _movement.PauseMovement = false;
+        _playerSpriteRenderer.sprite = _idleSprite;
+
+        _postThrowTimer = _postThrowTime;
+    }
+}
