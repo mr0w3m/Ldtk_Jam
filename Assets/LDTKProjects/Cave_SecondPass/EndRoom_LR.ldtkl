@@ -172,5 +172,5 @@
 			"entityInstances": []
 		}
 	],
-	"__neighbours": [ { "levelIid": "fe386f50-fec0-11ee-b4ea-fb0c26da4cb7", "dir": "w" }, { "levelIid": "d789e0c0-fec0-11ee-8716-dbaa43c76428", "dir": "e" } ]
+	"__neighbours": [ { "levelIid": "fe386f50-fec0-11ee-b4ea-fb0c26da4cb7", "dir": "w" }, { "levelIid": "d789e0c0-fec0-11ee-8716-dbaa43c76428", "dir": "e" }, { "levelIid": "9f588250-fec0-11ee-afb0-c35209f8b31f", "dir": "sw" } ]
 }
