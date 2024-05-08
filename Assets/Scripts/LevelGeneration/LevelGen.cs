@@ -74,7 +74,10 @@ public class LevelGen : MonoBehaviour
 
     private void PlacePlayer()
     {
-        Actor.i.movement.SetPosition(_playerPosition);
+        if (Actor.i != null)
+        {
+            Actor.i.movement.SetPosition(_playerPosition);
+        }
     }
 
     [ContextMenu("GenerateData")]

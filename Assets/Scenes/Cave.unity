@@ -2517,7 +2517,7 @@ MonoBehaviour:
   _collision: {fileID: 906035534}
   _jump: {fileID: 1376474089}
   _rb2d: {fileID: 504222560}
-  _moveSpeed: 4
+  _moveSpeed: 3
   _groundedDrag: 0.1
   _moveState: 0
 --- !u!4 &982414423
@@ -4240,6 +4240,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _chunksStartRoom:
   - {fileID: 247314694119394933, guid: 1533ea4a4affd2f4f96f6061657a50f3, type: 3}
+  - {fileID: 247314694119394933, guid: bfd8bbef345b03a4fbbd2cc6d02f54fc, type: 3}
   _chunkEndRoom_LR: {fileID: 7990931648133681583, guid: c6042cead7ee6c1499fbf48577c44d1a, type: 3}
   _chunks_LR:
   - {fileID: 4019313811876951550, guid: b674b264018cd434785bcefc621acad2, type: 3}
