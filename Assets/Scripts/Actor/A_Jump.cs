@@ -11,14 +11,22 @@ public class A_Jump : MonoBehaviour
     [SerializeField] private Vector2 _jumpVector;
     [SerializeField] private float _continuousJumpForce;
     [SerializeField] private float _timeToFullJump;
-    [SerializeField] private AnimationCurve _jumpCurve;
 
-    private IEnumerator _jumpRoutine;
 
     private float timer;
     private float jumpForce;
 
     private bool _jumping = false;
+    public bool jumping
+    {
+        get { return _jumping; }
+    }
+
+    private bool _coyoteTime = false;
+    private bool _coyoteTimeActivatedThisJump = false;
+
+    private float _coyoteTimer;
+    private float _coyoteTimerTime = 0.1f;
 
     private void Start()
     {
@@ -26,7 +34,7 @@ public class A_Jump : MonoBehaviour
         _input.AUp += EndJump;
     }
 
-    private void Update()
+    private void FixedUpdate()
     {
 
         if (_jumping)
@@ -34,7 +42,7 @@ public class A_Jump : MonoBehaviour
             if (timer > 0)
             {
                 timer -= Time.deltaTime;
-                jumpForce = (_continuousJumpForce * _jumpCurve.Evaluate(Util.MapValue(timer, _timeToFullJump, 0, 0, 1))) * Time.deltaTime;
+                //jumpForce = (_continuousJumpForce * Util.MapValue(timer, _timeToFullJump, 0, 0, 1));
                 _movement.MoveDirection(_jumpVector * jumpForce);
             }
             else
@@ -48,48 +56,52 @@ public class A_Jump : MonoBehaviour
             timer = _timeToFullJump;
             jumpForce = _continuousJumpForce;
         }
+
+        if (!_collision.Grounded)
+        {
+            if (!_coyoteTimeActivatedThisJump)
+            {
+                _coyoteTimeActivatedThisJump = true;
+                _coyoteTimer = _coyoteTimerTime;
+                _coyoteTime = true;
+            }
+        }
+        else
+        {
+            _coyoteTimeActivatedThisJump = false;
+            _coyoteTime = false;
+            _coyoteTimer = 0;
+        }
+
+        if (_coyoteTimer > 0)
+        {
+            _coyoteTimer -= Time.deltaTime;
+        }
+        else
+        {
+            if (_coyoteTime)
+            {
+                _coyoteTime = false;
+            }
+        }
     }
 
     private void BeginJump()
     {
+        if (Actor.i.crafting.crafting)
+        {
+            return;
+        }
         Debug.Log("Jump!");
-        if (_collision.Grounded)
+        if (_collision.Grounded || _coyoteTime)
         {
             _jumping = true;
-            //_jumpRoutine = JumpRoutine();
-            //StartCoroutine(_jumpRoutine);
+            _coyoteTime = false;
         }
-    }
-
-    private void BeginJumpIgnoreGround()
-    {
-        _jumpRoutine = JumpRoutine();
-        StartCoroutine(_jumpRoutine);
     }
 
     private void EndJump()
     {
         _jumping = false;
-        if (_jumpRoutine != null)
-        {
-            
-            //StopCoroutine(_jumpRoutine);
-            //_jumpRoutine = null;
-        }
-    }
-
-    private IEnumerator JumpRoutine()
-    {
-        float timer = _timeToFullJump;
-        float jumpForce = _continuousJumpForce;
-
-        while (timer > 0)
-        {
-            timer -= Time.deltaTime;
-            jumpForce = (_continuousJumpForce * _jumpCurve.Evaluate(Util.MapValue(timer, _timeToFullJump, 0, 0, 1))) * Time.deltaTime;
-            _movement.MoveDirection(_jumpVector * jumpForce);
-
-            yield return 0f;
-        }
     }
 }

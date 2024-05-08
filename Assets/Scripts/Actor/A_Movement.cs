@@ -7,12 +7,13 @@ public class A_Movement : MonoBehaviour
 {
     //[SerializeField] private A_AnimatorController _anim;
     //[SerializeField] private A_AnimatorController _weaponAnim;
+    [SerializeField] private A_Collision _collision;
+    [SerializeField] private A_Jump _jump;
     [SerializeField] private Rigidbody2D _rb2d;
-    [SerializeField] private float _turnAroundTime;
+    [SerializeField] private float _moveSpeed;
+    [SerializeField] private float _groundedDrag;
 
-    private bool _pauseMovement;
     private Direction _direction;
-    private IEnumerator _moveToPosRoutine;
 
     private bool _movementDisabled = false;
 
@@ -35,8 +36,12 @@ public class A_Movement : MonoBehaviour
 
     public bool PauseMovement
     {
-        get { return _pauseMovement; }
-        set { _pauseMovement = value; }
+        get { return _movementDisabled; }
+        set 
+        { 
+            _movementDisabled = value;
+            _rb2d.velocity = (value == true && _collision.Grounded) ? Vector2.zero : _rb2d.velocity;
+        }
     }
 
     public Rigidbody2D Rb2D
@@ -54,43 +59,43 @@ public class A_Movement : MonoBehaviour
         }
     }
 
-    public void MoveToPos(Vector2 pos, float time, AnimationCurve curve, Action callback = null)
+    private void Start()
     {
-        if (_moveToPosRoutine != null)
-        {
-            StopCoroutine(_moveToPosRoutine);
-            _moveToPosRoutine = null;
-        }
-        _moveToPosRoutine = MoveToPosRoutine(pos, time, curve, callback);
-        StartCoroutine(_moveToPosRoutine);
+        _collision.ReturnedToGround += CancelVelocity;
     }
 
-    private IEnumerator MoveToPosRoutine(Vector2 pos, float time, AnimationCurve curve, Action callback)
+    private void CancelVelocity()
     {
-        float timer = time;
-        Vector2 prevPos = _rb2d.transform.position;
+        _rb2d.velocity = Vector2.zero;
+    }
 
-        while (timer > 0)
+    private void Update()
+    {
+        SetMoveState(Actor.i.input.LSX);
+    }
+
+
+    private void FixedUpdate()
+    {
+        MoveLeftRight(Actor.i.input.LSX);
+
+        if (_collision.Grounded && Mathf.Abs(Actor.i.input.LSX) <= 0.1f && !_jump.jumping)
         {
-            timer -= Time.fixedDeltaTime;
-            _rb2d.transform.position = Vector2.Lerp(prevPos, pos, curve.Evaluate(Util.MapValue(timer, time, 0, 0, 1)));
-
-            yield return 0f;
-        }
-
-        if (callback != null)
-        {
-            callback.Invoke();
+            _rb2d.velocity *= _groundedDrag;
         }
     }
 
-    public void Throw(Vector2 direction)
+    private void MoveLeftRight(float input)
     {
-        // if (_pauseMovement)
-        // {
-        //     return;
-        // }
-        _rb2d.AddForce(direction, ForceMode2D.Impulse);
+        if (_movementDisabled)
+        {
+            return;
+        }
+        if (Mathf.Abs(Actor.i.input.LSX) > 0.1f)
+        {
+            Vector2 direction = new Vector2(Actor.i.input.LSX, 0);
+            _rb2d.velocity = new Vector2(direction.x * _moveSpeed, _rb2d.velocity.y);
+        }
     }
 
     public void MoveDirection(Vector2 vector)
@@ -99,26 +104,18 @@ public class A_Movement : MonoBehaviour
         {
             return;
         }
-        SetMoveState(vector.x);
-        if (_pauseMovement)
-        {
-            return;
-        }
-
-        _rb2d.AddForce(vector, ForceMode2D.Impulse);
-        
-        SetAnim();
+        _rb2d.velocity = new Vector2(_rb2d.velocity.x, vector.y);
     }
 
     public void SetPosition(Vector2 pos)
     {
         _rb2d.isKinematic = true;
-        _pauseMovement = true;
+        _movementDisabled = true;
 
         _rb2d.position = pos;
 
         _rb2d.isKinematic = false;
-        _pauseMovement =false;
+        _movementDisabled = false;
     }
 
     public void FaceDirection(float f)
@@ -128,10 +125,6 @@ public class A_Movement : MonoBehaviour
 
     private void SetMoveState(float f)
     {
-        if (_movementDisabled)
-        {
-            return;
-        }
         float value = Mathf.Abs(f);
 
         if (value > 0)
@@ -153,31 +146,6 @@ public class A_Movement : MonoBehaviour
         if (_direction != lastDirection)
         {
             OnFlipDirection();
-            TurnAround();
         }
-    }
-
-    private void SetAnim()
-    {
-        //_anim.SetBool("Moving", _moveState == MoveState.move);
-        //if (_weaponAnim != null)
-        //{
-        //    _weaponAnim.SetBool("Moving", _moveState == MoveState.move);
-        //}
-    }
-
-    private void TurnAround()
-    {
-        if (_pauseMovement)
-        {
-            return;
-        }
-        if (_turnAroundTime <= 0)
-        {
-            return;
-        }
-        //_anim.SetTrigger("TurnAround");
-        _pauseMovement = true;
-        StartCoroutine(Util.WaitAndCallRoutine(_turnAroundTime, () => _pauseMovement = false));
     }
 }

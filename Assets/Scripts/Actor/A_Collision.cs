@@ -41,7 +41,7 @@ public class A_Collision : MonoBehaviour
     }
 
     public event Action ReturnedToGround;
-    public void OnReturnedToGround()
+    private void OnReturnedToGround()
     {
         if (ReturnedToGround != null)
         {

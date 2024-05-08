@@ -1176,8 +1176,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 504222561}
+  - component: {fileID: 504222563}
   - component: {fileID: 504222560}
-  - component: {fileID: 504222559}
   - component: {fileID: 504222562}
   m_Layer: 6
   m_Name: Player
@@ -1186,24 +1186,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &504222559
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 504222557}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 06777bd03e566fc43924ec89a521a4af, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _input: {fileID: 1256841059}
-  _movement: {fileID: 982414422}
-  _collision: {fileID: 906035534}
-  _moveSpeed: 80
-  _inAirMoveSpeed: 80
-  _maxMovementLength: 4
 --- !u!50 &504222560
 Rigidbody2D:
   serializedVersion: 4
@@ -1216,9 +1198,9 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 2
+  m_Mass: 1
   m_LinearDrag: 0
-  m_AngularDrag: 0
+  m_AngularDrag: 0.05
   m_GravityScale: 1
   m_Material: {fileID: 6200000, guid: 7acb29ed08fa2a34089993421a0c182b, type: 2}
   m_IncludeLayers:
@@ -1227,9 +1209,9 @@ Rigidbody2D:
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 0
-  m_Interpolate: 0
+  m_Interpolate: 1
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!4 &504222561
 Transform:
@@ -1245,6 +1227,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 982414423}
+  - {fileID: 1376474088}
   - {fileID: 906035535}
   - {fileID: 699411669}
   - {fileID: 1256841060}
@@ -1254,9 +1237,7 @@ Transform:
   - {fileID: 2093759732}
   - {fileID: 2106768667}
   - {fileID: 1968504904}
-  - {fileID: 1800671314}
   - {fileID: 207126597}
-  - {fileID: 1376474088}
   - {fileID: 251211986}
   - {fileID: 1795558553}
   - {fileID: 1427872417}
@@ -1295,7 +1276,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.0023760796, y: 0.5275707}
+  m_Offset: {x: -0.0023760796, y: 0.4984405}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -1306,8 +1287,26 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.3773718, y: 0.94296646}
+  m_Size: {x: 0.3773718, y: 1.0012269}
   m_EdgeRadius: 0
+--- !u!114 &504222563
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 504222557}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f6427da5ffd15814a8b841c72983c272, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  inventory: {fileID: 2106768666}
+  movement: {fileID: 982414422}
+  hunger: {fileID: 1427872418}
+  death: {fileID: 1898984611}
+  input: {fileID: 1256841059}
+  crafting: {fileID: 251211987}
 --- !u!1 &525768130
 GameObject:
   m_ObjectHideFlags: 0
@@ -2515,8 +2514,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 63bceffd991631746a96248148ad60c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _collision: {fileID: 906035534}
+  _jump: {fileID: 1376474089}
   _rb2d: {fileID: 504222560}
-  _turnAroundTime: 0
+  _moveSpeed: 4
+  _groundedDrag: 0.1
   _moveState: 0
 --- !u!4 &982414423
 Transform:
@@ -3644,32 +3646,8 @@ MonoBehaviour:
   _movement: {fileID: 982414422}
   _collision: {fileID: 906035534}
   _jumpVector: {x: 0, y: 1}
-  _continuousJumpForce: 150
+  _continuousJumpForce: 4.5
   _timeToFullJump: 0.15
-  _jumpCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    - serializedVersion: 3
-      time: 1
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
 --- !u!1 &1427872416
 GameObject:
   m_ObjectHideFlags: 0
@@ -4128,7 +4106,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.00097100437, y: 0.041753322}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -4139,7 +4117,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.19091724, y: 0.2}
+  m_Size: {x: 0.30441552, y: 0.11649336}
   m_EdgeRadius: 0
 --- !u!4 &1670308452
 Transform:
@@ -4262,7 +4240,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _chunksStartRoom:
   - {fileID: 247314694119394933, guid: 1533ea4a4affd2f4f96f6061657a50f3, type: 3}
-  - {fileID: 247314694119394933, guid: bfd8bbef345b03a4fbbd2cc6d02f54fc, type: 3}
   _chunkEndRoom_LR: {fileID: 7990931648133681583, guid: c6042cead7ee6c1499fbf48577c44d1a, type: 3}
   _chunks_LR:
   - {fileID: 4019313811876951550, guid: b674b264018cd434785bcefc621acad2, type: 3}
@@ -9465,55 +9442,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1798311859}
   m_CullTransparentMesh: 1
---- !u!1 &1800671313
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1800671314}
-  - component: {fileID: 1800671315}
-  m_Layer: 6
-  m_Name: Actor
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1800671314
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1800671313}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 504222561}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1800671315
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1800671313}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f6427da5ffd15814a8b841c72983c272, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  inventory: {fileID: 2106768666}
-  movement: {fileID: 982414422}
-  hunger: {fileID: 1427872418}
-  death: {fileID: 1898984611}
-  input: {fileID: 1256841059}
 --- !u!1 &1894465086
 GameObject:
   m_ObjectHideFlags: 0

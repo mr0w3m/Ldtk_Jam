@@ -23,4 +23,5 @@ public class Actor : MonoBehaviour
     public A_Hunger hunger;
     public A_Death death;
     public A_Input input;
+    public A_Crafting crafting;
 }
