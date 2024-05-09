@@ -6,9 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Cave.unity
-    guid: 392adf036948fee43aefc0eda4c9eba0
-  - enabled: 1
     path: Assets/Scenes/Title.unity
     guid: c436932feedb6de4eb67ab5706fc880d
+  - enabled: 1
+    path: Assets/Scenes/Cave.unity
+    guid: 392adf036948fee43aefc0eda4c9eba0
   m_configObjects: {}

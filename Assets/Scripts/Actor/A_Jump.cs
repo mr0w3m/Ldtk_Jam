@@ -88,7 +88,7 @@ public class A_Jump : MonoBehaviour
 
     private void BeginJump()
     {
-        if (Actor.i.crafting.crafting)
+        if (Actor.i.crafting.crafting || Actor.i.paused)
         {
             return;
         }

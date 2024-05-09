@@ -83,7 +83,7 @@ public class A_Throwing : MonoBehaviour
 
     private void StartThrowing()
     {
-        if (_crafting.crafting)
+        if (_crafting.crafting || Actor.i.paused)
         {
             return;
         }

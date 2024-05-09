@@ -1012,6 +1012,27 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Emerge_Title
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 64
+        width: 69
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fc13ced5c81d194ba6c18e30b512535
+      internalID: 1477823987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -1044,6 +1065,7 @@ TextureImporter:
       Crafting_Ready: -1940337035
       Crafting_Slot: -1176683471
       Crafting_Unready: -638189262
+      Emerge_Title: 1477823987
       ExitOfCave: 534872981
       MonsterEye: -1709638619
       MonsterSprite: 142223211

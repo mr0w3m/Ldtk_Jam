@@ -30,7 +30,7 @@ public class A_Hunger : MonoBehaviour
 
     private void Update()
     {
-        if (_death.playerDead)
+        if (_death.playerDead || Actor.i.paused)
         {
             return;
         }

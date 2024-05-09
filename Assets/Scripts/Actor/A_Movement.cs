@@ -5,8 +5,6 @@ using UnityEngine;
 
 public class A_Movement : MonoBehaviour
 {
-    //[SerializeField] private A_AnimatorController _anim;
-    //[SerializeField] private A_AnimatorController _weaponAnim;
     [SerializeField] private A_Collision _collision;
     [SerializeField] private A_Jump _jump;
     [SerializeField] private Rigidbody2D _rb2d;
@@ -16,6 +14,9 @@ public class A_Movement : MonoBehaviour
     private Direction _direction;
 
     private bool _movementDisabled = false;
+
+    private bool _checkPause = false;
+    private Vector2 _cachedVelocity;
 
     public enum MoveState
     {
@@ -71,6 +72,26 @@ public class A_Movement : MonoBehaviour
 
     private void Update()
     {
+        if (Actor.i.paused)
+        {
+            if (!_checkPause)
+            {
+                _checkPause = true;
+                _cachedVelocity = _rb2d.velocity;
+                
+                CancelVelocity();
+                _rb2d.isKinematic = true;
+            }
+        }
+        else
+        {
+            if (_checkPause)
+            {
+                _checkPause = false;
+                _rb2d.isKinematic = false;
+                _rb2d.velocity = _cachedVelocity;
+            }
+        }
         SetMoveState(Actor.i.input.LSX);
     }
 
@@ -87,7 +108,7 @@ public class A_Movement : MonoBehaviour
 
     private void MoveLeftRight(float input)
     {
-        if (_movementDisabled)
+        if (_movementDisabled || Actor.i.paused)
         {
             return;
         }

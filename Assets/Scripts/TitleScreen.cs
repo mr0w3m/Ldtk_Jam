@@ -11,8 +11,9 @@ public class TitleScreen : MonoBehaviour
 
     void Start()
     {
-        _input.ADown += StartGame;
         _cameraMover.MoveEnd += ResetTitleScreen;
+        _input.ADown += StartGame;
+        _input.BDown += CloseGame;
     }
 
     private void ResetTitleScreen()
@@ -24,5 +25,10 @@ public class TitleScreen : MonoBehaviour
     {
         _input.ADown -= StartGame;
         _sceneController.LoadScene("Cave");
+    }
+
+    private void CloseGame()
+    {
+        Application.Quit();
     }
 }
