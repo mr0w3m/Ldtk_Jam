@@ -16,6 +16,7 @@ public class A_Interaction : MonoBehaviour
     InteractableObj tempInteractableObj = null;
     Collider2D hitCollider = null;
 
+
     private void Start()
     {
         _input.XDown += TryInteract;
@@ -61,7 +62,6 @@ public class A_Interaction : MonoBehaviour
         Debug.Log("Try interact");
         if (_crafting.crafting)
         {
-            Debug.Log("Can't, crafting");
             return;
         }
 

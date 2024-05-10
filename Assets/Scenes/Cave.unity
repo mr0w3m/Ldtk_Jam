@@ -237,6 +237,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _sceneController: {fileID: 542670365}
   _startmenuUI: {fileID: 1536882654}
+  _startingLevel: Cave
 --- !u!1 &1536882654 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1839626292888354166, guid: c16e1a7f96b4b154fbc2d0771a861734, type: 3}
@@ -284,7 +285,9 @@ MonoBehaviour:
   _chunks_LRU:
   - {fileID: 502414301366615347, guid: d204541cf5549344c93f3b51e378b225, type: 3}
   - {fileID: 502414301366615347, guid: 953fbb5aee0c4cd4599bfdd8567e2212, type: 3}
-  _chunk_LRUD: {fileID: 6451256165017830584, guid: ae79e2964a38aee4b843a6b1f3f26067, type: 3}
+  _chunks_LRUD:
+  - {fileID: 6451256165017830584, guid: ae79e2964a38aee4b843a6b1f3f26067, type: 3}
+  - {fileID: 6451256165017830584, guid: 66d186a525a35254ba09f23b6d368f63, type: 3}
   _chunk_Exterior: {fileID: 1871638223600732584, guid: 0dd804bceb78d5f47b699fa11fe6d505, type: 3}
   _chunkSize: {x: 10, y: 8}
   _levelSizeX: 4

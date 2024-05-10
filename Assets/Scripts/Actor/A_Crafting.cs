@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class A_Crafting : MonoBehaviour
@@ -18,9 +19,26 @@ public class A_Crafting : MonoBehaviour
     private int _craftingStep = 0;
     private int _ing1Index = -1;
 
+    private float _afterCraftingCooldown;
+    private float _afterCraftingCooldownTime = 0.2f;
+
     public bool crafting
     {
-        get { return _crafting; }
+        get 
+        { 
+            if (_afterCraftingCooldown > 0)
+            {
+                return true;
+            }
+            else if (_crafting)
+            {
+                return true;
+            }
+            else //crafting is false and cooldown is less than 0 we good
+            {
+                return false;
+            }
+        }
     }
 
     private void Start()
@@ -29,6 +47,19 @@ public class A_Crafting : MonoBehaviour
         _input.StartDown += ToggleCrafting;
         _input.ADown += SelectItem;
         _input.XDown += Craft;
+    }
+    
+    private void Update()
+    {
+        if (_afterCraftingCooldown > 0)
+        {
+            _afterCraftingCooldown -= Time.deltaTime;
+        }
+    }
+
+    private void OnCraftingEnded()
+    {
+        _afterCraftingCooldown = _afterCraftingCooldownTime;
     }
 
     private void ToggleCrafting()
@@ -39,6 +70,7 @@ public class A_Crafting : MonoBehaviour
         }
         else
         {
+            OnCraftingEnded();
             CloseCrafting();
         }
         _ui.SetUIState(_crafting);
@@ -55,7 +87,6 @@ public class A_Crafting : MonoBehaviour
 
     private void CloseCrafting()
     {
-        _crafting = false;
         _ingredientA = "";
         _ingredientB = "";
         _ui.SetIngredientItem(true, _ingredientA);
@@ -63,6 +94,7 @@ public class A_Crafting : MonoBehaviour
         _ui.SetCraftedItem("");
         _craftingStep = 0;
         _ing1Index = -1;
+        _crafting = false;
     }
 
     private void SelectItem()

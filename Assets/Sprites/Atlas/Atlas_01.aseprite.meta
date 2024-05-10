@@ -121,7 +121,7 @@ ScriptedImporter:
   animatedSpriteImportData:
   - name: Atlas_01
     originalName: 
-    pivot: {x: 0.4797297, y: -0.09420289}
+    pivot: {x: 0.4797297, y: 0}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -129,7 +129,7 @@ ScriptedImporter:
       x: 4
       y: 4
       width: 296
-      height: 138
+      height: 151
     spriteID: 8cf27fdc5aa0a1744b5d70f8f59d1e2e
     spriteBone: []
     spriteOutline: []
@@ -152,9 +152,9 @@ ScriptedImporter:
       frameIndex: 0
       cellRect:
         x: 18
-        y: 13
+        y: 0
         width: 296
-        height: 138
+        height: 151
       spriteId: 8cf27fdc5aa0a1744b5d70f8f59d1e2e
     linkedCells: []
     parentIndex: -1

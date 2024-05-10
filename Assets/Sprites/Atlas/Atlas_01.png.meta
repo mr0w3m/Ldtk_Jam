@@ -1021,7 +1021,7 @@ TextureImporter:
         width: 69
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1029,6 +1029,153 @@ TextureImporter:
       bones: []
       spriteID: 5fc13ced5c81d194ba6c18e30b512535
       internalID: 1477823987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FallingSpike
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 16
+        height: 16
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b26641442f25434f91904490d5add97
+      internalID: 1454479847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat_0
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ba858ca51aaf1747b49033c185e02fe
+      internalID: -1856531133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat_1
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65b2de0d62cc2fe48b33fa03253cdb6c
+      internalID: -465394062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat_2
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef6aa4fcfea30ac488655aa57936e4ed
+      internalID: -518880690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat_Wait_1
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7658c817fe1f2994ba2ea7775ac0612c
+      internalID: 1612580614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bat_Wait_0
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e2dde13692d1e14d848acbf9606a271
+      internalID: -1384280492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Z_icon
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34fa22f793a46234cb85753e4440d71c
+      internalID: -1390671882
       vertices: []
       indices: 
       edges: []
@@ -1058,6 +1205,11 @@ TextureImporter:
       Atlas_01_6: -1504430446
       Atlas_01_9: 33826249
       BLank: 2074413198
+      Bat_0: -1856531133
+      Bat_1: -465394062
+      Bat_2: -518880690
+      Bat_Wait_0: -1384280492
+      Bat_Wait_1: 1612580614
       BigStick: -1074447421
       BlankSprite: -1660855123
       Blocker_BreakablePlatform_01: -819086535
@@ -1067,6 +1219,7 @@ TextureImporter:
       Crafting_Unready: -638189262
       Emerge_Title: 1477823987
       ExitOfCave: 534872981
+      FallingSpike: 1454479847
       MonsterEye: -1709638619
       MonsterSprite: 142223211
       Mushrooms: -1043163848
@@ -1096,6 +1249,7 @@ TextureImporter:
       UI_Selector: -1472291706
       UI_Slot: 560405212
       WallTorch: 1398325958
+      Z_icon: -1390671882
       stick_UI: 1408678793
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0

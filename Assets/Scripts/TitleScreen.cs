@@ -7,6 +7,7 @@ public class TitleScreen : MonoBehaviour
     [SerializeField] private A_Input _input;
     [SerializeField] private SceneController _sceneController;
     [SerializeField] private Mover _cameraMover;
+    [SerializeField] private string _sceneToLoad;
 
 
     void Start()
@@ -24,7 +25,7 @@ public class TitleScreen : MonoBehaviour
     private void StartGame()
     {
         _input.ADown -= StartGame;
-        _sceneController.LoadScene("Cave");
+        _sceneController.LoadScene(_sceneToLoad);
     }
 
     private void CloseGame()

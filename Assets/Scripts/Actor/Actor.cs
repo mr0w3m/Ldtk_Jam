@@ -24,6 +24,7 @@ public class Actor : MonoBehaviour
     public A_Death death;
     public A_Input input;
     public A_Crafting crafting;
+    public A_Health health;
 
     public bool paused = false;
 }

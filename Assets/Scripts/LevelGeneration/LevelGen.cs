@@ -40,7 +40,7 @@ public class LevelGen : MonoBehaviour
     [SerializeField] private List<GameObject> _chunks_LR;
     [SerializeField] private List<GameObject> _chunks_LRD;
     [SerializeField] private List<GameObject> _chunks_LRU;
-    [SerializeField] private GameObject _chunk_LRUD;
+    [SerializeField] private List<GameObject> _chunks_LRUD;
     [SerializeField] private GameObject _chunk_Exterior;
 
 
@@ -286,7 +286,7 @@ public class LevelGen : MonoBehaviour
         }
         else if (data.fromBelow && !data.hasCeiling)
         {
-            return _chunk_LRUD;
+            return _chunks_LRUD[Random.Range(0, _chunks_LRUD.Count)];
         }
         else if (data.fromBelow && data.hasCeiling)
         {

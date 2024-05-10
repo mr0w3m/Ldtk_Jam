@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour
 
     [SerializeField] private SceneController _sceneController;
     [SerializeField] private GameObject _startmenuUI;
+    [SerializeField] private string _startingLevel;
 
     private bool _checkForReload = false;
     private bool _reloading = false;
@@ -48,10 +49,9 @@ public class GameManager : MonoBehaviour
     {
         if (!_checkForReload || _reloading)
         {
-            Debug.Log("Don'treloadgame");
             return;
         }
-        _sceneController.LoadScene("Cave");
+        _sceneController.LoadScene(_startingLevel);
         _reloading = true;
     }
 
