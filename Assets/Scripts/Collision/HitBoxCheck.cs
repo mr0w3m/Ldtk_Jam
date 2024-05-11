@@ -7,6 +7,7 @@ public class HitBoxCheck : MonoBehaviour
 {
     public bool debug;
     [SerializeField] private BoxCollider2D _bColl;
+    [SerializeField] private float _boxColliderRotation = 0;
     [SerializeField] private CircleCollider2D _cColl;
 
     public bool colliding;
@@ -77,7 +78,7 @@ public class HitBoxCheck : MonoBehaviour
         Collider2D hitObj;
         if (_bColl != null)
         {
-            hitObj = Physics2D.OverlapBox(((Vector2)_bColl.transform.position + _bColl.offset), _bColl.size, 0f, _targetLayer);
+            hitObj = Physics2D.OverlapBox(((Vector2)_bColl.transform.position + _bColl.offset), _bColl.size, _boxColliderRotation, _targetLayer);
         }
         else
         {

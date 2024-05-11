@@ -1180,6 +1180,69 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Skull_Icon
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 566036c2dc9f90a43afca8926e671b5d
+      internalID: -1440022475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Full
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b40186d9d37699540b7a40e5359eb535
+      internalID: -1310383007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Heart_Empty
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 890656557bd599643b098bfc7a28ebb9
+      internalID: 2142197655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -1220,6 +1283,8 @@ TextureImporter:
       Emerge_Title: 1477823987
       ExitOfCave: 534872981
       FallingSpike: 1454479847
+      Heart_Empty: 2142197655
+      Heart_Full: -1310383007
       MonsterEye: -1709638619
       MonsterSprite: 142223211
       Mushrooms: -1043163848
@@ -1237,6 +1302,7 @@ TextureImporter:
       SharpRock_Ceiling_02: 617530648
       SharpRock_Ceiling_03: -491203971
       SharpRock_Ceiling_04: 987966272
+      Skull_Icon: -1440022475
       Spear: -947812744
       Spikes_01: 1695557843
       Spikes_02: -1182839497

@@ -26,5 +26,8 @@ public class Actor : MonoBehaviour
     public A_Crafting crafting;
     public A_Health health;
 
+
+    public Transform playerCenterT;
+
     public bool paused = false;
 }

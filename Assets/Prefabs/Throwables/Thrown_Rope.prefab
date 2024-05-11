@@ -16,6 +16,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Thrown_Rope
       objectReference: {fileID: 0}
+    - target: {fileID: 7708427092386049630, guid: 7b5009e6b4ca07e499e11b5ebb045768, type: 3}
+      propertyPath: m_Size.x
+      value: 0.6178571
+      objectReference: {fileID: 0}
+    - target: {fileID: 7708427092386049630, guid: 7b5009e6b4ca07e499e11b5ebb045768, type: 3}
+      propertyPath: m_Size.y
+      value: 0.6248406
+      objectReference: {fileID: 0}
     - target: {fileID: 7917352989390710752, guid: 7b5009e6b4ca07e499e11b5ebb045768, type: 3}
       propertyPath: m_Size.x
       value: 0.5059091

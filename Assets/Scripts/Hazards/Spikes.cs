@@ -14,6 +14,6 @@ public class Spikes : MonoBehaviour
 
     private void HitPlayer()
     {
-        Actor.i.death.Dead();
+        Actor.i.health.Death();
     }
 }

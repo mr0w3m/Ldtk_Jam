@@ -93,6 +93,42 @@ PrefabInstance:
       propertyPath: m_Name
       value: Thrown_Stick
       objectReference: {fileID: 0}
+    - target: {fileID: 6474115611386102511, guid: 7b5009e6b4ca07e499e11b5ebb045768, type: 3}
+      propertyPath: _boxColliderRotation
+      value: 45
+      objectReference: {fileID: 0}
+    - target: {fileID: 6488864193108960035, guid: 7b5009e6b4ca07e499e11b5ebb045768, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9238797
+      objectReference: {fileID: 0}
+    - target: {fileID: 6488864193108960035, guid: 7b5009e6b4ca07e499e11b5ebb045768, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6488864193108960035, guid: 7b5009e6b4ca07e499e11b5ebb045768, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6488864193108960035, guid: 7b5009e6b4ca07e499e11b5ebb045768, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.38268322
+      objectReference: {fileID: 0}
+    - target: {fileID: 6488864193108960035, guid: 7b5009e6b4ca07e499e11b5ebb045768, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 45
+      objectReference: {fileID: 0}
+    - target: {fileID: 7708427092386049630, guid: 7b5009e6b4ca07e499e11b5ebb045768, type: 3}
+      propertyPath: m_Size.x
+      value: 0.8789712
+      objectReference: {fileID: 0}
+    - target: {fileID: 7708427092386049630, guid: 7b5009e6b4ca07e499e11b5ebb045768, type: 3}
+      propertyPath: m_Size.y
+      value: 0.4036855
+      objectReference: {fileID: 0}
+    - target: {fileID: 7708427092386049630, guid: 7b5009e6b4ca07e499e11b5ebb045768, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.01940851
+      objectReference: {fileID: 0}
     - target: {fileID: 7917352989390710752, guid: 7b5009e6b4ca07e499e11b5ebb045768, type: 3}
       propertyPath: m_Size.x
       value: 0.5672151
@@ -165,7 +201,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7450471297741443668, guid: 7b5009e6b4ca07e499e11b5ebb045768, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 9052817805027345859, guid: 7b5009e6b4ca07e499e11b5ebb045768, type: 3}

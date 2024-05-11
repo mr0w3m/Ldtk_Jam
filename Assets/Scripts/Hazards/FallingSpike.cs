@@ -48,7 +48,6 @@ public class FallingSpike : MonoBehaviour
             {
                 if (hitColl != null)
                 {
-                    Debug.Log(hitColl.gameObject.name);
                     Actor a = hitColl.GetComponent<Actor>();
                     if (a != null)
                     {
@@ -76,7 +75,7 @@ public class FallingSpike : MonoBehaviour
     {
         Debug.Log("HitGround");
         _rb2d.velocity = Vector3.zero;
-        //DestroyMe();
+        DestroyMe();
     }
 
     private void HitPlayer()

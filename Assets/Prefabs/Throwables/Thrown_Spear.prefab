@@ -16,6 +16,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: Thrown_Spear
       objectReference: {fileID: 0}
+    - target: {fileID: 7708427092386049630, guid: 7b5009e6b4ca07e499e11b5ebb045768, type: 3}
+      propertyPath: m_Size.x
+      value: 1.0503128
+      objectReference: {fileID: 0}
+    - target: {fileID: 7708427092386049630, guid: 7b5009e6b4ca07e499e11b5ebb045768, type: 3}
+      propertyPath: m_Size.y
+      value: 0.33303255
+      objectReference: {fileID: 0}
+    - target: {fileID: 7708427092386049630, guid: 7b5009e6b4ca07e499e11b5ebb045768, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.025156453
+      objectReference: {fileID: 0}
+    - target: {fileID: 7708427092386049630, guid: 7b5009e6b4ca07e499e11b5ebb045768, type: 3}
+      propertyPath: m_Offset.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7917352989390710752, guid: 7b5009e6b4ca07e499e11b5ebb045768, type: 3}
       propertyPath: m_Size.y
       value: 0.12769693
