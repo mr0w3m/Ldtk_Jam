@@ -11,6 +11,7 @@ public class ThrowableObject : MonoBehaviour
     }
 
     public float throwForce;
+    public bool _rotateInDirection = true;
 
     public virtual void Throw()
     {

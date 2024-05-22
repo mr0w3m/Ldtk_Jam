@@ -8,6 +8,7 @@ public class TitleScreen : MonoBehaviour
     [SerializeField] private SceneController _sceneController;
     [SerializeField] private Mover _cameraMover;
     [SerializeField] private string _sceneToLoad;
+    [SerializeField] private AudioClip _sFX_startGame;
 
 
     void Start()
@@ -24,6 +25,7 @@ public class TitleScreen : MonoBehaviour
 
     private void StartGame()
     {
+        AudioController.control.PlayClip(_sFX_startGame);
         _input.ADown -= StartGame;
         _sceneController.LoadScene(_sceneToLoad);
     }

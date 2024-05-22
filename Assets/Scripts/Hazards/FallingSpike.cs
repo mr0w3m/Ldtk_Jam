@@ -4,24 +4,47 @@ using UnityEngine;
 
 public class FallingSpike : MonoBehaviour
 {
+    [SerializeField] private Enemy_HP _hp;
+    [SerializeField] private GameObject _breakFx;
     [SerializeField] private Rigidbody2D _rb2d;
     [SerializeField] private HitBoxCheck _fallHitBoxCheck;
     [SerializeField] private BoxCollider2D _spikeCollider;
     [SerializeField] private GameObject _checkforfallObj;
     [SerializeField] private LayerMask _spikeHitLayer;
+    [SerializeField] private float _destroyTime;
+    [SerializeField] private AudioClip _fallClip;
+    [SerializeField] private AudioClip _hitGroundClip;
 
     [SerializeField] private bool _debug;
 
     private bool _falling = false;
     private bool _collided = false;
+    private bool _destroy = false;
+
+    private float _destroyTimer;
+
 
     private void Start()
     {
+        _destroyTimer = _destroyTime;
         _fallHitBoxCheck.EnterCollider += Drop;
+        _hp.Died += Drop;
     }
 
     private void Update()
     {
+        if (_destroy)
+        {
+            if (_destroyTimer > 0)
+            {
+                _destroyTimer -= Time.deltaTime;
+            }
+            else
+            {
+                DestroyMe();
+            }
+        }
+
         if (_falling && !_collided)
         {
             Vector2 boxCenter = (Vector2)transform.position + _spikeCollider.offset;
@@ -55,27 +78,44 @@ public class FallingSpike : MonoBehaviour
                     }
                     else
                     {
-                        HitGround();
+                        a = hitColl.GetComponentInParent<Actor>();
+                        if (a != null)
+                        {
+                            HitPlayer();
+                        }
+                        else
+                        {
+                            HitGround();
+                        }
                     }
                 }
             }
         }
     }
 
+
     private void Drop()
     {
+        Instantiate(_breakFx, transform.position, Quaternion.identity);
+        _fallHitBoxCheck.EnterCollider -= Drop;
+        _hp.Died -= Drop;
         _checkforfallObj.SetActive(false);
         
         _falling = true;
+        _destroy = true;
 
         _rb2d.isKinematic = false;
+
+        AudioController.control.PlayClip(_fallClip);
     }
 
     private void HitGround()
     {
-        Debug.Log("HitGround");
         _rb2d.velocity = Vector3.zero;
-        DestroyMe();
+        _collided = true;
+
+        AudioController.control.PlayClip(_hitGroundClip);
+        //DestroyMe();
     }
 
     private void HitPlayer()
@@ -87,12 +127,15 @@ public class FallingSpike : MonoBehaviour
 
         _collided = true;
         Debug.Log("HitPlayer");
-        Actor.i.health.Hit();
+        Actor.i.health.Hit(transform.position);
         //DestroyMe();
     }
 
     private void DestroyMe()
     {
+        AudioController.control.PlayClip(_hitGroundClip);
+        Instantiate(_breakFx, transform.position, Quaternion.identity);
+
         Destroy(this.gameObject);
     }
 }

@@ -12,7 +12,9 @@ public class Thrown_Anchor : ThrowableObject
     [SerializeField] private HitBoxCheck _hitBoxCheck;
     [SerializeField] private LineRenderer _lineRenderer;
     [SerializeField] private EdgeCollider2D _edgeColl;
+    [SerializeField] private PlatformEffector2D _platformEffector;
     [SerializeField] private GameObject _spriteObj;
+    [SerializeField] private GameObject _enemyDamager;
 
 
 
@@ -42,9 +44,9 @@ public class Thrown_Anchor : ThrowableObject
         rb.isKinematic = true;
         _endPosObj.transform.position = info.pos;
         GameObject go = Instantiate(_rockPrefab, _startPosObj.transform.position, Quaternion.identity);
-        go.GetComponent<InteractableResource>().parentToDestroy = this.gameObject;
+        //go.GetComponent<InteractableResource>().parentToDestroy = this.gameObject;
         GameObject go2 = Instantiate(_rockPrefab, _endPosObj.transform.position, Quaternion.identity);
-        go2.GetComponent<InteractableResource>().parentToDestroy = this.gameObject;
+        //go2.GetComponent<InteractableResource>().parentToDestroy = this.gameObject;
 
 
         _startPosObj.transform.SetParent(this.gameObject.transform);
@@ -57,6 +59,11 @@ public class Thrown_Anchor : ThrowableObject
         _edgeColl.gameObject.SetActive(true);
         _edgeColl.gameObject.transform.SetParent(this.gameObject.transform);
 
+        _enemyDamager.SetActive(false);
+
+        float oa = Mathf.Abs(_startPosObj.transform.localPosition.y) / Mathf.Abs(_startPosObj.transform.localPosition.x);
+        float angle = Mathf.Rad2Deg * Mathf.Atan(oa);
+        _platformEffector.rotationalOffset = angle * (Actor.i.movement.Direction == Direction.right ? 1 : -1);
     }
 
     private void RerenderLine()

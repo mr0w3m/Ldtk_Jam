@@ -94,9 +94,8 @@ GameObject:
   m_Component:
   - component: {fileID: 3241155129066365319}
   - component: {fileID: 2020769641534265942}
-  - component: {fileID: 3107893417122597858}
   - component: {fileID: 8262657495550080671}
-  m_Layer: 7
+  m_Layer: 9
   m_Name: RockPile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -164,25 +163,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.78448534, y: 0.4306078}
   m_EdgeRadius: 0
---- !u!114 &3107893417122597858
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7620824363408755325}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6934a7d135c526a49b720cd8403bd264, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  debug: 0
-  _bColl: {fileID: 2020769641534265942}
-  _cColl: {fileID: 0}
-  colliding: 0
-  _targetLayer:
-    serializedVersion: 2
-    m_Bits: 64
 --- !u!114 &8262657495550080671
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -198,3 +178,4 @@ MonoBehaviour:
   _id: rock
   _destroyOnInteract: 1
   _parentToDestroy: {fileID: 0}
+  _interactClip: {fileID: 8300000, guid: 521d5e5f8931c6c438190a8e6e4d611a, type: 3}

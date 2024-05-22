@@ -5,6 +5,7 @@ using UnityEngine;
 public class EnemyDamager : MonoBehaviour
 {
     [SerializeField] private HitBoxCheck _enemyCheck;
+    [SerializeField] private int _hitDmg = 1;
 
     private bool _canDamage = true;
 
@@ -27,7 +28,7 @@ public class EnemyDamager : MonoBehaviour
         Enemy_HP hp = info.col.GetComponent<Enemy_HP>();
         if (hp != null)
         {
-           hp.Hit();
+           hp.Hit(_hitDmg, this.gameObject);
         }
         else
         {

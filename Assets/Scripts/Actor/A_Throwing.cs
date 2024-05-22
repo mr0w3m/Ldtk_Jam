@@ -20,6 +20,10 @@ public class A_Throwing : MonoBehaviour
 
     [SerializeField] private Transform _throwingIndicator;
     [SerializeField] private Transform _targetSpawnThrownLocation;
+    [SerializeField] private AudioClip _throwClip;
+
+
+    [SerializeField] private LayerMask _groundLayer;
 
     [SerializeField] private float _postThrowTime = 1;
 
@@ -100,8 +104,23 @@ public class A_Throwing : MonoBehaviour
 
     private void EndThrowing()
     {
+        RaycastHit2D hitInfo = Physics2D.Linecast(_throwingIndicator.position, ((Vector2)_targetSpawnThrownLocation.position), _groundLayer);
+        Debug.DrawLine(_throwingIndicator.position, _targetSpawnThrownLocation.position, Color.green, 10f);
+        if (hitInfo.collider != null)
+        {
+            _throwingIndicator.gameObject.SetActive(false);
+            _throwing = false;
+            _movement.PauseMovement = false;
+            _playerSpriteRenderer.sprite = _idleSprite;
+            return;
+        }
+
         if (!_throwing)
         {
+            _throwingIndicator.gameObject.SetActive(false);
+            _throwing = false;
+            _movement.PauseMovement = false;
+            _playerSpriteRenderer.sprite = _idleSprite;
             return;
         }
 
@@ -109,8 +128,20 @@ public class A_Throwing : MonoBehaviour
         string id = _inventory.ReturnSelectedItem();
 
         ThrowableObject tObj = Instantiate(_itemDatabase.ReturnItemData(id)._throwablePrefab, _targetSpawnThrownLocation.position, Quaternion.identity);
+        if (tObj._rotateInDirection)
+        {
+            _throwDirection = _throwDirection.normalized;
+            float angleDir = Mathf.Atan2(_throwDirection.y, _throwDirection.x) * Mathf.Rad2Deg;
+            //angleDir += angleOffset;
+
+            tObj.transform.eulerAngles = new Vector3(_throwingIndicator.eulerAngles.x, _throwingIndicator.eulerAngles.y, angleDir);
+        }
+        
+
         tObj.rb.AddForce(_throwDirection * tObj.throwForce, ForceMode2D.Impulse);
         tObj.Throw();
+
+        AudioController.control.PlayClip(_throwClip);
 
         _inventory.RemoveItemSelected();
         _throwingIndicator.gameObject.SetActive(false);

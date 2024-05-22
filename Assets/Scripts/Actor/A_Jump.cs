@@ -12,6 +12,8 @@ public class A_Jump : MonoBehaviour
     [SerializeField] private float _continuousJumpForce;
     [SerializeField] private float _timeToFullJump;
 
+    [SerializeField] private AudioClip _jumpClip;
+
 
     private float timer;
     private float jumpForce;
@@ -43,7 +45,7 @@ public class A_Jump : MonoBehaviour
             {
                 timer -= Time.deltaTime;
                 //jumpForce = (_continuousJumpForce * Util.MapValue(timer, _timeToFullJump, 0, 0, 1));
-                _movement.MoveDirection(_jumpVector * jumpForce);
+                _movement.MoveUp(_jumpVector * jumpForce);
             }
             else
             {
@@ -88,15 +90,16 @@ public class A_Jump : MonoBehaviour
 
     private void BeginJump()
     {
-        if (Actor.i.crafting.crafting || Actor.i.paused)
+        if (Actor.i.crafting.crafting || Actor.i.paused || Actor.i.input.LSY < -0.9f)
         {
             return;
         }
-        Debug.Log("Jump!");
+
         if (_collision.Grounded || _coyoteTime)
         {
             _jumping = true;
             _coyoteTime = false;
+            AudioController.control.PlayClip(_jumpClip, Random.Range(0.85f, 2), 0.5f);
         }
     }
 

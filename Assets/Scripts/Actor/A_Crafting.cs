@@ -10,6 +10,8 @@ public class A_Crafting : MonoBehaviour
     [SerializeField] private A_InventoryUI _inventoryUI;
     [SerializeField] private A_CraftingUI _ui;
     [SerializeField] private A_Collision _collision;
+    [SerializeField] private AudioClip _craftClip;
+    [SerializeField] private AudioClip _failCraftClip;
 
     private bool _crafting;
 
@@ -24,8 +26,8 @@ public class A_Crafting : MonoBehaviour
 
     public bool crafting
     {
-        get 
-        { 
+        get
+        {
             if (_afterCraftingCooldown > 0)
             {
                 return true;
@@ -74,6 +76,7 @@ public class A_Crafting : MonoBehaviour
             CloseCrafting();
         }
         _ui.SetUIState(_crafting);
+        Actor.i.paused = _crafting;
     }
 
     private void OpenCrafting()
@@ -133,6 +136,7 @@ public class A_Crafting : MonoBehaviour
                 else
                 {
                     ToggleCrafting();
+                    AudioController.control.PlayClip(_failCraftClip);
                 }
             }
             else
@@ -149,6 +153,7 @@ public class A_Crafting : MonoBehaviour
             _inventory.RemoveItem(_ingredientA);
             _inventory.RemoveItem(_ingredientB);
             _inventory.AddItemToInventory(ReturnCraftedItem());
+            AudioController.control.PlayClip(_craftClip);
             ToggleCrafting();
         }
     }

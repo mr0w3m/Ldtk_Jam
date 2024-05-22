@@ -40,6 +40,10 @@ PrefabInstance:
       propertyPath: m_Offset.y
       value: 0.031717435
       objectReference: {fileID: 0}
+    - target: {fileID: 8594318372165589990, guid: 7b5009e6b4ca07e499e11b5ebb045768, type: 3}
+      propertyPath: _id
+      value: rope
+      objectReference: {fileID: 0}
     - target: {fileID: 8764342633306615792, guid: 7b5009e6b4ca07e499e11b5ebb045768, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -119,4 +123,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _rb: {fileID: 1089224319329656679}
-  throwForce: 10
+  throwForce: 6.666

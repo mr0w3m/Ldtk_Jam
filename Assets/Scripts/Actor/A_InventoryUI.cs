@@ -12,6 +12,7 @@ public class A_InventoryUI : MonoBehaviour
     [SerializeField] private InventorySlot _invSlotPrefab;
     [SerializeField] private Transform _invSlotParent;
     [SerializeField] private GenericItemDataList _itemDatabase;
+    [SerializeField] private AudioClip _changeSelectionClip;
 
     private List<InventorySlot> _inventorySlots = new List<InventorySlot>();
     private int _selectedInt = 0;
@@ -31,12 +32,36 @@ public class A_InventoryUI : MonoBehaviour
         }
     }
 
-
-    private void Start()
+    private void Awake()
     {
+        _inventory.DataLoaded += Initialize;
+    }
+
+
+    private void Initialize()
+    {
+        _inventory.DataLoaded -= Initialize;
         _inventory.InventoryUpdated += UpdateUI;
         _input.RBDown += TabRight;
         _input.LBDown += TabLeft;
+        Debug.Log("totalInventoryCount: " + _inventory.totalInventoryCount);
+        for (int i = 0; i < _inventory.totalInventoryCount; i++)
+        {
+            InventorySlot slot = Instantiate(_invSlotPrefab, _invSlotParent);
+            slot.Init(null);
+            _inventorySlots.Add(slot);
+        }
+
+        _inventorySlots[0].Select(true);
+    }
+
+    public void ReInitialize()
+    {
+        foreach (InventorySlot slot in _inventorySlots)
+        {
+            Destroy(slot.gameObject);
+        }
+        _inventorySlots.Clear();
 
         for (int i = 0; i < _inventory.totalInventoryCount; i++)
         {
@@ -46,6 +71,11 @@ public class A_InventoryUI : MonoBehaviour
         }
 
         _inventorySlots[0].Select(true);
+    }
+
+    public void SetUIHideState(bool state)
+    {
+        _invSlotParent.gameObject.SetActive(!state);
     }
 
     private void UpdateUI()
@@ -83,6 +113,7 @@ public class A_InventoryUI : MonoBehaviour
         _inventorySlots[_selectedInt].Select(true);
 
         OnInventoryItemSelected();
+        AudioController.control.PlayClip(_changeSelectionClip);
     }
     private void TabLeft()
     {
@@ -102,6 +133,7 @@ public class A_InventoryUI : MonoBehaviour
         }
         _inventorySlots[_selectedInt].Select(true);
         OnInventoryItemSelected();
+        AudioController.control.PlayClip(_changeSelectionClip);
     }
     
 

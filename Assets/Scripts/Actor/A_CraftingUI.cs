@@ -8,15 +8,20 @@ public class A_CraftingUI : MonoBehaviour
     [SerializeField] private GenericItemDataList _itemDatabase;
     [SerializeField] private GameObject _craftingUIParent;
     [SerializeField] private GameObject _craftableParent;
+    [SerializeField] private AudioClip _openCrafting, _closeCrafting;
 
     [SerializeField] private Image _craftingItemL, _craftingItemR, _potentialCraftedItem;
 
     public void SetUIState( bool state)
     {
         _craftingUIParent.SetActive(state);
+        AudioController.control.PlayClip(state == true ? _openCrafting : _closeCrafting);
         _craftingItemL.sprite = null;
+        _craftingItemL.enabled = false;
         _craftingItemR.sprite = null;
+        _craftingItemR.enabled = false;
         _potentialCraftedItem.sprite = null;
+        _craftingItemL.enabled = false;
         _craftableParent.SetActive(false);
     }
 
@@ -27,11 +32,12 @@ public class A_CraftingUI : MonoBehaviour
         {
             if(string.IsNullOrEmpty(id))
             {
-                _craftingItemL.sprite = null;
+                _craftingItemL.enabled = false;
             }
             else
             {
                 _craftingItemL.sprite = _itemDatabase.ReturnItemData(id).sprite;
+                _craftingItemL.enabled = true;
             }
             
         }
@@ -39,11 +45,12 @@ public class A_CraftingUI : MonoBehaviour
         {
             if (string.IsNullOrEmpty(id))
             {
-                _craftingItemR.sprite = null;
+                _craftingItemR.enabled = false;
             }
             else
             {
                 _craftingItemR.sprite = _itemDatabase.ReturnItemData(id).sprite;
+                _craftingItemR.enabled = true;
             }
             
         }
@@ -54,11 +61,13 @@ public class A_CraftingUI : MonoBehaviour
         //find image for id
         if (string.IsNullOrEmpty(id))
         {
-            _potentialCraftedItem.sprite = null;
+            _potentialCraftedItem.enabled = false;
+
         }
         else
         {
             _potentialCraftedItem.sprite = _itemDatabase.ReturnItemData(id).sprite;
+            _potentialCraftedItem.enabled = true;
         }
     }
 

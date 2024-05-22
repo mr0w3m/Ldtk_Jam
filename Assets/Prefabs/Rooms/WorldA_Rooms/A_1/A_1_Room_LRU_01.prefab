@@ -1006,6 +1006,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3115644541201914052, guid: f348ce9fe945468498611da6a05c0ad4, type: 3}
+      propertyPath: m_Size.y
+      value: 5.5104656
+      objectReference: {fileID: 0}
+    - target: {fileID: 3115644541201914052, guid: f348ce9fe945468498611da6a05c0ad4, type: 3}
+      propertyPath: m_Offset.y
+      value: -2.7552328
+      objectReference: {fileID: 0}
     - target: {fileID: 7312789793572314835, guid: f348ce9fe945468498611da6a05c0ad4, type: 3}
       propertyPath: m_Name
       value: Bat

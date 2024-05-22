@@ -9,6 +9,8 @@ public class InteractableResource : MonoBehaviour, InteractableObj
     [SerializeField] private string _id;
     [SerializeField] private bool _destroyOnInteract = false;
     [SerializeField] private GameObject _parentToDestroy;
+    [SerializeField] private AudioClip _interactClip;
+
 
     public GameObject parentToDestroy
     {
@@ -19,10 +21,11 @@ public class InteractableResource : MonoBehaviour, InteractableObj
 
     public void Interact()
     {
-        Debug.Log("InteractedWith:" + this.gameObject.name);
+        
         
         if (Actor.i.inventory.AddItemToInventory(_id))
         {
+            AudioController.control.PlayClip(_interactClip, UnityEngine.Random.Range(0.5f, 1));
             if (_destroyOnInteract)
             {
                 if (ResourceAcquired != null)

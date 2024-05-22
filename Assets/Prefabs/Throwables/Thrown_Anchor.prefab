@@ -228,6 +228,8 @@ GameObject:
   - component: {fileID: 4776391136562503530}
   - component: {fileID: 2393834680397537391}
   - component: {fileID: 2419804790790440983}
+  - component: {fileID: 7901251814006678633}
+  - component: {fileID: 5424844288040982462}
   m_Layer: 3
   m_Name: edgeCollider2d
   m_TagString: Untagged
@@ -280,7 +282,7 @@ EdgeCollider2D:
     serializedVersion: 2
     m_Bits: 4294967295
   m_IsTrigger: 0
-  m_UsedByEffector: 0
+  m_UsedByEffector: 1
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   m_EdgeRadius: 0.05
@@ -306,6 +308,38 @@ MonoBehaviour:
   thisCollider: {fileID: 2393834680397537391}
   otherColliders:
   - {fileID: 125694394380026100}
+--- !u!251 &7901251814006678633
+PlatformEffector2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4487426606886641120}
+  m_Enabled: 1
+  m_UseColliderMask: 1
+  m_ColliderMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RotationalOffset: 0
+  m_UseOneWay: 1
+  m_UseOneWayGrouping: 0
+  m_SurfaceArc: 180
+  m_UseSideFriction: 0
+  m_UseSideBounce: 0
+  m_SideArc: 1
+--- !u!114 &5424844288040982462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4487426606886641120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63b3fc8cf3a5a664383855c4179bd378, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _platformToDisable: {fileID: 2393834680397537391}
 --- !u!1 &7205345832468745507
 GameObject:
   m_ObjectHideFlags: 0
@@ -446,7 +480,8 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 6635612653054333144, guid: 7b5009e6b4ca07e499e11b5ebb045768, type: 3}
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 9052817805027345859, guid: 7b5009e6b4ca07e499e11b5ebb045768, type: 3}
       insertIndex: -1
@@ -470,23 +505,20 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4379675079222130041, guid: 7b5009e6b4ca07e499e11b5ebb045768, type: 3}
       insertIndex: -1
       addedObject: {fileID: 8460329204141704354}
+    - targetCorrespondingSourceObject: {fileID: 4379675079222130041, guid: 7b5009e6b4ca07e499e11b5ebb045768, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7234470138404507861}
   m_SourcePrefab: {fileID: 100100000, guid: 7b5009e6b4ca07e499e11b5ebb045768, type: 3}
 --- !u!61 &125694394380026100 stripped
 BoxCollider2D:
   m_CorrespondingSourceObject: {fileID: 7917352989390710752, guid: 7b5009e6b4ca07e499e11b5ebb045768, type: 3}
   m_PrefabInstance: {fileID: 7808847004242880276}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &809518536754623808 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7450471297741443668, guid: 7b5009e6b4ca07e499e11b5ebb045768, type: 3}
+--- !u!1 &644833358240758893 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7254296794442898297, guid: 7b5009e6b4ca07e499e11b5ebb045768, type: 3}
   m_PrefabInstance: {fileID: 7808847004242880276}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5807712491306701421}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6934a7d135c526a49b720cd8403bd264, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!50 &1089224319329656679 stripped
 Rigidbody2D:
   m_CorrespondingSourceObject: {fileID: 7152608210344048755, guid: 7b5009e6b4ca07e499e11b5ebb045768, type: 3}
@@ -521,13 +553,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _rb: {fileID: 1089224319329656679}
   throwForce: 8
+  _rotateInDirection: 0
   _rockPrefab: {fileID: 8927863557970731291, guid: d4a04c9f2880b1541b5357a7623575cc, type: 3}
   _startPosObj: {fileID: 7205345832468745507}
   _endPosObj: {fileID: 2746155709499245284}
-  _hitBoxCheck: {fileID: 809518536754623808}
+  _hitBoxCheck: {fileID: 7234470138404507861}
   _lineRenderer: {fileID: 6846207867478959185}
   _edgeColl: {fileID: 2393834680397537391}
+  _platformEffector: {fileID: 7901251814006678633}
   _spriteObj: {fileID: 3087867443335890290}
+  _enemyDamager: {fileID: 644833358240758893}
 --- !u!114 &8460329204141704354
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -543,3 +578,23 @@ MonoBehaviour:
   thisCollider: {fileID: 125694394380026100}
   otherColliders:
   - {fileID: 2393834680397537391}
+--- !u!114 &7234470138404507861
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5807712491306701421}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6934a7d135c526a49b720cd8403bd264, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  debug: 0
+  _bColl: {fileID: 125694394380026100}
+  _boxColliderRotation: 0
+  _cColl: {fileID: 0}
+  colliding: 0
+  _targetLayer:
+    serializedVersion: 2
+    m_Bits: 8

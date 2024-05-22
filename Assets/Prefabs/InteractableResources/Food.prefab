@@ -4850,7 +4850,7 @@ GameObject:
   - component: {fileID: 6977072918158957702}
   - component: {fileID: 5400640533034634858}
   - component: {fileID: 1108694238660794895}
-  m_Layer: 7
+  m_Layer: 9
   m_Name: Food
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4931,6 +4931,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c7f3dfd6d23c2c244b0b0a27e04b0de6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hungerHealed: 33
+  hpHealed: 1
+  _eatClip: {fileID: 8300000, guid: f389eeb9354b7864fbf75f99a969c6b9, type: 3}
 --- !u!1 &7973329524574510869
 GameObject:
   m_ObjectHideFlags: 0

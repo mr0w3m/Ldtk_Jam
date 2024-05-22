@@ -296,17 +296,18 @@ MonoBehaviour:
   _chunks_LR:
   - {fileID: 247314694119394933, guid: f6928cc00e86eb6459a0ea728339ec6b, type: 3}
   - {fileID: 247314694119394933, guid: b12cda08e6e81c143be82e00122d1042, type: 3}
+  - {fileID: 247314694119394933, guid: bdcadc28abf66034b963f5cfc134bff0, type: 3}
   _chunks_LRD:
   - {fileID: 247314694119394933, guid: a21cd84ad367bc74a954b32797aff898, type: 3}
   _chunks_LRU:
   - {fileID: 247314694119394933, guid: 80a0b4f1c901728468f6a4147f9df7c6, type: 3}
   - {fileID: 247314694119394933, guid: fa00e211858c3304f855b4af4a6478fc, type: 3}
   _chunks_LRUD:
-  - {fileID: 247314694119394933, guid: 8c2a18cf619c0a84eb2b46b9bc481c1c, type: 3}
+  - {fileID: 247314694119394933, guid: 5258ee73ef3b80f41a8eae3346886010, type: 3}
   _chunk_Exterior: {fileID: 1871638223600732584, guid: 0dd804bceb78d5f47b699fa11fe6d505, type: 3}
   _chunkSize: {x: 10, y: 8}
   _levelSizeX: 4
-  _levelSizeY: 2
+  _levelSizeY: 4
   _mainPathLevelGenData: []
   _startingRoomCoordinate: {x: 0, y: 0}
   _endRoomCoordinate: {x: 0, y: 0}
@@ -427,6 +428,7 @@ MonoBehaviour:
   _sceneController: {fileID: 2016880726}
   _startmenuUI: {fileID: 349512406}
   _startingLevel: Cave_A_1
+  _ambienceClip: {fileID: 8300000, guid: 0ffc994edef0b8d4390ded0647aa9a23, type: 3}
 --- !u!4 &2016880728
 Transform:
   m_ObjectHideFlags: 0

@@ -9,6 +9,7 @@ public class GameManager : MonoBehaviour
     [SerializeField] private SceneController _sceneController;
     [SerializeField] private GameObject _startmenuUI;
     [SerializeField] private string _startingLevel;
+    [SerializeField] private AudioClip _ambienceClip;
 
     private bool _checkForReload = false;
     private bool _reloading = false;
@@ -21,13 +22,19 @@ public class GameManager : MonoBehaviour
         Actor.i.input.SelectDown += ToggleMenu;
         Actor.i.input.ADown += Restart;
         Actor.i.input.BDown += MainMenu;
+
+        if (!AudioController.control.IsTrackPlaying("ambience"))
+        {
+            AudioController.control.PlayLoopingAudio(_ambienceClip, _ambienceClip.length, false, "ambience", 2);
+        }
     }
 
     private void Restart()
     {
         if (_menu)
         {
-            _sceneController.LoadScene("Cave");
+            PlayerSaveManager.i.playerSaveData = new PlayerSaveData();
+            _sceneController.LoadScene(_startingLevel);
         }
     }
 
@@ -35,6 +42,7 @@ public class GameManager : MonoBehaviour
     {
         if (_menu)
         {
+            PlayerSaveManager.i.playerSaveData = new PlayerSaveData();
             _sceneController.LoadScene("Title");
         }
     }
@@ -51,6 +59,8 @@ public class GameManager : MonoBehaviour
         {
             return;
         }
+        AudioController.control.CleanUp();
+        PlayerSaveManager.i.playerSaveData = new PlayerSaveData();
         _sceneController.LoadScene(_startingLevel);
         _reloading = true;
     }

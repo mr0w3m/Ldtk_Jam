@@ -1,6 +1,5 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using System.Linq;
 using UnityEngine;
 
 public class AudioController : MonoBehaviour
@@ -16,6 +15,7 @@ public class AudioController : MonoBehaviour
 
     void Start()
     {
+        DontDestroyOnLoad(gameObject);
         if (control == null)
             control = this;
         else if (control != null)
@@ -24,7 +24,16 @@ public class AudioController : MonoBehaviour
 
     public void PlayClip(AudioClip clip, float pitch = 1, float volume = 1)
     {
-        AudioSource tempSource = _audioSources.FirstOrDefault(a => a.isPlaying == false);
+        AudioSource tempSource = null;
+        foreach (AudioSource source in _audioSources)
+        {
+            if (source.isPlaying == false)
+            {
+                tempSource = source;
+                break;
+            }
+        }
+
         if (tempSource == null)
         {
             tempSource = AddNewSource();
@@ -37,6 +46,7 @@ public class AudioController : MonoBehaviour
 
     private AudioSource AddNewSource()
     {
+        Debug.Log("AddNewSource");
         AudioSource tempSource = Instantiate(_sourceModule, _audioSourceHolder.transform) as AudioSource;
         _audioSources.Add(tempSource);
         return tempSource;
@@ -47,11 +57,21 @@ public class AudioController : MonoBehaviour
         LoopingAudioModule tempModule = Instantiate(_loopingAudioPrefab, _loopingModuleHolder.transform) as LoopingAudioModule;
         tempModule.Init(clip, this, waitTimeBetween, randomizePitch, id, volume);
         _loopingAudios.Add(tempModule);
+        Debug.Log("PLAYLOOPINGAUDIO");
     }
 
     public void StopLoopingAudio(string id)
     {
-        LoopingAudioModule module = _loopingAudios.FirstOrDefault(l => l.id == id);
+        LoopingAudioModule module = null;
+
+        foreach (LoopingAudioModule tempModule in _loopingAudios)
+        {
+            if (tempModule.id == id)
+            {
+                module = tempModule;
+            }
+        }
+
         if (module != null)
         {
             _loopingAudios.Remove(module);
@@ -61,7 +81,54 @@ public class AudioController : MonoBehaviour
 
     public void ChangeLoopingAudioClip(AudioClip clip, string id)
     {
-        LoopingAudioModule module = _loopingAudios.FirstOrDefault(l => l.id == id);
-        module.ChangeClip(clip);
+        LoopingAudioModule module = null;
+
+        foreach (LoopingAudioModule tempModule in _loopingAudios)
+        {
+            if (tempModule.id == id) 
+            {
+                module = tempModule;
+            }
+        }
+        if (module != null)
+        {
+            module.ChangeClip(clip);
+        }
+    }
+
+    public void CleanUp()
+    {
+        foreach(AudioSource source in _audioSources) 
+        {
+            if (source != null) 
+            {
+                source.Stop();
+            }
+        }
+
+        foreach (LoopingAudioModule tempModule in _loopingAudios)
+        {
+            if (tempModule != null)
+            {
+                tempModule.TerminateModule();
+                Destroy(tempModule.gameObject);
+            }
+        }
+        _loopingAudios.Clear();
+    }
+
+    public bool IsTrackPlaying(string id)
+    {
+        foreach(LoopingAudioModule tempModule in _loopingAudios)
+        {
+            if (tempModule != null)
+            {
+                if (tempModule.id == id)
+                {
+                    return true;
+                }
+            }
+        }
+        return false;
     }
 }

@@ -12,10 +12,15 @@ public class A_Inventory : MonoBehaviour
     //reference to database where these items and their associated sprites can be referenced
     [SerializeField] private List<string> _inventoryItemStrings = new List<string>();
 
-    private int _totalInventoryCount = 4;
+    private int _totalInventoryCount;
     public int totalInventoryCount
     {
         get { return _totalInventoryCount; }
+        set 
+        { 
+            _totalInventoryCount = value;
+            _ui.ReInitialize();
+        }
     }
 
     public List<string> inventoryItemStrings
@@ -26,12 +31,35 @@ public class A_Inventory : MonoBehaviour
         }
     }
 
+    public event Action DataLoaded;
+
+    private void OnDataLoaded()
+    {
+        if (DataLoaded != null)
+        {
+            DataLoaded.Invoke();
+        }
+    }
+
     private void OnInventoryUpdated()
     {
         if (InventoryUpdated != null)
         {
             InventoryUpdated.Invoke();
         }
+    }
+
+    private void Start()
+    {
+        Initialize();
+    }
+
+    private void Initialize()
+    {
+        _totalInventoryCount = PlayerSaveManager.i.playerSaveData.totalItemSlots;
+        _inventoryItemStrings = new List<string>(PlayerSaveManager.i.playerSaveData.items);
+        OnDataLoaded();
+        OnInventoryUpdated();
     }
 
     private void AddItem(string id)

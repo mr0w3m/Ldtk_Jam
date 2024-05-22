@@ -1,0 +1,6587 @@
+fileFormatVersion: 2
+guid: f4008e9b410c18c49822531b2c0921aa
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: f3268c876daf4890b6af6cd462063137, type: 3}
+  _reimportOnDependencyChange: 1
+  _pixelsPerUnit: 16
+  _sprites:
+  - name: LimboLike_TileAtlas2_0
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 128
+      width: 16
+      height: 16
+    spriteID: f49484e87d15f5f42a23be66e7d29bf1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 05b2181df55837d479aaec511a86a602
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 128
+      width: 16
+      height: 16
+    spriteID: e39cc33ed966c8c4fa8be9cb92c76f57
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 79258a5ae5269b84ba550ad1fa231eda
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_4
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 5c55d45611d86014083241ce3e783572
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_5
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 4420f2b5be76fb04fb96b25ad06bbf84
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_6
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 128
+      width: 16
+      height: 16
+    spriteID: ab36b054efc4bcf43932215e629b77a2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_7
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 128
+      width: 16
+      height: 16
+    spriteID: e6b55720a38168b4ca1273e6b8a7251d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_8
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 5a2849b8d520d9441a2a75394df65098
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_9
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 128
+      width: 16
+      height: 16
+    spriteID: d4519cc66b21d7a42922809e7e7a3c8d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_10
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 128
+      width: 16
+      height: 16
+    spriteID: a9f316d97553cf0448e6235176c15b67
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_11
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 6f30e6ed825edae4fa6d848fc285e800
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_12
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 128
+      width: 16
+      height: 16
+    spriteID: e64d6fe1751593c448c888e980fbfdde
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_13
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 128
+      width: 16
+      height: 16
+    spriteID: d3a58c564bfebe540b2c4b671cb04e70
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_14
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 6643a005e0f73cd48b8fb1b32dcb763e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_15
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 7e230aa9ddff5804ab282a877639b466
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_16
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 128
+      width: 16
+      height: 16
+    spriteID: b16ab2f1728255c42bb396ec00982a05
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_17
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 3df0f95c6014bc4409be152397c6dba5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_18
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 128
+      width: 16
+      height: 16
+    spriteID: ddaf8c16198aa484a9cc352b757f0716
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_19
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 128
+      width: 16
+      height: 16
+    spriteID: fa14a87c6ec48c942aa1e8ce0bf0dc9f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_20
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 128
+      width: 16
+      height: 16
+    spriteID: e1bd0a0d430b20549ab7984429db3d2c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_21
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 336
+      y: 128
+      width: 16
+      height: 16
+    spriteID: e67d9ae9cf5a74547a6670124f43d31d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_22
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 6a56728c8c2a66148a33a4674b8b76ba
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_23
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 368
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 569c80a710c549f46802980518a74115
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_24
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 384
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 36e739df37e1c874995da248b25a3f85
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_25
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 400
+      y: 128
+      width: 16
+      height: 16
+    spriteID: e2ce998093be3824e917a1253649e68c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_26
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 416
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 6752ba6c9ecedf14fb171f8faa873b2d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_27
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 432
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 2651b9b3f59954a43a336c44aa0a34d4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_28
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 448
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 8da957c9fe7bd9d4e94773577759fab8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_29
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 464
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 8ef25c2dd398c2f4883b4f3ee98ee4da
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_30
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 480
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 6ee189ea686fbbf44b1bc2707d699acc
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_31
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 496
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 684333a37915f9647b1085108137fb15
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_32
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 512
+      y: 128
+      width: 16
+      height: 16
+    spriteID: de5343195ea5e464db4faa7103a82624
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_33
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 528
+      y: 128
+      width: 16
+      height: 16
+    spriteID: f28a1fbbde92ab34aa96f494166d7fd2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_34
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 544
+      y: 128
+      width: 16
+      height: 16
+    spriteID: e7dcef7d34fd6bd4482535147f6a0e3d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_35
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 560
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 1da6c97abd9976c4d9f2cf431d79821f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_36
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 576
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 8ca827395e303e34d9b71c2d94f5c679
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_37
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 592
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 6812ea93a2cc87b498d3db6ce8ae56c2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_38
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 608
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 2cc9b860ad5e6da408a28b8105046768
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_39
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 624
+      y: 128
+      width: 16
+      height: 16
+    spriteID: da4a08f2267d87d4e8e779d8eefb2d73
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_40
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 640
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 08cffc9333334484abce3e3416f95fe8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_41
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 656
+      y: 128
+      width: 16
+      height: 16
+    spriteID: d71e6005c9471a44e8db6c6753e09174
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_42
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 672
+      y: 128
+      width: 16
+      height: 16
+    spriteID: d01fd0b89a5f7aa429f6e993f84e73ad
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_43
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 688
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 54ca671c4041b49469d1662406640702
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_44
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 704
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 1dd49f44f1c550941bda4cb1f4075174
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_45
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 720
+      y: 128
+      width: 16
+      height: 16
+    spriteID: bc6ea65077086464e804bb0da9ac363a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_46
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 736
+      y: 128
+      width: 16
+      height: 16
+    spriteID: c685c243d4ca83e4b8a914ac9d141e50
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_47
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 752
+      y: 128
+      width: 16
+      height: 16
+    spriteID: 495ed751309829449928e4d4b44b033b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_48
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 39392a3d0ecb9864db25f0a8dfb2632f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_49
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 2102ed466ed435f4fbff808f13e69408
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 8}
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_50
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 2226230890676624db3c0e1e45919445
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_51
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 339d37cfe059ca74f812ff75df21fa3b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_52
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 112
+      width: 16
+      height: 16
+    spriteID: aa401a12940f24749a89d04992ce83f9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_53
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 112
+      width: 16
+      height: 16
+    spriteID: a5873f02c3b630141bd75510611a854f
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 6}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 6}
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_54
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 112
+      width: 16
+      height: 16
+    spriteID: afda976bbcb2619408e3506dc851c645
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_55
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 112
+      width: 16
+      height: 16
+    spriteID: f5d8428ba57f5534fad85516df25a8f8
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 6}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 6}
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_56
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 6216864bbc2230a47a58a0c50104ae85
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_57
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 3a0cca5aaf2c5364789375b7e863c461
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_58
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 112
+      width: 16
+      height: 16
+    spriteID: ea69aa64ba38dfa478e95cffc9a046ab
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_59
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 112
+      width: 16
+      height: 16
+    spriteID: ffe6bba83bbe2f549933704c8e97a352
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 6}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 6}
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_60
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 112
+      width: 16
+      height: 16
+    spriteID: d00a11ddd09935148a1f633f25c81ee9
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 8}
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_61
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 96277cb3be4cbb744a7daac304d49202
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 8}
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_62
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 112
+      width: 16
+      height: 16
+    spriteID: e179be445bc34ed469762da4fa4d8953
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 8}
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_63
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 64180b0e81cbaa642b3148ad1b6254d4
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 8}
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_64
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 087a5f593970f074b8c95c73bddfe0e0
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_65
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 266e863c4790a9a42825c157facf7084
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_66
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 845208e3c17245046b293fb54b2e1030
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_67
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 68601d1289b49c84a88cda441adec4f6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_68
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 0b9aef09095f38844a78368a22b95c38
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 6}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 6}
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_69
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 336
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 275d25ef051c26443b4fa2aad5a7c427
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_70
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 112
+      width: 16
+      height: 16
+    spriteID: eec0163c39e5e5845be2ea1ffcac6fc8
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 6}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 6}
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_71
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 368
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 1bbebcccb72234f46a669b2b150a409a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_72
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 384
+      y: 112
+      width: 16
+      height: 16
+    spriteID: ee9a7ebb9ec998e4d85d81ff8553ab08
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 6}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 6}
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_73
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 400
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 8085246d3f975a542a6f8416f978ff2d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_74
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 416
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 4b7a6ddeb742b6d46b054be5cfa5442b
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 6}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 6}
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_75
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 432
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 50db5b296432f054881436d76a616951
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 8}
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_76
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 448
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 9f242297e72e22c45aa4aa2812568a30
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 8}
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_77
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 464
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 79a42f37c8857f843b352b0c32272870
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 8}
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_78
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 480
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 49d71cc3335c90b46b0394db15389d9b
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 8}
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_79
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 496
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 0b6378c3b8cc6174aa0ddc68932f273f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_80
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 512
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 00e2d86a584033145a9312e4c15fbd2e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_81
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 528
+      y: 112
+      width: 16
+      height: 16
+    spriteID: ece07de4f6e73c0429f877d4e6f83b1c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_82
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 544
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 7eee25c14ea2d54488d58b482195673f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_83
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 560
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 13bf54165f51d6c4fa06dec3d11820f6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_84
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 576
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 4c43d42066df6694d943ff79ef3aaa09
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_85
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 592
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 7757a529499cdff489e5e1060e7cfd71
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_86
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 608
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 36df830be29e62b47acc1cd2bb713f38
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_87
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 624
+      y: 112
+      width: 16
+      height: 16
+    spriteID: f40cb344a95614244b07e47b211c07f1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_88
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 640
+      y: 112
+      width: 16
+      height: 16
+    spriteID: d90ae0308022a9149995ecda8901fbeb
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_89
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 656
+      y: 112
+      width: 16
+      height: 16
+    spriteID: f0d40d31f8e1a4f4cbd6f3a414cbada6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_90
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 672
+      y: 112
+      width: 16
+      height: 16
+    spriteID: ce4b57b384d55644099f0acd9fdc8bb0
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_91
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 688
+      y: 112
+      width: 16
+      height: 16
+    spriteID: c43c8ce13a70f7543b355bfec49d8663
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_92
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 704
+      y: 112
+      width: 16
+      height: 16
+    spriteID: e8ab265f3913f27499adac511abd4e63
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_93
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 720
+      y: 112
+      width: 16
+      height: 16
+    spriteID: ef59b389bc7ee45448c9cbe6685ecee2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_94
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 736
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 92b4e730042b5a54c8f487e680081a9b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_95
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 752
+      y: 112
+      width: 16
+      height: 16
+    spriteID: 7ceeee7e452117641986223a62ae583b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_96
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 96
+      width: 16
+      height: 16
+    spriteID: f9d6c239ac9bace4086e112a8419ef94
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_97
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 94b856555263bb84a93b0b7167b472c9
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 8}
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_98
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 96
+      width: 16
+      height: 16
+    spriteID: ee5528158e3b20e4db91895a60798c99
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_99
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 96
+      width: 16
+      height: 16
+    spriteID: c102bcfe4716e2c4aa256bdd11f1935c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_100
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 3990103af6f303445b0ca5ffbb9c9ea6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_101
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 96
+      width: 16
+      height: 16
+    spriteID: c68f635c13a85b747ba0c4a3d610a360
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 8}
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_102
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 96
+      width: 16
+      height: 16
+    spriteID: f830e26c63ddee844805f89bad79bd06
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 6}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 6}
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_103
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 0c45994b73fb4ac4c98499cdf2a361cd
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 8}
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_104
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 53f3d0eae57b8944685418ec68fd897c
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 6}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 6}
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_105
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 96
+      width: 16
+      height: 16
+    spriteID: e4caa917bf0cd39479c4e3552fb08370
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 6}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 6}
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_106
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 5748a1a914e4c2042b0b1be7f3ac5458
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 6}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 6}
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_107
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 96
+      width: 16
+      height: 16
+    spriteID: d31a07cf8f527224bb8a9d63e075967a
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 8}
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_108
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 98ce7bc52c7e72e448c243b055d9bffc
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_109
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 96
+      width: 16
+      height: 16
+    spriteID: da8de8c6b48ba3747a43f85dea2c8549
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 8}
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_110
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 290d207e8889f0d47b51b6763f3e78f2
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 8}
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_111
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 4b3da28456006a34291f8f4a32a44cc0
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_112
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 218e26c1829f42248b0b074b5717a3b9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_113
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 96
+      width: 16
+      height: 16
+    spriteID: cccf954d83f0a8742a8432e410f0a341
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_114
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 96
+      width: 16
+      height: 16
+    spriteID: af321ba3c223b774db16da9168640866
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_115
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 1070ed945576ec642952bbb25f5b9c3b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_116
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 96
+      width: 16
+      height: 16
+    spriteID: d64caf3eb88c9644683c5b4f60a06857
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 8}
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_117
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 336
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 9a884bbe4eca8eb4d84b8864fcfc1fe5
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 6}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 6}
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_118
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 532a7cc7c1d281149aad71f33e937287
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 8}
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_119
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 368
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 7dab7ef7a0842084fbbbbdd3cb963fd1
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 6}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 6}
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_120
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 384
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 992f7ba0112d78644b9fa55ac7f80009
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 6}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 6}
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_121
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 400
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 970d4e2ad18bca843a2f2c53317ff8ac
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 6}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 6}
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_122
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 416
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 071b3e18c27ba0244b0aa14df3f9137d
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 8}
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_123
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 432
+      y: 96
+      width: 16
+      height: 16
+    spriteID: f8009882c2723c84d8991ba99d824ec6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_124
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 448
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 8220c4882e3b8844a9d38d17d44fc658
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 8}
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_125
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 464
+      y: 96
+      width: 16
+      height: 16
+    spriteID: fe064c85fc0d5464fb25b6c2c4801612
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 8}
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_126
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 480
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 5948b769eecb01e42b194363bd325a5d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_127
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 496
+      y: 96
+      width: 16
+      height: 16
+    spriteID: d9cb0068885770f42886ea55361ed63d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_128
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 512
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 16ea842133083134cad95ffea97fe88b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_129
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 528
+      y: 96
+      width: 16
+      height: 16
+    spriteID: c22e85360ec1df7439512b8b2c15675f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_130
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 544
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 139b2eedb5e103d49a124f19882944fe
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_131
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 560
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 203560581644d484e9492d26c9b46cc9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_132
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 576
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 246f1bdbbc228d9459da9b015692dd2e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_133
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 592
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 1ede5b1b034eaf34b9fdef60719251dc
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_134
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 608
+      y: 96
+      width: 16
+      height: 16
+    spriteID: d45d64660b651524c84af393cc6867eb
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_135
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 624
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 6be17b5e7213a9a489cfc4886dcb1bf4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_136
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 640
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 5bd51ad2684214148b9a6eb64e835022
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_137
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 656
+      y: 96
+      width: 16
+      height: 16
+    spriteID: dffdf6c51fab59345b634de285a5e7b3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_138
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 672
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 93c04a0eb77132044bb2710a068f8d77
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_139
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 688
+      y: 96
+      width: 16
+      height: 16
+    spriteID: dfcd526f04d6d274e98cbeb159206144
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_140
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 704
+      y: 96
+      width: 16
+      height: 16
+    spriteID: 22a9755298070fb44bed5beed956eee0
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_141
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 720
+      y: 96
+      width: 16
+      height: 16
+    spriteID: bc8d721b2cd8eb3499054a70d16e16ba
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_142
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 736
+      y: 96
+      width: 16
+      height: 16
+    spriteID: fd1228c30de36b74b85e6a4a89e6f8b9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_143
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 752
+      y: 96
+      width: 16
+      height: 16
+    spriteID: f63be5ee849e6ad4683ad169f0ef9a8a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_144
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 80
+      width: 16
+      height: 16
+    spriteID: d9dce936f7cff9842909ee5088f71853
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_145
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 699bbf4d82d9728428396791e9540306
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_146
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 535dcb98a6b10d5429f2abe07fc29ed2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_147
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 80
+      width: 16
+      height: 16
+    spriteID: ad440de23a6f10640971049f56e0b0e5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_148
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 3c3219c36605b904a9894f099444bfa6
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 6}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 6}
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_149
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 80
+      width: 16
+      height: 16
+    spriteID: a53d57cad328e184d8eab5381bce1b10
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 8}
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_150
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 63f0f47ab6c0ecf4fa2b8a5d55b6a5ba
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_151
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 80
+      width: 16
+      height: 16
+    spriteID: a0a00965fc39f4c4fa4a466cd0fa9cdc
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_152
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 80
+      width: 16
+      height: 16
+    spriteID: a7c7b1197c3fffd4f8947f7f664cc78c
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 8}
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_153
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 626756bad87aaf74688defadea46b7fb
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_154
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 80
+      width: 16
+      height: 16
+    spriteID: cf7a2f053951dfe45979f43a6e702a27
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 8}
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_155
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 4b88b83eb4a4b82499ac7d6d45dbb428
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_156
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 23eab64bb8213c641bf15f086b7048b0
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_157
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 2e53934080949c54ebc478aa1ff08b0e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_158
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 80
+      width: 16
+      height: 16
+    spriteID: e996f91313db3b947b07115b2fc8d6d6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_159
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 884b882efee9e894e90fbd81c1b62430
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_160
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 43719cdf030b8654dbc8f539a8988ac5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_161
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 80
+      width: 16
+      height: 16
+    spriteID: bce3af8b5f927b14892853f4ad98a766
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_162
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 80
+      width: 16
+      height: 16
+    spriteID: a14f7f179c04e3c40a80d63cd145f225
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_163
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 4f6dde66668e0904ea7958eada88ec9f
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 6}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 6}
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_164
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 2c2bb721fcdcee241ac82ff08f4edab0
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 8}
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_165
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 336
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 94e6f683438a7464a9e6e0657983cb05
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_166
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 80
+      width: 16
+      height: 16
+    spriteID: dbb1584136f49c34797f74bbd6986cc9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_167
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 368
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 641cd3cf538ca9841bccaa8539068685
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 8}
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_168
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 384
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 5e174f219d6278b42b6a99ed90f58e49
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_169
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 400
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 7719ed33221c80f488c0e35e9d5a54f4
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 8}
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_170
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 416
+      y: 80
+      width: 16
+      height: 16
+    spriteID: d2bc3cab993dd6c46a02cd073a3e90e9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_171
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 432
+      y: 80
+      width: 16
+      height: 16
+    spriteID: fc8facfea1b86aa4e82c10edb1210465
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_172
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 448
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 39562177ff8f65743a4794d198b09873
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_173
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 464
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 90b81ef3ca9b53d4f908d2123158adc2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_174
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 480
+      y: 80
+      width: 16
+      height: 16
+    spriteID: bd3f8be9e3b69ad43b7322c8974c66d7
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_175
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 496
+      y: 80
+      width: 16
+      height: 16
+    spriteID: e819b565c490f1347a85b5ad09d14fba
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_176
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 512
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 72b06efd37b60de4e9506bd28f19286d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_177
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 528
+      y: 80
+      width: 16
+      height: 16
+    spriteID: b2434752c7d587a4b995a1999d58e322
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_178
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 544
+      y: 80
+      width: 16
+      height: 16
+    spriteID: b0ccf0cfa2f79d048b36821c93c7e3ef
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_179
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 560
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 0800572083d258c49b89e0eef5983f39
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_180
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 576
+      y: 80
+      width: 16
+      height: 16
+    spriteID: f78fb885dafcdba439d33cbf6f628e28
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_181
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 592
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 27c4b6b05df9e4e4b9ab30422d69014e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_182
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 608
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 035d3ab9ee3c6b8448d8db47f191c68f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_183
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 624
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 61d5dbe54e1140f44a1e0b55a83d96cc
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_184
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 640
+      y: 80
+      width: 16
+      height: 16
+    spriteID: cfe3899080b2e6e4cbe5b181c2da1eda
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_185
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 656
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 1c74dff6d78e8814c96102c42e0288ed
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_186
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 672
+      y: 80
+      width: 16
+      height: 16
+    spriteID: a0708740734d20d4687e8958fffeaaa2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_187
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 688
+      y: 80
+      width: 16
+      height: 16
+    spriteID: f30211448218fb34b831c655a00732a0
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_188
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 704
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 5f0d78e34c58e6f4796b98f4e8c2220b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_189
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 720
+      y: 80
+      width: 16
+      height: 16
+    spriteID: 64f754c46fc888c49aed1b620489ab8e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_190
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 736
+      y: 80
+      width: 16
+      height: 16
+    spriteID: c590410ef60bb60498e610697d2b0782
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_191
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 752
+      y: 80
+      width: 16
+      height: 16
+    spriteID: d31b1dd8008280c4d92c5aadb5b80bf3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_192
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 0267e12d929a9b547a133f26ae92574b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_193
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 11af9889ccf8b2a4bbeb28a023b1a6ba
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_194
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 426d34d1fbedffd4e9304b1aedde18c1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_195
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 98a6fc67ccc8dd44b9abb3f55eaa3893
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_196
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 64
+      width: 16
+      height: 16
+    spriteID: ecda2038fc44a4f43aff13a7f026e2fc
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_197
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 64
+      width: 16
+      height: 16
+    spriteID: d0ce937ab0163494a83d3a9ec9a561a5
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 8}
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_198
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 64
+      width: 16
+      height: 16
+    spriteID: ff0e91fd622a4734f80dd43700bc4a28
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_199
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 8f74b2d9f6e6d8148a09b41d70f82c90
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_200
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 9884a4cafeaa62c49b3aaed20de50609
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_201
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 40f6acb8ba8f948498fe754560654d67
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 6}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 6}
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_202
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 435cf1e4c6e330e4b948bc4cf18ddeb2
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 8}
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_203
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 05003ea212763784a977a99aaf1e3dc7
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 6}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 6}
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_204
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 6229a514bf5612445b2a1bf446b599f4
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 6}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 6}
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_205
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 22bc3ca003617c849bfe38e16c7cb332
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_206
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 89fbd724093ad8445b05b1354c715df0
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_207
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 6c98fc4e5cfa4674790968937953f821
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_208
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 64
+      width: 16
+      height: 16
+    spriteID: b65f8bc3f8e91fc4a92c68ae3a4d396d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_209
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 8f9fb4cfa731e6e46b983e3b1f2daa9a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_210
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 05d8843ca23c21f46b8349beb1b8c1d1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_211
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 7ce70593926acc24db10b14b9c6c21d9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_212
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 85b51a074ac58cf449bbc3a81adc707d
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 8}
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_213
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 336
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 11ec09b00dc50054c88742e8721aaa33
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_214
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 64
+      width: 16
+      height: 16
+    spriteID: b96f84c344267f844b7dbcfd33f55647
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_215
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 368
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 79290935a292229449b5133fb7e86da1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_216
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 384
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 7511404df72872447bc2601a63e6ec46
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 6}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 6}
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_217
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 400
+      y: 64
+      width: 16
+      height: 16
+    spriteID: e0c1f62f9e2112a4cad62f20fc6c43cf
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 8}
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_218
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 416
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 7320a831647770249ba0d5c6d3f6da31
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 6}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 6}
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_219
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 432
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 04a163d623564a94ba59f3dd155c7b70
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 6}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 6}
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_220
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 448
+      y: 64
+      width: 16
+      height: 16
+    spriteID: c5b65964693590e43a6f209aef62d71b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_221
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 464
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 3aad3e88f3efafb4d8161eecaadf7802
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_222
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 480
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 238b453ebde2ab442b25e36d55c208bf
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_223
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 496
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 609f2dbcdad87ed4aaee5e669c726f54
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_224
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 512
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 5d35e47a23cd59c4a9ff6fb1b0df177d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_225
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 528
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 2acef4d1e0c0625498bf2288531a04d6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_226
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 544
+      y: 64
+      width: 16
+      height: 16
+    spriteID: a31be1bd5b99b2647a6178f39c0b3aa3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_227
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 560
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 72accd430b97f0e49b5acbc6b3bc3c5b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_228
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 576
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 3fb755ee993082243b36479271a750da
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_229
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 592
+      y: 64
+      width: 16
+      height: 16
+    spriteID: e7871fcee963e8343bc9328718b98478
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_230
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 608
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 813869e554ac7944895f3691f2711e13
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_231
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 624
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 12e05cac2bce6724fa655de8f4a9ea6e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_232
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 640
+      y: 64
+      width: 16
+      height: 16
+    spriteID: fc36917e516b9d045bf4cd72fc0d6ac8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_233
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 656
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 4fa284596a596ce45bda5dafb818979c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_234
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 672
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 00f131fc85a49584e9c9c52125f6d6b1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_235
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 688
+      y: 64
+      width: 16
+      height: 16
+    spriteID: ef0ba391d4493f242bae374cf108cd19
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_236
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 704
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 506bc38c4bf894c44b9edce27e0a50f6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_237
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 720
+      y: 64
+      width: 16
+      height: 16
+    spriteID: 79226ca3c67bd8e468e3a9836371260c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_238
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 736
+      y: 64
+      width: 16
+      height: 16
+    spriteID: ccad029c5f1742045aa7d0ffd26ade2f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_239
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 752
+      y: 64
+      width: 16
+      height: 16
+    spriteID: c7f3fc50e1a71c649bb536a1fb5be2af
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_240
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 48
+      width: 16
+      height: 16
+    spriteID: f82d5c5f813846944b7bb9bb49ed2e97
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_241
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 260eb7a9be1260e4e96e8b0c2d28779c
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 6}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 6}
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_242
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 48
+      width: 16
+      height: 16
+    spriteID: cbaca70fef377ca45af0179c4e53fbf8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_243
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 4403125781729884f86e00551ef7d4af
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_244
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 48
+      width: 16
+      height: 16
+    spriteID: b7a1e2f14b2e898448d8bb2d159babc5
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 6}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 6}
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_245
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 3f2404bf35e49ed4ca80ba0c2dcf89de
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 8}
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_246
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 52a2b781d9a140f40a242b49756d061a
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 6}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 6}
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_247
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 3292161f6a408174dbc9b3234811f748
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 6}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 6}
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_248
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 48
+      width: 16
+      height: 16
+    spriteID: e083722c0cafff64f9d5de4c3952b6ce
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 6}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 6}
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_249
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 5437406135f7196449aa1b1c419705ec
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 8}
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_250
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 523492c81620b7147b872fa954140df6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_251
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 9f7ea978898673c46a80b8e3019e8fdb
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_252
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 4d4fab3b16c7ad346bab10491e4672f7
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 8}
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_253
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 48
+      width: 16
+      height: 16
+    spriteID: d0c19f2f22a9e8a4a99aa165a575dd41
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_254
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 954cc94bdeee9424d8aced2a01743b37
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_255
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 9302e10b6be87f24f925e9c02368917a
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 8}
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_256
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 48
+      width: 16
+      height: 16
+    spriteID: c2338bc889a42394bb44f04ebe09718b
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 8}
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_257
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 48
+      width: 16
+      height: 16
+    spriteID: db3424f40e7122a49b9cd9b3662fe7ee
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 8}
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_258
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 48
+      width: 16
+      height: 16
+    spriteID: eecc078fc44a16c45998729527327d17
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_259
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 490846891d250d646ba07333f0a6e5e7
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 6}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 6}
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_260
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 3614db48741bf794f8816f5b735ef156
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 8}
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_261
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 336
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 684933b6c10863e4fa2f35ec2599ebc7
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 6}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 6}
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_262
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 08490d0380ac8e443b8cd0bd0e60b1e3
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 6}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 6}
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_263
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 368
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 5a85f79e4ac1a1f489fbe67ac605e8ef
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 6}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 6}
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_264
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 384
+      y: 48
+      width: 16
+      height: 16
+    spriteID: b139281939dcd4748bbe7656bebf44ed
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 8}
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_265
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 400
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 2514e275ff210da43926ea301bc457b0
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_266
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 416
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 63c0797447cfc784582237dc568aa17c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_267
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 432
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 00912e7359a1a8446b2a112b46c4d4db
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 8}
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_268
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 448
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 1eeebd5423a9b2a489278eb00f8e39cb
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_269
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 464
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 3c9d95b113074f44cb4944aaf0bfa66e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_270
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 480
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 6fb604eac3e968745b450df8715eaa51
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 8}
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_271
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 496
+      y: 48
+      width: 16
+      height: 16
+    spriteID: d0e8342559e9939408026829a84e5a1a
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 8}
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_272
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 512
+      y: 48
+      width: 16
+      height: 16
+    spriteID: f13db545440366e419df6c1cd413ea83
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 8}
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_273
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 528
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 58ba768cefad1ed459405e647c84ba05
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_274
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 544
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 558f2fdb90efd6f469eda3c6f9ae90ba
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_275
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 560
+      y: 48
+      width: 16
+      height: 16
+    spriteID: af9138a8486923448b877d1d02c45c55
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_276
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 576
+      y: 48
+      width: 16
+      height: 16
+    spriteID: c60e42542e430584d9c289a561636383
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_277
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 592
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 9ae159c17837afe49b120b2973840eac
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_278
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 608
+      y: 48
+      width: 16
+      height: 16
+    spriteID: d43e4817a6c482e469fa23ed567921ee
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_279
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 624
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 60a01b795e7fe1143b718cd019abc9fd
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_280
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 640
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 77776ac80b0ee7a46a17b64e8a614f48
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_281
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 656
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 6bcea58effec5e348ba8594b3062b362
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_282
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 672
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 2b1bbfd1d29c97c40bff1804d8e78c91
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_283
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 688
+      y: 48
+      width: 16
+      height: 16
+    spriteID: fd477ef398a85ad469d4d4153d21c81c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_284
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 704
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 19e6801de20c6cf49a38dd8d033b46f8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_285
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 720
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 2fc6dc3e31999fd4c8edca38b7c3f5a3
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_286
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 736
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 16de154e3ec10ef4e98e97cafde5107c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_287
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 752
+      y: 48
+      width: 16
+      height: 16
+    spriteID: 109bd8a5db4f2304dbc7c4efb6f59f61
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_288
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 68e968b746f448641bc8de6c2cddf5d6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_289
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 1310537b4765f944aa67a77e97ad283e
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 8}
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_290
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 2896ca03389b140458872f3387a98dab
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_291
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 9758da29885903f469fd8bb664f40e53
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_292
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 5a17e6230df117740ab8dc9090a47596
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_293
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 32
+      width: 16
+      height: 16
+    spriteID: a6e6a81881d15e94297518f69f322dea
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 8}
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_294
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 89282dff8ce2887458b0739b7c70f404
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_295
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 32
+      width: 16
+      height: 16
+    spriteID: c5f3420c370b34046a0d459211ecd77e
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 8}
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_296
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 32
+      width: 16
+      height: 16
+    spriteID: e941bb576859ae14f9648f1af6a3ef5d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_297
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 7174013fdb1273e4489392fcc1e99030
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 8}
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_298
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 964996053ad645a41a23105ba2f3f31a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_299
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 32
+      width: 16
+      height: 16
+    spriteID: d95d622d6314d8746ae3f05c7bd0f3cb
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_300
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 24c57527eaa358d4d85c4994d72ae719
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 8}
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_301
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 4404aaa683495bf4ca6534ea49ddebe8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_302
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 3a134816aa9846441bc4fa308546d0de
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_303
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 22392600d95458146964aab5faad5e34
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 8}
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_304
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 38d325caab83c6944b3ea0ab2c1a918a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_305
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 15660c66c505ef340b70b843829353fe
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 8}
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_306
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 6ae27e532bfde5a40a169f12fb386449
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_307
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 955e0f2de212fb947b0dbab07a5fa002
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_308
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 32
+      width: 16
+      height: 16
+    spriteID: a488a9167a5405b43a1b3d13520e109b
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 8}
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_309
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 336
+      y: 32
+      width: 16
+      height: 16
+    spriteID: c40192ac590c6c04b91edafbf5dcb27d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_310
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 32
+      width: 16
+      height: 16
+    spriteID: fce85ff3e2984c2459717b005fa8a085
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 8}
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_311
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 368
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 123ca8c0a7ace77478025e28b80a83e6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_312
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 384
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 9b68ccd8a32876a45a92bcbd4c901da2
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 8}
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_313
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 400
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 2c14b5eb8275fbc43a698a9c9c03e81a
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_314
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 416
+      y: 32
+      width: 16
+      height: 16
+    spriteID: e6f375e7d06c35d4f8c1fada3e1df921
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_315
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 432
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 63e5f7043c83ed446858a6c6f0285fb9
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 8}
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_316
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 448
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 9f3619d1916756e43a45ef1db392fae8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_317
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 464
+      y: 32
+      width: 16
+      height: 16
+    spriteID: b6c3e9c542d7b894ab5b5c221b9c747c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_318
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 480
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 7313e730aa93dc94fa6ea88cba7aa9f3
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 8}
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_319
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 496
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 813cc1b364f8dc64fbd4525150ced9a9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_320
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 512
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 630a285568a7e5545964d8fa543cac21
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 8}
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_321
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 528
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 25bb0384a39642943ad0d98cf1804ecb
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_322
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 544
+      y: 32
+      width: 16
+      height: 16
+    spriteID: f86a1a4b42d5fb042b72dbf0c3899c14
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_323
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 560
+      y: 32
+      width: 16
+      height: 16
+    spriteID: d5af71c25f72be543afafb23ad459dfc
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_324
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 576
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 4becd1b45a41d8e47a2951029f5c5b6d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_325
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 592
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 13ee3fe9496abdb4d80b045df5ba26f9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_326
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 608
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 5c0ba04683d89ff4bb8b760b71907ed0
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_327
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 624
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 28c98d157e96a9146a80f35eac0b2a64
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_328
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 640
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 2355a7fcbacd5094295deb12459f908d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_329
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 656
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 060049cb06728d646ab61478f3f5ddf9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_330
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 672
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 427a35791a0dac74d97dabb666710e68
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_331
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 688
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 6e3bace3c3ec26e4fa38207a509107d6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_332
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 704
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 315f339be7aad8345a31e7b3927d6a1f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_333
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 720
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 680483b62bc882a4eabf66fc024533d8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_334
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 736
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 32499e9a430e40547914921b9cc042f6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_335
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 752
+      y: 32
+      width: 16
+      height: 16
+    spriteID: 12db09578eeeff346a5a4a5cc7fbaa68
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_336
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 16
+      width: 16
+      height: 16
+    spriteID: e4cff7e123b386941ad09815e94ca041
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_337
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 16
+      width: 16
+      height: 16
+    spriteID: a1b629a93dc42014280aa33e16b5b35b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_338
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 28744c8172ff0d84883f896487da4d78
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_339
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 16
+      width: 16
+      height: 16
+    spriteID: a88dc6dcb99eb084784226fe33dda511
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_340
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 463af2c1be9727b4b91f61b2a3731c04
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_341
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 9b72f484dfd3d6d41abd04dd0e41c85c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_342
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 2a2f2a37796edc64b8de8216b75be021
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_343
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 16
+      width: 16
+      height: 16
+    spriteID: d67c04eb17a136a4a878bba2fadd4aa3
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 6}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 6}
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_344
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 16
+      width: 16
+      height: 16
+    spriteID: bf5f7d3c79158bc4c9b86030811fd5a0
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_345
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 3f5ae067eaed5d847ab056cc3b42274b
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 8}
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_346
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 47e7b97c94ea1944386675c7b1e82289
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 8}
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_347
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 4e2ba77cbb0305745831ef04ef55fa08
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 8}
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_348
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 16
+      width: 16
+      height: 16
+    spriteID: ed1ba1345423d9e4fb864284d984ca24
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 8}
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_349
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 16
+      width: 16
+      height: 16
+    spriteID: e2064661bf0546d4caa312cd54da230e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_350
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 550699ad35ccad54f9f7007851977e47
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_351
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 16
+      width: 16
+      height: 16
+    spriteID: df6e28a0f1428554a8ee04ff9e9a2b2d
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 8}
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_352
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 16
+      width: 16
+      height: 16
+    spriteID: a540eefe7dfe050499b6d870f9b6b1a9
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 8}
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_353
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 9a9f0f2b2d618624e945823b27a65249
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 8}
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_354
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 24856c9b55cbd9047b67578f362483ab
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_355
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 359e2779ca783c44ebb428e145831764
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_356
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 16
+      width: 16
+      height: 16
+    spriteID: f53713ef6f8ce6b449889011518de981
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_357
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 336
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 07ad77eb5852b6f469cb5b1b7059de71
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_358
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 29d3f1bb3591f8f428c20f3d722f5550
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 6}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 6}
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_359
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 368
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 50fc6afd85a72764eba30c24a5bffa4e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_360
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 384
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 08a5ffab2e44f074ba114e8d7a8eb6e8
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 8}
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_361
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 400
+      y: 16
+      width: 16
+      height: 16
+    spriteID: c015a0d98ab187344af77b04766ec839
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 8}
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_362
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 416
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 90b72656faf99fe4b99452d8a114c7c3
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 8}
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_363
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 432
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 75d622da276f09a42a43ef8e69f6f546
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 8}
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_364
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 448
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 5bf76ab55510c4046917b4c0b942a9e8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_365
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 464
+      y: 16
+      width: 16
+      height: 16
+    spriteID: ce0bd5fc4be440142bf8427cf7b8c91c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_366
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 480
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 95c5d075847c14c478402816881ec849
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 8}
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_367
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 496
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 80932065645c3674a87986f6b71f0282
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 8}
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_368
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 512
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 2e783b1b5d5dfd045a740829ef89309c
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 8}
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_369
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 528
+      y: 16
+      width: 16
+      height: 16
+    spriteID: b5e0cce4493ef2b45aa7dcf571430851
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_370
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 544
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 606e14d07412e1648a96ea52078e6f6c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_371
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 560
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 5936d10645f1c5f45bb5941624ea1598
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_372
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 576
+      y: 16
+      width: 16
+      height: 16
+    spriteID: b4d1eba552e91fc488d2e5d60b5dd3d0
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_373
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 592
+      y: 16
+      width: 16
+      height: 16
+    spriteID: d959c3f654d557d46a90282e6e869571
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_374
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 608
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 9368ab327ec542e439a3668a4141f89c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_375
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 624
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 06f0b30d98d818d4fbdd9768fd7d286e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_376
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 640
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 9407da98edbc9cb47bf57b4dbca419ca
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_377
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 656
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 29929800be60d5944af94933700982bb
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_378
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 672
+      y: 16
+      width: 16
+      height: 16
+    spriteID: d78297d677df3b84a9c87ceedce3e873
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_379
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 688
+      y: 16
+      width: 16
+      height: 16
+    spriteID: 6780a1a7a6e67ad4599c7f382f49af20
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_380
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 704
+      y: 16
+      width: 16
+      height: 16
+    spriteID: e071b73f019443a46a09150a814baaad
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_381
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 720
+      y: 16
+      width: 16
+      height: 16
+    spriteID: ff44fb0676c35c8438c4b2bc59e13b42
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_382
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 736
+      y: 16
+      width: 16
+      height: 16
+    spriteID: a04ed1d851844544a9a161e661af8167
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_383
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 752
+      y: 16
+      width: 16
+      height: 16
+    spriteID: ea90a0824920c374581288419a7157e5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_384
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 1bb508958f394414bad323f366d3b9a4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_385
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 16
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 3aa3881a0a34b7d4b9e512b5c778d671
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_386
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 3a9b3c2c3e3b9bd438bac954e08b81a1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_387
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 48
+      y: 0
+      width: 16
+      height: 16
+    spriteID: d79306de5887e7e42a2e1f35d26a3702
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_388
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 64
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 3399fc22fa17be544906d8bd2ca8a2b6
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_389
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 80
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 9119a43669af8a34e8b1f75299a6b84d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_390
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 96
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 2f7cf7b4530c10e4dbde0501ea3a932c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_391
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 112
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 0a5c534427f446f4a9681d291d63ff8d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_392
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 128
+      y: 0
+      width: 16
+      height: 16
+    spriteID: e1ab3dd4cc6c9534484b3731e2bfda8e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_393
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 144
+      y: 0
+      width: 16
+      height: 16
+    spriteID: fe5bf7b0109f1134ea3e71917e089dde
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_394
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 160
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 6cdee2f6e07453e46ba2f6c2543a0003
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 8}
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_395
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 176
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 057906690ae43f44d8ef828dd0ad5d79
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_396
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 192
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 41a6f0f1cbfda4f46b08f17b61f219e4
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_397
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 208
+      y: 0
+      width: 16
+      height: 16
+    spriteID: f74b888d1ac2e5943963368d27881c9e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_398
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 224
+      y: 0
+      width: 16
+      height: 16
+    spriteID: aa76e54ac160511458a1595a76e20d72
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_399
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 240
+      y: 0
+      width: 16
+      height: 16
+    spriteID: f7538d23504a82d4ea7c14b09220464d
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_400
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 256
+      y: 0
+      width: 16
+      height: 16
+    spriteID: febb5b680f72f1f43a81cd95bad073fd
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_401
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 272
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 9e946f10c2b710f449ab7e43d4e11487
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_402
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 288
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 4eb2fd492f17c6c4196e47fb2061ad71
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_403
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 304
+      y: 0
+      width: 16
+      height: 16
+    spriteID: cdb82de1e08acb746a27eb7a9c934c9f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_404
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 320
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 711395c1b0689bc4c8cded1ecb9d1e17
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_405
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 336
+      y: 0
+      width: 16
+      height: 16
+    spriteID: dd1e89fa47742834bafcf751b7378a9e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_406
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 352
+      y: 0
+      width: 16
+      height: 16
+    spriteID: d75d7e54eacacdd47807d086c6746db9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_407
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 368
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 60d5ae4ea2379b8479de49197712cbd1
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_408
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 384
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 64d4cb0ddc4d66a42894e97017c7ae14
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_409
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 400
+      y: 0
+      width: 16
+      height: 16
+    spriteID: c5c1eda5a5ee62c4bb0fb5b2df22c5fa
+    spriteOutline:
+    - shape:
+      - {x: -8, y: 8}
+      - {x: -8, y: -8}
+      - {x: 8, y: -8}
+      - {x: 8, y: 8}
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_410
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 416
+      y: 0
+      width: 16
+      height: 16
+    spriteID: fa88947c6dbf51642baba853c1a6d312
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_411
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 432
+      y: 0
+      width: 16
+      height: 16
+    spriteID: ba5975431a438d04e98eb49a3a71e3d9
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_412
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 448
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 84ca7cf63a0278645bb45e6dfca1de66
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_413
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 464
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 47c68f80a40271a45a91ff67163d559b
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_414
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 480
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 010df78a0c88a5041ac20e1e3ee1eaf5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_415
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 496
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 550895b5afd7d8a459cc6ec45ae90c4e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_416
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 512
+      y: 0
+      width: 16
+      height: 16
+    spriteID: c877dbac1337644459460c45b112e4d2
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_417
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 528
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 1974b721875bc9c4d977e2825378adf8
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_418
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 544
+      y: 0
+      width: 16
+      height: 16
+    spriteID: e4f53352cae73ad49a81d340467c8204
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_419
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 560
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 8e1bf36191d54f0458a38d7b7a6c15a5
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_420
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 576
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 3a4f0202cf90be549bfe8b18e4a14329
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_421
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 592
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 3366a5590c0733443b21afa735a143da
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_422
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 608
+      y: 0
+      width: 16
+      height: 16
+    spriteID: e991f6c3f7931af4aba673e20973af7e
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_423
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 624
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 5f1e9c26210333346b2a632b504336b7
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_424
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 640
+      y: 0
+      width: 16
+      height: 16
+    spriteID: e4dec09e54d163344a77a14aa4e6d36c
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_425
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 656
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 2a28e9c20808e6a47a8100a3e9279d78
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_426
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 672
+      y: 0
+      width: 16
+      height: 16
+    spriteID: b0aebd82ff9dded41938c94a529dd4c0
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_427
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 688
+      y: 0
+      width: 16
+      height: 16
+    spriteID: a21439969ced5c54fac0da6ff64eaf6f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_428
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 704
+      y: 0
+      width: 16
+      height: 16
+    spriteID: da5eb512f1f4f0941acd644e5b986763
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_429
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 720
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 47b1fa74fe1f2904fac575ad981baf4f
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_430
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 736
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 819dcb2179240f5479257809d9ee8e15
+    spriteOutline: []
+    tessellationDetail: 0
+  - name: LimboLike_TileAtlas2_431
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 752
+      y: 0
+      width: 16
+      height: 16
+    spriteID: 8d0970c3cce4e5841a1cc45617d3227e
+    spriteOutline: []
+    tessellationDetail: 0
+  _secondaryTextures: []

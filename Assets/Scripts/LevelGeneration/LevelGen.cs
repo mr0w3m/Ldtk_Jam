@@ -100,7 +100,7 @@ public class LevelGen : MonoBehaviour
 
         //sidenote: i could add functionality here to determine how much i care for duplicate rolls, which rn will never happen thanks to the while
 
-        Debug.Log("Build Travel data");
+        //Debug.Log("Build Travel data");
         int pastTravel = -1;
         for (int i = 0; i <= _levelSizeY - 1; i++)
         {
@@ -117,7 +117,7 @@ public class LevelGen : MonoBehaviour
                 travel = Random.Range(1,3);
             }
             rowTravel.Add(travel);
-            Debug.Log(rowTravel[i]);
+            //Debug.Log(rowTravel[i]);
             pastTravel = travel;
         }
 
@@ -129,7 +129,7 @@ public class LevelGen : MonoBehaviour
         for (int y = 0; y < _levelSizeY; y++)
         {
             //bottom row
-            Debug.Log("Row: " + y + " | Row travel: " + rowTravel[y]);
+            //Debug.Log("Row: " + y + " | Row travel: " + rowTravel[y]);
 
             if (firstLayer)
             {
@@ -138,7 +138,7 @@ public class LevelGen : MonoBehaviour
             else
             {
                 //if not the first row we go up one
-                Debug.Log("Adding Upward");
+                //Debug.Log("Adding Upward");
                 lastRoomCoordinates += addUp;
             }
             ignoreTheRest = false;
@@ -146,26 +146,26 @@ public class LevelGen : MonoBehaviour
             if (lastRoomCoordinates.x == _levelSizeX - 1)
             {
 
-                Debug.Log("setting left");
+                //Debug.Log("setting left");
                 right = false;
             }
             else if (lastRoomCoordinates.x == 0)
             {
-                Debug.Log("setting right");
+                //Debug.Log("setting right");
                 right = true;
             }
-            Debug.Log(right == true ? "right" : "left");
+            //Debug.Log(right == true ? "right" : "left");
 
             //this one comes up from below
             _mainPathLevelGenData.Add(new LevelGenData(new Vector2Int(lastRoomCoordinates.x, lastRoomCoordinates.y), (y != 0), (rowTravel[y] > 0 ? true : false)));
-            Debug.Log("Added Coordinates: " + lastRoomCoordinates);
+            //Debug.Log("Added Coordinates: " + lastRoomCoordinates);
 
             for (int o = 0; o < rowTravel[y]; o++)
             {
                 //for each point of travel across we need to place the next room, if this is a 0 value then we don't do anything here
 
                 Vector2Int tempTestThis = (lastRoomCoordinates + (right ? addRight : addLeft));
-                Debug.Log("IsthisRoomGoingToBeInBounds? " + tempTestThis);
+                //Debug.Log("IsthisRoomGoingToBeInBounds? " + tempTestThis);
                 //is this room going to be in bounds?
 
                 //is the x negative? || is the x larger than the level size?
@@ -173,7 +173,7 @@ public class LevelGen : MonoBehaviour
                 {
                     //it's out of bounds if we go here, so we don't want to place this if that's the case.
                     ignoreTheRest = true;
-                    Debug.Log("IgnoreTheRest");
+                    //Debug.Log("IgnoreTheRest");
                 }
 
                 bool lastRoomInSequence = false;
@@ -182,9 +182,9 @@ public class LevelGen : MonoBehaviour
                 if (!ignoreTheRest)
                 {
                     lastRoomCoordinates += right ? addRight : addLeft;
-                    Debug.Log("PlacingThisRoom: " + lastRoomCoordinates);
+                    //Debug.Log("PlacingThisRoom: " + lastRoomCoordinates);
                     Vector2Int tempTestNext = (lastRoomCoordinates + (right ? addRight : addLeft));
-                    Debug.Log("NextCoordinateWillBe: " + tempTestNext);
+                    //Debug.Log("NextCoordinateWillBe: " + tempTestNext);
                     //check if it's the last in the sequence
 
                     bool nextWillBeIgnored = false;
@@ -193,18 +193,18 @@ public class LevelGen : MonoBehaviour
                     {
                         //it's out of bounds if we go here, so we don't want to place this if that's the case.
                         nextWillBeIgnored = true;
-                        Debug.Log("NextWillBeIgnored");
+                        //Debug.Log("NextWillBeIgnored");
                     }
 
                     if (o == rowTravel[y] - 1 || nextWillBeIgnored)
                     {
                         lastRoomInSequence = true;
-                        Debug.Log("LastRoomInSequenceTriggered");
+                        //Debug.Log("LastRoomInSequenceTriggered");
                     }
 
                     _mainPathLevelGenData.Add(new LevelGenData(new Vector2Int(lastRoomCoordinates.x, lastRoomCoordinates.y), false, !lastRoomInSequence));
-                    Debug.Log("lastRoomInSequence: " + lastRoomInSequence);
-                    Debug.Log("Added Coordinates: " + lastRoomCoordinates);
+                    //Debug.Log("lastRoomInSequence: " + lastRoomInSequence);
+                    //Debug.Log("Added Coordinates: " + lastRoomCoordinates);
 
                 }
 
@@ -212,19 +212,19 @@ public class LevelGen : MonoBehaviour
                 //if it's the last row, and the last room in the sequence
                 if (y == _levelSizeY - 1 && lastRoomInSequence)
                 {
-                    Debug.Log("generating final room");
+                    //Debug.Log("generating final room");
                     _endRoomCoordinate = lastRoomCoordinates;
                 }
             }
         }
 
 
-        Debug.Log("StartingCoordinates: " + _startingRoomCoordinate);
+        //Debug.Log("StartingCoordinates: " + _startingRoomCoordinate);
 
 
         foreach (LevelGenData data in _mainPathLevelGenData)
         {
-            Debug.Log(data.coordinate);
+            //Debug.Log(data.coordinate);
             SpawnRoom(data);
         }
 
@@ -254,7 +254,7 @@ public class LevelGen : MonoBehaviour
             {
                 if (x == -1 || x == _levelSizeX || y == -1 || y == _levelSizeY)
                 {
-                    Debug.Log("SpawnExterior: " + x + ", " + y);
+                    //Debug.Log("SpawnExterior: " + x + ", " + y);
                     SpawnRoom(_chunk_Exterior, x, y);
                 }
             }

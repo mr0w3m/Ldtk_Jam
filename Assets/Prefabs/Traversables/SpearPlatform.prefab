@@ -99,6 +99,7 @@ GameObject:
   - component: {fileID: 8835530332012222797}
   - component: {fileID: 3337781158897253494}
   - component: {fileID: 7844484690569300364}
+  - component: {fileID: 574708537509471177}
   m_Layer: 3
   m_Name: SpearPlatform
   m_TagString: Untagged
@@ -244,6 +245,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   debug: 0
   _bColl: {fileID: 8191061873090038327}
+  _boxColliderRotation: 0
   _cColl: {fileID: 0}
   colliding: 0
   _targetLayer:
@@ -262,6 +264,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _platformEffector: {fileID: 8835530332012222797}
+--- !u!114 &574708537509471177
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1946972340310542221}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63b3fc8cf3a5a664383855c4179bd378, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _platformToDisable: {fileID: 8191061873090038327}
 --- !u!1 &2546737893085579434
 GameObject:
   m_ObjectHideFlags: 0
@@ -273,7 +288,7 @@ GameObject:
   - component: {fileID: 8995877211080860852}
   - component: {fileID: 6084216031221877185}
   - component: {fileID: 6260881211481736125}
-  m_Layer: 7
+  m_Layer: 9
   m_Name: InteractCollider
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -106,6 +106,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -131,12 +144,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bear_Walk_01
+      name: SnakeWalk_01
       rect:
         serializedVersion: 2
-        x: 16
-        y: 984
-        width: 64
+        x: 32
+        y: 856
+        width: 32
         height: 32
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -145,7 +158,385 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 42c58c98025e25645adb64634b518eb8
+      spriteID: f21788ab0002aec41a76051cfb50af32
+      internalID: -137893167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnakeWalk_02
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 856
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f556967ed1a53f418402a546a2015ca
+      internalID: -864228772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnakeWalk_03
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 856
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01568f8c269348a4c9d02d58c7ae3426
+      internalID: 1959577570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnakeAttack_01
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 808
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b02301fbd7aeb441a274cce0957a302
+      internalID: -294221986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnakeAttack_02
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 808
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18cf680e8cc1b194794b641e0cb72c7b
+      internalID: 1038749918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnakeAttack_03
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 808
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab9507470df5e3c41b18d3d47b72eab6
+      internalID: 1707848760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnakeAttack_04
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 808
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10b2fcb70b8f182439ee0690c44b4832
+      internalID: 220160974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnakeAttack_05
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 808
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca8e4a8ce8240c24e95c4c2aa7d64679
+      internalID: -1538262402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnakeAttack_06
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 808
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34c2a2f99bb90b747ab046a6eb90a4e7
+      internalID: 1837078995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SnakeAttack_07
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 808
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5920b23e39a0c054fb58f76e93eed4a5
+      internalID: 1279433816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Idle_01
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 760
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73d514762a267524d8831beb5cd20706
+      internalID: -408835523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Idle_02
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 760
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 919de2fcdc93e9a47946711fe797b68f
+      internalID: 1695353869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Idle_03
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 760
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e002ffd24d98fc24d8f9f0e5014c4192
+      internalID: 324010139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Idle_04
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 760
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de0eed1e433a43a4a91a80e64fe8f722
+      internalID: -980859437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Idle_05
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 760
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19fcfc8e09c840548aa707b20cfa8c27
+      internalID: -1367333747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Idle_06
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 760
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee1256d117736114c82232fc633cfcdb
+      internalID: 940650621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Idle_07
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 760
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f54c224cf88dfb41af188c5688e86fb
+      internalID: -38167248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snake_Idle_08
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 760
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a0c11a680f03424ba1cc0dab1439158
+      internalID: -973793482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear_Walk_01
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 760
+        width: 48
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c165f5289a476de46b11c12127eb0010
       internalID: -263812615
       vertices: []
       indices: 
@@ -155,9 +546,9 @@ TextureImporter:
       name: Bear_Walk_02
       rect:
         serializedVersion: 2
-        x: 80
-        y: 984
-        width: 64
+        x: 384
+        y: 760
+        width: 48
         height: 32
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -166,7 +557,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5a787e694cb7e1642b886eb36b0ab5d4
+      spriteID: 4da3e4ce4b365d443a8b1f55ce03e609
       internalID: 1729494401
       vertices: []
       indices: 
@@ -176,9 +567,9 @@ TextureImporter:
       name: Bear_Walk_03
       rect:
         serializedVersion: 2
-        x: 144
-        y: 984
-        width: 64
+        x: 448
+        y: 760
+        width: 48
         height: 32
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -187,7 +578,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7c6d173fdb7e9de4cae6103f5666377e
+      spriteID: fba2b3e8fb7e1d642aa4d905292f41e5
       internalID: -1501167297
       vertices: []
       indices: 
@@ -197,9 +588,9 @@ TextureImporter:
       name: Bear_Walk_04
       rect:
         serializedVersion: 2
-        x: 208
-        y: 984
-        width: 63
+        x: 512
+        y: 760
+        width: 48
         height: 32
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -208,7 +599,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 594fb54761e9e3b4086b7508599b0c4d
+      spriteID: 7ac03a465e7f6174fb270a7e7816c3c2
       internalID: 434483082
       vertices: []
       indices: 
@@ -218,9 +609,9 @@ TextureImporter:
       name: Bear_Idle_01
       rect:
         serializedVersion: 2
-        x: 16
-        y: 936
-        width: 64
+        x: 320
+        y: 712
+        width: 48
         height: 32
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -229,7 +620,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 28a3af220d13bd544871f7a59891a021
+      spriteID: d766ddca934880141ab5ebfb8c582d6a
       internalID: 1505094151
       vertices: []
       indices: 
@@ -239,9 +630,9 @@ TextureImporter:
       name: Bear_Idle_02
       rect:
         serializedVersion: 2
-        x: 80
-        y: 936
-        width: 64
+        x: 384
+        y: 712
+        width: 48
         height: 32
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -250,7 +641,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: be5e91f2f85e64c45bed4e2c78addc66
+      spriteID: 104cf310279a69149bc13ac766e23e04
       internalID: -1841432106
       vertices: []
       indices: 
@@ -260,9 +651,9 @@ TextureImporter:
       name: Bear_Idle_03
       rect:
         serializedVersion: 2
-        x: 144
-        y: 936
-        width: 64
+        x: 448
+        y: 712
+        width: 48
         height: 32
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -271,7 +662,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1ea984477671674458c8d20740731111
+      spriteID: 2c66a0899208f9047b76b9b089080505
       internalID: 1969728351
       vertices: []
       indices: 
@@ -281,9 +672,9 @@ TextureImporter:
       name: Bear_Idle_04
       rect:
         serializedVersion: 2
-        x: 208
-        y: 936
-        width: 63
+        x: 512
+        y: 712
+        width: 48
         height: 32
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -292,8 +683,113 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c43848bf08d52d5439ea5070985fe3f4
+      spriteID: 1f2ddc1ff0d4c75448438caa87ff32d0
       internalID: -3397830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear_Attack_01
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 648
+        width: 48
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49b2fd9b60e4cd849aec4e53dd52f0aa
+      internalID: 1801036793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear_Attack_02
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 648
+        width: 48
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b4e31bf6995f2940946c64222dc6466
+      internalID: -326996840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear_Attack_03
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 648
+        width: 48
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d7558d79b212ed4ab17b4f45c16bf24
+      internalID: 1240404180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear_Attack_04
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 648
+        width: 48
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e756937cb41a7a34eaceadf0ead15802
+      internalID: 487386626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bear_Attack_05
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 648
+        width: 48
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2c6c5f369213dc40b3b80a68887f933
+      internalID: 1507203627
       vertices: []
       indices: 
       edges: []
@@ -309,6 +805,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      Bear_Attack_01: 1801036793
+      Bear_Attack_02: -326996840
+      Bear_Attack_03: 1240404180
+      Bear_Attack_04: 487386626
+      Bear_Attack_05: 1507203627
       Bear_Idle_01: 1505094151
       Bear_Idle_02: -1841432106
       Bear_Idle_03: 1969728351
@@ -318,7 +819,24 @@ TextureImporter:
       Bear_Walk_02: 1729494401
       Bear_Walk_03: -1501167297
       Bear_Walk_04: 434483082
-      EnemyAtlas_01_1: -1205884824
+      SnakeAttack_01: -294221986
+      SnakeAttack_02: 1038749918
+      SnakeAttack_03: 1707848760
+      SnakeAttack_04: 220160974
+      SnakeAttack_05: -1538262402
+      SnakeAttack_06: 1837078995
+      SnakeAttack_07: 1279433816
+      SnakeWalk_01: -137893167
+      SnakeWalk_02: -1205884824
+      SnakeWalk_03: 1959577570
+      Snake_Idle_01: -408835523
+      Snake_Idle_02: 1695353869
+      Snake_Idle_03: 324010139
+      Snake_Idle_04: -980859437
+      Snake_Idle_05: -1367333747
+      Snake_Idle_06: 940650621
+      Snake_Idle_07: -38167248
+      Snake_Idle_08: -973793482
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

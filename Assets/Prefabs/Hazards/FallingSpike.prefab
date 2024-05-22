@@ -92,6 +92,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   debug: 0
   _bColl: {fileID: 967737063667408005}
+  _boxColliderRotation: 0
   _cColl: {fileID: 0}
   colliding: 0
   _targetLayer:
@@ -107,7 +108,7 @@ GameObject:
   m_Component:
   - component: {fileID: 264435997263107515}
   - component: {fileID: 7199797863527504996}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -193,7 +194,8 @@ GameObject:
   - component: {fileID: 4702584331655422011}
   - component: {fileID: 5061914798366156201}
   - component: {fileID: 2898441188252100964}
-  m_Layer: 7
+  - component: {fileID: 5684773011205485648}
+  m_Layer: 8
   m_Name: FallingSpike
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -243,7 +245,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 1
+  m_Constraints: 0
 --- !u!61 &5061914798366156201
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -273,7 +275,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: -0.50090635}
@@ -301,6 +303,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 83b53ce7dea8fb04ba7775e9f61e0826, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _hp: {fileID: 5684773011205485648}
+  _breakFx: {fileID: 136840696940486670, guid: 79808faf34434e249a402b7b3a9a92ec, type: 3}
   _rb2d: {fileID: 4702584331655422011}
   _fallHitBoxCheck: {fileID: 9017845295711649715}
   _spikeCollider: {fileID: 5061914798366156201}
@@ -308,3 +312,25 @@ MonoBehaviour:
   _spikeHitLayer:
     serializedVersion: 2
     m_Bits: 72
+  _destroyTime: 2
+  _fallClip: {fileID: 8300000, guid: c5b2c4476b6f72d498560840d8a9d006, type: 3}
+  _hitGroundClip: {fileID: 8300000, guid: 58ce4a67edc64684d9d31d4d9914970f, type: 3}
+  _debug: 0
+--- !u!114 &5684773011205485648
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6831845223999205818}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c69adf3b03eefad4690c68a79fb8192c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _invulTime: 0.1
+  _maxHP: 1
+  _sprite: {fileID: 7199797863527504996}
+  _litMaterial: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  _flashMaterial: {fileID: 2100000, guid: dac6958524918be4a9d0098617e82988, type: 2}
+  _deadClip: {fileID: 8300000, guid: 3d06e076b648f984b8f2a98415a5d5fd, type: 3}

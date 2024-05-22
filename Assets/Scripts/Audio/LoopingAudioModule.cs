@@ -12,6 +12,7 @@ public class LoopingAudioModule : MonoBehaviour
 
     public string id;
 
+    private IEnumerator _waitRoutine;
 
     public void Init(AudioClip clip, AudioController ac, float timeBetweenLoop, bool randomizePitch, string id, float volume)
     {
@@ -26,6 +27,10 @@ public class LoopingAudioModule : MonoBehaviour
 
     public void TerminateModule()
     {
+        if (_waitRoutine != null)
+        {
+            StopCoroutine(_waitRoutine);
+        }
         Destroy(this.gameObject);
     }
 
@@ -43,6 +48,7 @@ public class LoopingAudioModule : MonoBehaviour
     {
         float pitch = _random ? Random.Range(0.9f, 1.05f) : 1f;
         _audioController.PlayClip(_clip, pitch, _volume);
-        StartCoroutine(Util.WaitAndCallRoutine(_waitTime, Loop));
+        _waitRoutine = Util.WaitAndCallRoutine(_waitTime, Loop);
+        StartCoroutine(_waitRoutine);
     }
 }

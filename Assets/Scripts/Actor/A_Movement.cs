@@ -10,10 +10,17 @@ public class A_Movement : MonoBehaviour
     [SerializeField] private Rigidbody2D _rb2d;
     [SerializeField] private float _moveSpeed;
     [SerializeField] private float _groundedDrag;
+    [SerializeField] private LayerMask _groundLayer;
+    [SerializeField] private AudioClip _landClip;
 
     private Direction _direction;
 
     private bool _movementDisabled = false;
+    private bool _disableDrag = false;
+    public bool disableDrag
+    {
+        set { _disableDrag = value; }
+    }
 
     private bool _checkPause = false;
     private Vector2 _cachedVelocity;
@@ -63,11 +70,30 @@ public class A_Movement : MonoBehaviour
     private void Start()
     {
         _collision.ReturnedToGround += CancelVelocity;
+        Actor.i.input.ADown += CheckForPlatformBelow;
     }
 
     private void CancelVelocity()
     {
         _rb2d.velocity = Vector2.zero;
+        AudioController.control.PlayClip(_landClip, UnityEngine.Random.Range(0.5f, 1), 0.1666f);
+    }
+
+    private void CheckForPlatformBelow()
+    {
+        //if a is pressed while holding down, and there's a platform below, turn off the platformbelow\
+        if (Actor.i.input.LSY < -0.9f)
+        {
+            RaycastHit2D hitInfo = Physics2D.Linecast(transform.position, (Vector2)transform.position + Vector2.down, _groundLayer);
+            if (hitInfo.collider != null)
+            {
+                StepThroughPlatform stepThrough = hitInfo.collider.GetComponent<StepThroughPlatform>();
+                if (stepThrough != null)
+                {
+                    stepThrough.StepThrough();
+                }
+            }
+        }
     }
 
     private void Update()
@@ -98,9 +124,14 @@ public class A_Movement : MonoBehaviour
 
     private void FixedUpdate()
     {
+        if (_movementDisabled)
+        {
+            return;
+        }
+
         MoveLeftRight(Actor.i.input.LSX);
 
-        if (_collision.Grounded && Mathf.Abs(Actor.i.input.LSX) <= 0.1f && !_jump.jumping)
+        if (_collision.Grounded && Mathf.Abs(Actor.i.input.LSX) <= 0.1f && !_jump.jumping && !_disableDrag)
         {
             _rb2d.velocity *= _groundedDrag;
         }
@@ -119,7 +150,7 @@ public class A_Movement : MonoBehaviour
         }
     }
 
-    public void MoveDirection(Vector2 vector)
+    public void MoveUp(Vector2 vector)
     {
         if (_movementDisabled)
         {
@@ -127,6 +158,13 @@ public class A_Movement : MonoBehaviour
         }
         _rb2d.velocity = new Vector2(_rb2d.velocity.x, vector.y);
     }
+
+    //public void MoveInDirection(Vector2 direction)
+    //{
+    //    Debug.Log("MovingPlayer");
+    //    _rb2d.velocity = new Vector2(_rb2d.velocity.x + direction.x, _rb2d.velocity.y + direction.y);
+    //}
+
 
     public void SetPosition(Vector2 pos)
     {

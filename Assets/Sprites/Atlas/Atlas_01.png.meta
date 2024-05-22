@@ -320,15 +320,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blocker_BreakablePlatform_01
+      name: Resource_Vines
       rect:
         serializedVersion: 2
         x: 96
         y: 80
-        width: 48
-        height: 16
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 16
+        height: 32
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -887,13 +887,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Rock
+      name: Hunger_Icon
       rect:
         serializedVersion: 2
-        x: 169
-        y: 69
-        width: 19
-        height: 15
+        x: 176
+        y: 64
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1210,7 +1210,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1231,7 +1231,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1239,6 +1239,195 @@ TextureImporter:
       bones: []
       spriteID: 890656557bd599643b098bfc7a28ebb9
       internalID: 2142197655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deamon_03
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 112
+        width: 19
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b11cf64c408b2fc47b2508e7314eff24
+      internalID: -281839333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deamon_01
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 112
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abc85deba256ba844a5b7780109cd0c0
+      internalID: 440198189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deamon_02
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 112
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3ec59994bcd9b14fa7d4fac9c1a83f4
+      internalID: -1949603512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Campfire
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 112
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80737f17e4f8dc148ae83ca463335b25
+      internalID: -1728590920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PlayerFlash
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 49
+        width: 10
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7af60849985a741429136399bcd20446
+      internalID: -1303037773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Bar_Frame
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 53
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 3, y: 3, z: 3, w: 3}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13feede2446c8de4eb92aae90e86f8ce
+      internalID: 1749530879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Bar_Backfill
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 54
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e3d5e97b3927b544b461e7c1f459223
+      internalID: 691436947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Bar_Slider
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 54
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efc337f7bc0a1ac41898359d394f6d76
+      internalID: 899290683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI_Bar_Slider_End
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 54
+        width: 1
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43e1662db32182f478880ebbbf30b8cd
+      internalID: -176743681
       vertices: []
       indices: 
       edges: []
@@ -1275,23 +1464,28 @@ TextureImporter:
       Bat_Wait_1: 1612580614
       BigStick: -1074447421
       BlankSprite: -1660855123
-      Blocker_BreakablePlatform_01: -819086535
+      Campfire: -1728590920
       Crafting_Product: -1569819015
       Crafting_Ready: -1940337035
       Crafting_Slot: -1176683471
       Crafting_Unready: -638189262
+      Deamon_01: 440198189
+      Deamon_02: -1949603512
+      Deamon_03: -281839333
       Emerge_Title: 1477823987
       ExitOfCave: 534872981
       FallingSpike: 1454479847
       Heart_Empty: 2142197655
       Heart_Full: -1310383007
+      Hunger_Icon: 1992008131
       MonsterEye: -1709638619
       MonsterSprite: 142223211
       Mushrooms: -1043163848
       Physics_Rock: 1930387997
+      PlayerFlash: -1335521350
       Player_Dead: -692476820
       PointyRocks: -2031079264
-      Rock: 1992008131
+      Resource_Vines: -819086535
       RockTrap_Static: 1986547447
       Rocks: 1118751564
       Rope: 1720811985
@@ -1311,6 +1505,10 @@ TextureImporter:
       ThrowingIndicator: -7293886
       Torch: 390807882
       UISlice: -819983087
+      UI_Bar_Backfill: 691436947
+      UI_Bar_Frame: 1749530879
+      UI_Bar_Slider: 899290683
+      UI_Bar_Slider_End: -176743681
       UI_Plus: 323579915
       UI_Selector: -1472291706
       UI_Slot: 560405212

@@ -5,11 +5,47 @@ using UnityEngine;
 public class Thrown_Spear : ThrowableObject
 {
     [SerializeField] private SpearPlatform _spearPlatform;
-    [SerializeField] private Collider2D _collider;
+    [SerializeField] private LayerMask _groundLayer;
+    [SerializeField] private Transform _startLinecastPos; 
+    [SerializeField] private Transform _endLinecastPos;
+    [SerializeField] private AudioClip _hitAudioClip;
     private bool _collided = false;
 
     public float angleOffset;
 
+    private void Update()
+    {
+        if (_collided)
+        {
+            return;
+        }
+        RaycastHit2D hitInfo = Physics2D.Linecast(_startLinecastPos.position, ((Vector2)_endLinecastPos.position), _groundLayer);
+        if (hitInfo.collider != null)
+        {
+            _collided = true;
+            SpearPlatform spawnedSpear = Instantiate(_spearPlatform, hitInfo.point, Quaternion.identity);
+            Vector3 _direction = new Vector3(-hitInfo.normal.x, -hitInfo.normal.y, 0);
+            Debug.Log("Normal of hit surface: " + hitInfo.normal.ToString());
+
+            if (hitInfo.normal.x < 0)
+            {
+                spawnedSpear.FlipPlatformDirection();
+            }
+
+            _direction = _direction.normalized;
+            float angleDir = Mathf.Atan2(_direction.y, _direction.x) * Mathf.Rad2Deg;
+            angleDir += angleOffset;
+
+            spawnedSpear.transform.eulerAngles = new Vector3(spawnedSpear.transform.eulerAngles.x, spawnedSpear.transform.eulerAngles.y, angleDir);
+
+            AudioController.control.PlayClip(_hitAudioClip, Random.Range(0.5f, 1));
+
+
+            Destroy(this.gameObject);
+        }
+    }
+    
+    /*
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (!_collided)
@@ -34,4 +70,5 @@ public class Thrown_Spear : ThrowableObject
             Destroy(this.gameObject);
         }
     }
+    */
 }
