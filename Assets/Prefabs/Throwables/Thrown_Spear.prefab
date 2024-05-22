@@ -108,15 +108,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7708427092386049630, guid: 7b5009e6b4ca07e499e11b5ebb045768, type: 3}
       propertyPath: m_Size.x
-      value: 0.6
+      value: 1.3680185
       objectReference: {fileID: 0}
     - target: {fileID: 7708427092386049630, guid: 7b5009e6b4ca07e499e11b5ebb045768, type: 3}
       propertyPath: m_Size.y
-      value: 0.6
+      value: 0.541826
       objectReference: {fileID: 0}
     - target: {fileID: 7708427092386049630, guid: 7b5009e6b4ca07e499e11b5ebb045768, type: 3}
       propertyPath: m_Offset.x
-      value: 0.4
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7708427092386049630, guid: 7b5009e6b4ca07e499e11b5ebb045768, type: 3}
       propertyPath: m_Offset.y
@@ -228,7 +228,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _rb: {fileID: 1089224319329656679}
-  throwForce: 10
+  throwForce: 11
   _rotateInDirection: 1
   _spearPlatform: {fileID: 7844484690569300364, guid: 4b49b6bf3bf8b174aabcaa8e8bea27b8, type: 3}
   _groundLayer:

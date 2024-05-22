@@ -312,7 +312,7 @@ MonoBehaviour:
   _spikeHitLayer:
     serializedVersion: 2
     m_Bits: 72
-  _destroyTime: 2
+  _destroyTime: 1
   _fallClip: {fileID: 8300000, guid: c5b2c4476b6f72d498560840d8a9d006, type: 3}
   _hitGroundClip: {fileID: 8300000, guid: 58ce4a67edc64684d9d31d4d9914970f, type: 3}
   _debug: 0

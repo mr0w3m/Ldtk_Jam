@@ -136,5 +136,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _rb: {fileID: 1089224319329656679}
-  throwForce: 8
+  throwForce: 10
   _rotateInDirection: 1

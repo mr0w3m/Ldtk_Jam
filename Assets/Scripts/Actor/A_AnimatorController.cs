@@ -13,6 +13,7 @@ public class A_AnimatorController : MonoBehaviour
     [SerializeField] private int _throwingInt;
     [SerializeField] private int _sleepInt;
     [SerializeField] private int _deadInt;
+    [SerializeField] private int _clamberingInt;
 
     void Update()
     {
@@ -23,6 +24,10 @@ public class A_AnimatorController : MonoBehaviour
         else if (Actor.i.sleeping)
         {
             SetStateInt(_sleepInt);
+        }
+        else if (Actor.i.movement.clambering)
+        {
+            SetStateInt(_clamberingInt);
         }
         else if (Actor.i.crafting.crafting)
         {

@@ -5,6 +5,12 @@ using UnityEngine;
 public class StepThroughPlatform : MonoBehaviour
 {
     [SerializeField] private Collider2D _platformToDisable;
+    [SerializeField] private float _clamberOffset;
+
+    public float clamberOffset
+    {
+        get { return _clamberOffset; }
+    }
 
     private float _timer;
     private float _timeToReenable = 1;

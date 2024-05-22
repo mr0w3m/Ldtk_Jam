@@ -5953,6 +5953,7 @@ MonoBehaviour:
   _throwingInt: 2
   _sleepInt: 5
   _deadInt: 6
+  _clamberingInt: 7
 --- !u!1 &5567406355911117072
 GameObject:
   m_ObjectHideFlags: 0
@@ -6006,6 +6007,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 8
   _landClip: {fileID: 8300000, guid: 58ce4a67edc64684d9d31d4d9914970f, type: 3}
+  _clamberTime: 0.5
   _moveState: 0
 --- !u!1 &5735789610189712412
 GameObject:

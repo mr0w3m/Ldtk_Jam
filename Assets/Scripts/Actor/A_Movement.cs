@@ -12,6 +12,9 @@ public class A_Movement : MonoBehaviour
     [SerializeField] private float _groundedDrag;
     [SerializeField] private LayerMask _groundLayer;
     [SerializeField] private AudioClip _landClip;
+    [SerializeField] private float _clamberTime;
+
+    private float _clamberTimer;
 
     private Direction _direction;
 
@@ -51,6 +54,11 @@ public class A_Movement : MonoBehaviour
             _rb2d.velocity = (value == true && _collision.Grounded) ? Vector2.zero : _rb2d.velocity;
         }
     }
+    private bool _clambering;
+    public bool clambering
+    {
+        get { return _clambering; }
+    }
 
     public Rigidbody2D Rb2D
     {
@@ -81,6 +89,10 @@ public class A_Movement : MonoBehaviour
 
     private void CheckForPlatformBelow()
     {
+        if (_clambering)
+        {
+            return;
+        }
         //if a is pressed while holding down, and there's a platform below, turn off the platformbelow\
         if (Actor.i.input.LSY < -0.9f)
         {
@@ -119,6 +131,21 @@ public class A_Movement : MonoBehaviour
             }
         }
         SetMoveState(Actor.i.input.LSX);
+
+        if (_clamberTimer > 0)
+        {
+            _clamberTimer -= Time.deltaTime;
+        }
+        else
+        {
+            if (_clambering)
+            {
+                _clambering = false;
+                Debug.Log("Finishclamber");
+                //finish clamber
+                _movementDisabled = false;
+            }
+        }
     }
 
 
@@ -134,6 +161,34 @@ public class A_Movement : MonoBehaviour
         if (_collision.Grounded && Mathf.Abs(Actor.i.input.LSX) <= 0.1f && !_jump.jumping && !_disableDrag)
         {
             _rb2d.velocity *= _groundedDrag;
+        }
+
+        if (!_collision.Grounded && !_clambering)
+        { 
+            CheckForClamber();
+        }
+    }
+
+    private void Clamber(Vector2 position)
+    {
+        Debug.Log("StartClamber");
+        //if we detect a stepthroughplatform,
+        _clambering = true;
+        _clamberTimer = _clamberTime;
+        SetPosition(position);
+        _movementDisabled = true;
+    }
+
+    private void CheckForClamber()
+    {
+        RaycastHit2D hitInfo = Physics2D.Linecast(transform.position, (Vector2)transform.position + Vector2.up, _groundLayer);
+        if (hitInfo.collider != null)
+        {
+            StepThroughPlatform stepThrough = hitInfo.collider.GetComponent<StepThroughPlatform>();
+            if (stepThrough != null)
+            {
+                Clamber(hitInfo.point + (Vector2.up * stepThrough.clamberOffset));
+            }
         }
     }
 
@@ -170,6 +225,7 @@ public class A_Movement : MonoBehaviour
     {
         _rb2d.isKinematic = true;
         _movementDisabled = true;
+        _rb2d.velocity = Vector2.zero;
 
         _rb2d.position = pos;
 

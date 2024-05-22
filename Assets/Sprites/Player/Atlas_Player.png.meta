@@ -353,6 +353,48 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Player_Clamber_01
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 96
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2964eaa3d8ebf04eba5e2b73a7f35ae
+      internalID: 709254101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Player_Clamber_02
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 96
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b0ce50347b085543a886e483956f80c
+      internalID: -1616105017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -365,6 +407,8 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       PlayerWalk_1: -1727992063
+      Player_Clamber_01: 709254101
+      Player_Clamber_02: -1616105017
       Player_Craft: 1062865656
       Player_Dead: -1458266062
       Player_Idle: -281037582
