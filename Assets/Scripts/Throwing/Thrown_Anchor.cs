@@ -16,11 +16,12 @@ public class Thrown_Anchor : ThrowableObject
     [SerializeField] private GameObject _spriteObj;
     [SerializeField] private GameObject _enemyDamager;
 
-
+    private Direction _cachedDirectionLastThrow;
 
     public override void Throw()
     {
         base.Throw();
+        _cachedDirectionLastThrow = Actor.i.movement.Direction;
         _startPosObj.transform.SetParent(null);
         _endPosObj.transform.SetParent(null);
         _edgeColl.transform.SetParent(null);
@@ -63,7 +64,7 @@ public class Thrown_Anchor : ThrowableObject
 
         float oa = Mathf.Abs(_startPosObj.transform.localPosition.y) / Mathf.Abs(_startPosObj.transform.localPosition.x);
         float angle = Mathf.Rad2Deg * Mathf.Atan(oa);
-        _platformEffector.rotationalOffset = angle * (Actor.i.movement.Direction == Direction.right ? 1 : -1);
+        _platformEffector.rotationalOffset = (angle * (_cachedDirectionLastThrow == Direction.right ? 1 : -1));
     }
 
     private void RerenderLine()

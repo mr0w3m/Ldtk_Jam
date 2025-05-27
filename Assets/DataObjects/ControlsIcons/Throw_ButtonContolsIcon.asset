@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d398f918b306321489952e725f603db0, type: 3}
+  m_Name: Throw_ButtonContolsIcon
+  m_EditorClassIdentifier: 
+  controllerSprite: {fileID: 21300000, guid: 8e4c9c7b64aae984bb5f258efd371677, type: 3}
+  pcSprite: {fileID: 21300000, guid: 3fbe22dcb0f1b9d48bc2e4ec4859ac3e, type: 3}

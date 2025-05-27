@@ -68,6 +68,10 @@ public class A_Input : MonoBehaviour
     /// </summary>
     public event Action LSPressedUp;
 
+    public bool MouseMode = true;
+
+    private bool _disableLS = false;
+
     public float LSX
     {
         get { return _lsX; }
@@ -249,6 +253,52 @@ public class A_Input : MonoBehaviour
         _rePlayer = ReInput.players.GetPlayer(0);
     }
 
+    private void Update()
+    {
+        if (MouseMode)
+        {
+            //check for controller
+            ControllerCheck();
+        }
+        else
+        {
+            //check for mouse
+            MouseCheck();
+        }
+
+        if (Actor.i != null)
+        {
+            if (MouseMode && Actor.i.throwing.throwing)
+            {
+                _disableLS = true;
+            }
+            else
+            {
+                _disableLS = false;
+            }
+        }
+    }
+
+    private void ControllerCheck()
+    {
+        if (_rePlayer == null)
+        {
+            return;
+        }
+        if (_rePlayer.controllers.GetLastActiveController().type == ControllerType.Joystick)
+        {
+            MouseMode = false;
+        }
+    }
+
+    private void MouseCheck()
+    {
+        if (Mathf.Abs(Input.GetAxisRaw("Mouse X")) > 0.001f || Mathf.Abs(Input.GetAxisRaw("Mouse Y")) > 0.001f)
+        {
+            MouseMode = true;
+        }
+    }
+
     private IEnumerator InputLoop()
     {
         while (true)
@@ -290,8 +340,11 @@ public class A_Input : MonoBehaviour
 
     private void ReadSticks()
     {
-        _lsX = _rePlayer.GetAxisRaw("LSX");
-        _lsY = _rePlayer.GetAxisRaw("LSY");
+        if (!_disableLS)
+        {
+            _lsX = _rePlayer.GetAxisRaw("LSX");
+            _lsY = _rePlayer.GetAxisRaw("LSY");
+        }
         _rsX = _rePlayer.GetAxisRaw("RSX");
         _rsY = _rePlayer.GetAxisRaw("RSY");
 

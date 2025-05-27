@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6445177415605003080}
   - component: {fileID: 5416517129501985517}
-  m_Layer: 3
+  m_Layer: 0
   m_Name: ExtraCollider_ForRotatedSquare
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -283,3 +283,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _rb: {fileID: 1089224319329656679}
   throwForce: 6.666
+  _rotateInDirection: 1

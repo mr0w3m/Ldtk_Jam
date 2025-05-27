@@ -39,9 +39,13 @@ public class A_Upgrade : MonoBehaviour
     public void OpenUI()
     {
         _upgradeSlotsParent.SetActive(true);
-        _upgradeSlots[0].Select(true);
         Actor.i.input.ADown += SelectUpgrade;
         Actor.i.inventoryUI.SetUIHideState(true);
+
+        ClearInventorySelection();
+        _selectedInt = 1;
+        _upgradeSlots[_selectedInt].Select(true);
+        AudioController.control.PlayClip(_changeSelectionClip);
     }
 
     public void CloseUI()

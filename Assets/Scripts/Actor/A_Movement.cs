@@ -130,7 +130,14 @@ public class A_Movement : MonoBehaviour
                 _rb2d.velocity = _cachedVelocity;
             }
         }
-        SetMoveState(Actor.i.input.LSX);
+        if (!Actor.i.paused || !(Actor.i.input.MouseMode && Actor.i.throwing.throwing))
+        {
+            SetMoveState(Actor.i.input.LSX);
+        }
+        else
+        {
+            Debug.Log("ReturningSetMoveState");
+        }
 
         if (_clamberTimer > 0)
         {
@@ -141,7 +148,6 @@ public class A_Movement : MonoBehaviour
             if (_clambering)
             {
                 _clambering = false;
-                Debug.Log("Finishclamber");
                 //finish clamber
                 _movementDisabled = false;
             }
@@ -164,7 +170,7 @@ public class A_Movement : MonoBehaviour
         }
 
         if (!_collision.Grounded && !_clambering)
-        { 
+        {
             CheckForClamber();
         }
     }
@@ -194,8 +200,9 @@ public class A_Movement : MonoBehaviour
 
     private void MoveLeftRight(float input)
     {
-        if (_movementDisabled || Actor.i.paused)
+        if (_movementDisabled || Actor.i.paused || (Actor.i.input.MouseMode && Actor.i.throwing.throwing))
         {
+            //Debug.Log("ReturningMoveLeftRight");
             return;
         }
         if (Mathf.Abs(Actor.i.input.LSX) > 0.1f)

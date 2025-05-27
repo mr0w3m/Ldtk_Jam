@@ -129,7 +129,6 @@ public class Enemy_Bat : MonoBehaviour
     private void Wake()
     {
         //start moving
-        Debug.Log("Wake");
         _awakenBatHitBoxCheck.gameObject.SetActive(false);
         _sleepParticlesObj.SetActive(false);
         _awake = true;

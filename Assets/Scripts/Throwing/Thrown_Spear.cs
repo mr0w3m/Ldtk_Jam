@@ -13,12 +13,19 @@ public class Thrown_Spear : ThrowableObject
 
     public float angleOffset;
 
+
+    public float _castRadius;
+    public float _castDistance;
+
+
     private void Update()
     {
         if (_collided)
         {
             return;
         }
+        Vector2 castDirection = ((Vector2)_startLinecastPos.position - (Vector2)_endLinecastPos.position);
+        RaycastHit2D otherHitInfo = Physics2D.CircleCast(_startLinecastPos.position, _castRadius, castDirection.normalized, _castDistance, _groundLayer);
         RaycastHit2D hitInfo = Physics2D.Linecast(_startLinecastPos.position, ((Vector2)_endLinecastPos.position), _groundLayer);
         if (hitInfo.collider != null)
         {

@@ -6,13 +6,16 @@ public class UpgradeSlot : MonoBehaviour
 {
     [SerializeField] private GameObject _highlight;
 
+    private bool _selectedState = false;
+
     public void Start()
     {
-        _highlight.SetActive(false);
+        _highlight.SetActive(_selectedState);
     }
 
     public void Select(bool state)
     {
-        _highlight.SetActive(state);
+        _selectedState = state;
+        _highlight.SetActive(_selectedState);
     }
 }

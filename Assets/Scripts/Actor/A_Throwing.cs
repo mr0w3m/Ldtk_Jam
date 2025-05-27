@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Rewired;
 using static UnityEngine.GraphicsBuffer;
 
 public class A_Throwing : MonoBehaviour
@@ -52,8 +53,14 @@ public class A_Throwing : MonoBehaviour
     {
         if (_throwing)
         {
-
-            _throwDirection = new Vector3(_input.LSX, _input.LSY, 0);
+            if (_input.MouseMode)
+            {
+                _throwDirection = new Vector3(Util.MapValue(Input.mousePosition.x, 0, Screen.width, -1, 1), Util.MapValue(Input.mousePosition.y, 0, Screen.height, -1, 1));
+            }
+            else
+            {
+                _throwDirection = new Vector3(_input.LSX, _input.LSY, 0);
+            }
 
 
             _throwDirection = _throwDirection.normalized;

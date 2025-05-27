@@ -46,7 +46,6 @@ public class AudioController : MonoBehaviour
 
     private AudioSource AddNewSource()
     {
-        Debug.Log("AddNewSource");
         AudioSource tempSource = Instantiate(_sourceModule, _audioSourceHolder.transform) as AudioSource;
         _audioSources.Add(tempSource);
         return tempSource;
@@ -57,7 +56,6 @@ public class AudioController : MonoBehaviour
         LoopingAudioModule tempModule = Instantiate(_loopingAudioPrefab, _loopingModuleHolder.transform) as LoopingAudioModule;
         tempModule.Init(clip, this, waitTimeBetween, randomizePitch, id, volume);
         _loopingAudios.Add(tempModule);
-        Debug.Log("PLAYLOOPINGAUDIO");
     }
 
     public void StopLoopingAudio(string id)
