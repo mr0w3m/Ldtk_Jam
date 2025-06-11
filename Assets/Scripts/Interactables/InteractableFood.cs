@@ -9,6 +9,10 @@ public class InteractableFood : MonoBehaviour, InteractableObj
 
     [SerializeField] private AudioClip _eatClip;
 
+    [SerializeField] private SpriteRenderer _sr;
+    [SerializeField] private Material _highlightMat;
+    [SerializeField] private Material _normalMat;
+
 
     public void Interact()
     {
@@ -18,5 +22,13 @@ public class InteractableFood : MonoBehaviour, InteractableObj
         AudioController.control.PlayClip(_eatClip);
 
         Destroy(this.gameObject);
+    }
+
+    public void Highlight(bool state)
+    {
+        if (_sr != null)
+        {
+            _sr.material = state ? _highlightMat : _normalMat;
+        }
     }
 }

@@ -4935,6 +4935,9 @@ MonoBehaviour:
   hungerHealed: 33
   hpHealed: 1
   _eatClip: {fileID: 8300000, guid: f389eeb9354b7864fbf75f99a969c6b9, type: 3}
+  _sr: {fileID: 472832904208661942}
+  _highlightMat: {fileID: 2100000, guid: b54921a3377527545b39b78437b8a991, type: 2}
+  _normalMat: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
 --- !u!1 &7973329524574510869
 GameObject:
   m_ObjectHideFlags: 0

@@ -146,7 +146,7 @@ public class A_Throwing : MonoBehaviour
         
 
         tObj.rb.AddForce(_throwDirection * tObj.throwForce, ForceMode2D.Impulse);
-        tObj.Throw();
+        tObj.Throw(_throwDirection);
 
         AudioController.control.PlayClip(_throwClip);
 

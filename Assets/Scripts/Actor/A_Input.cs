@@ -68,7 +68,7 @@ public class A_Input : MonoBehaviour
     /// </summary>
     public event Action LSPressedUp;
 
-    public bool MouseMode = true;
+    public bool MouseMode = false;
 
     private bool _disableLS = false;
 
@@ -255,6 +255,10 @@ public class A_Input : MonoBehaviour
 
     private void Update()
     {
+        if (_rePlayer == null)
+        {
+            return;
+        }
         if (MouseMode)
         {
             //check for controller
@@ -282,6 +286,10 @@ public class A_Input : MonoBehaviour
     private void ControllerCheck()
     {
         if (_rePlayer == null)
+        {
+            return;
+        }
+        if (_rePlayer.controllers == null)
         {
             return;
         }

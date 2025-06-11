@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 479921312d3fc65458811c4175a66096, type: 3}
-  m_Name: Rock
+  m_Name: DoubleStick
   m_EditorClassIdentifier: 
   data:
-    id: rock
-    sprite: {fileID: -189351255, guid: e922bde36bc2c834fb53a5f1a3ef924d, type: 3}
-    _throwablePrefab: {fileID: 1560566805936030609, guid: 2f906dc739611994bbbab558e613bc09, type: 3}
+    id: doublestick
+    sprite: {fileID: 1455250940, guid: e922bde36bc2c834fb53a5f1a3ef924d, type: 3}
+    _throwablePrefab: {fileID: 2220629109623205170, guid: 5f6feb6f87069944a8bc691878715bb1, type: 3}

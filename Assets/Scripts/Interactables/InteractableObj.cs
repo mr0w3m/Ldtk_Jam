@@ -10,4 +10,5 @@ using System;
 public interface InteractableObj
 {
     void Interact();
+    void Highlight(bool state);
 }

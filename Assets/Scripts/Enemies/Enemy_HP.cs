@@ -64,7 +64,6 @@ public class Enemy_HP : MonoBehaviour
             _invulnerable = false;
             _material.SetFloat("_FlashAmount", 0);
             _sprite.material = _litMaterial;
-            Debug.Log("FlashEnd");
         }
     }
 
@@ -75,7 +74,6 @@ public class Enemy_HP : MonoBehaviour
             Debug.Log("Invul");
             return;
         }
-        Debug.Log("HitEnemy");
         _hp -= amt;
         
         CheckDeath();

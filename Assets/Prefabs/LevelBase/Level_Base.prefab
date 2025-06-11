@@ -2621,7 +2621,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 500}
+  m_AnchoredPosition: {x: 0, y: 400}
   m_SizeDelta: {x: 541.1, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1645960386701646936
@@ -2652,7 +2652,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: You wake feeling refreshed, full of energy and new ideas...
+  m_text: Select An Upgrade!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 39036d3d599734d4da05695eda733801, type: 2}
   m_sharedMaterial: {fileID: -7736660804391466095, guid: 39036d3d599734d4da05695eda733801, type: 2}
@@ -3448,7 +3448,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b49f4eb53ce5e04ba93722d69a12a87, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _iconData: {fileID: 11400000, guid: d333d9ed75efe4d4f9ddf9cf82401284, type: 2}
+  _iconData: {fileID: 11400000, guid: 5889bd9a2e4d27f4eb51bafc9e617cca, type: 2}
   _sprite: {fileID: 0}
   _image: {fileID: 6077218365991872668}
   _mainMenu: 0
@@ -4851,7 +4851,7 @@ GameObject:
   - component: {fileID: 3577402900120656585}
   - component: {fileID: 3588995161778131795}
   m_Layer: 5
-  m_Name: Image_ControlIconUpdater_Select
+  m_Name: Image_ControlIconUpdater_Start
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4904,7 +4904,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: e548087f86d53b54fb7576a87a75c428, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9933c6386f29ae34398c911107e24f7f, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4926,7 +4926,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b49f4eb53ce5e04ba93722d69a12a87, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _iconData: {fileID: 11400000, guid: 6c8e2263c45e05448b8983e1e1cdd036, type: 2}
+  _iconData: {fileID: 11400000, guid: 4bc31eada7dfcd445bb599592546d71a, type: 2}
   _sprite: {fileID: 0}
   _image: {fileID: 3577402900120656585}
   _mainMenu: 0
@@ -5019,7 +5019,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b49f4eb53ce5e04ba93722d69a12a87, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _iconData: {fileID: 11400000, guid: c766bc1bcea257749a90be6517526db3, type: 2}
+  _iconData: {fileID: 11400000, guid: 5889bd9a2e4d27f4eb51bafc9e617cca, type: 2}
   _sprite: {fileID: 0}
   _image: {fileID: 4125241643622376906}
   _mainMenu: 0
@@ -5557,7 +5557,7 @@ GameObject:
   - component: {fileID: 5860663988500587560}
   - component: {fileID: 2097778993990214740}
   m_Layer: 5
-  m_Name: Image_ControlIconUpdater_Start
+  m_Name: Image_ControlIconUpdater_Craft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5610,7 +5610,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 9933c6386f29ae34398c911107e24f7f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 26cd3fcdcd2f6f74097d3f7994cefb96, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5632,7 +5632,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b49f4eb53ce5e04ba93722d69a12a87, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _iconData: {fileID: 11400000, guid: 4bc31eada7dfcd445bb599592546d71a, type: 2}
+  _iconData: {fileID: 11400000, guid: 5889bd9a2e4d27f4eb51bafc9e617cca, type: 2}
   _sprite: {fileID: 0}
   _image: {fileID: 5860663988500587560}
   _mainMenu: 0

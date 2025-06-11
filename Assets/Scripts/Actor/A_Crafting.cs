@@ -21,18 +21,12 @@ public class A_Crafting : MonoBehaviour
     private int _craftingStep = 0;
     private int _ing1Index = -1;
 
-    private float _afterCraftingCooldown;
-    private float _afterCraftingCooldownTime = 0.2f;
 
     public bool crafting
     {
         get
         {
-            if (_afterCraftingCooldown > 0)
-            {
-                return true;
-            }
-            else if (_crafting)
+            if (_crafting)
             {
                 return true;
             }
@@ -45,38 +39,21 @@ public class A_Crafting : MonoBehaviour
 
     private void Start()
     {
-        //_input.SelectDown += ToggleCrafting;
-        _input.StartDown += ToggleCrafting;
+        _input.YDown += ToggleCrafting;
         _input.ADown += SelectItem;
-        _input.XDown += Craft;
+        _input.YDown += Craft;
     }
     
-    private void Update()
-    {
-        if (_afterCraftingCooldown > 0)
-        {
-            _afterCraftingCooldown -= Time.deltaTime;
-        }
-    }
-
-    private void OnCraftingEnded()
-    {
-        _afterCraftingCooldown = _afterCraftingCooldownTime;
-    }
-
     private void ToggleCrafting()
     {
         if (!_crafting)
         {
             OpenCrafting();
         }
-        else
+        else if (_craftingStep != 3)
         {
-            OnCraftingEnded();
             CloseCrafting();
         }
-        _ui.SetUIState(_crafting);
-        Actor.i.paused = _crafting;
     }
 
     private void OpenCrafting()
@@ -86,6 +63,8 @@ public class A_Crafting : MonoBehaviour
             return;
         }
         _crafting = true;
+        _ui.SetUIState(_crafting);
+        Actor.i.paused = _crafting;
     }
 
     private void CloseCrafting()
@@ -98,6 +77,8 @@ public class A_Crafting : MonoBehaviour
         _craftingStep = 0;
         _ing1Index = -1;
         _crafting = false;
+        _ui.SetUIState(_crafting);
+        Actor.i.paused = _crafting;
     }
 
     private void SelectItem()
@@ -148,13 +129,13 @@ public class A_Crafting : MonoBehaviour
 
     private void Craft()
     {
-        if ( _craftingStep == 3)
+        if (_craftingStep == 3)
         {
             _inventory.RemoveItem(_ingredientA);
             _inventory.RemoveItem(_ingredientB);
             _inventory.AddItemToInventory(ReturnCraftedItem());
             AudioController.control.PlayClip(_craftClip);
-            ToggleCrafting();
+            CloseCrafting();
         }
     }
 
@@ -173,6 +154,14 @@ public class A_Crafting : MonoBehaviour
         else if ((_ingredientA == "stick" && _ingredientB == "rope") || (_ingredientA == "rope" && _ingredientB == "stick"))
         {
             return "torch";
+        }
+        else if ((_ingredientA == "stick" && _ingredientB == "stick"))
+        {
+            return "doublestick";
+        }
+        else if ((_ingredientA == "rock" && _ingredientB == "rock"))
+        {
+            return "doublerock";
         }
         return returnItem;
     }

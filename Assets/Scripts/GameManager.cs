@@ -19,7 +19,7 @@ public class GameManager : MonoBehaviour
     private void Start()
     {
         Actor.i.death.playerDied += CheckForReload;
-        Actor.i.input.SelectDown += ToggleMenu;
+        Actor.i.input.StartDown += ToggleMenu;
         Actor.i.input.ADown += Restart;
         Actor.i.input.BDown += MainMenu;
 

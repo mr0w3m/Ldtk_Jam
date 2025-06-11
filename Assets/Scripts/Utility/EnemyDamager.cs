@@ -17,7 +17,6 @@ public class EnemyDamager : MonoBehaviour
 
     private void HitEnemy(CollisionInfo info)
     {
-        Debug.Log("HitEnemy!");
         if (!_canDamage)
         {
             Debug.Log("Can'tDamage!");

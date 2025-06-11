@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Rendering.UI;
 
 public class A_Interaction : MonoBehaviour
 {
@@ -11,6 +12,7 @@ public class A_Interaction : MonoBehaviour
     [SerializeField] private A_Crafting _crafting;
     [SerializeField] private GameObject _button;
 
+    InteractableObj prevTempInteractableObj = null;
     InteractableObj tempInteractableObj = null;
 
     private bool _colliding;
@@ -50,19 +52,56 @@ public class A_Interaction : MonoBehaviour
             }
         }
 
+        if (hitCollider != null)
+        {
+            tempInteractableObj = hitCollider.GetComponent<InteractableObj>();
+            if (tempInteractableObj != null)
+            {
+                if (tempInteractableObj != prevTempInteractableObj)
+                {
+                    if (prevTempInteractableObj != null)
+                    {
+                        prevTempInteractableObj.Highlight(false);
+                    }
+                    prevTempInteractableObj = tempInteractableObj;
+                }
+                _button.SetActive(true);
+                tempInteractableObj.Highlight(true);
+            }
+        }
+        else
+        {
+            if (tempInteractableObj != null)
+            {
+                tempInteractableObj.Highlight(false);
+            }
+            tempInteractableObj = null;
+            _button.SetActive(false);
+        }
+
+        //problem is in the same frame we'll remain colliding and switch the subject. WE need a way to detect if we actually did it
+        //we could generate ids for each interactable... on start and check between the two
+        //I wonder if unity can compare two 
+        /*
         if (_colliding)
         {
             tempInteractableObj = hitCollider.GetComponent<InteractableObj>();
             if (tempInteractableObj != null)
             {
                 _button.SetActive(true);
+                tempInteractableObj.Highlight(true);
             }
         }
         else
         {
+            if (tempInteractableObj != null)
+            {
+                tempInteractableObj.Highlight(false);
+            }
             tempInteractableObj = null;
             _button.SetActive(false);
         }
+        */
     }
 
 

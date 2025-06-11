@@ -95,6 +95,9 @@ MonoBehaviour:
   _destroyOnInteract: 1
   _parentToDestroy: {fileID: 0}
   _interactClip: {fileID: 8300000, guid: 521d5e5f8931c6c438190a8e6e4d611a, type: 3}
+  _sr: {fileID: 6185190922892029651}
+  _highlightMat: {fileID: 2100000, guid: b54921a3377527545b39b78437b8a991, type: 2}
+  _normalMat: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
 --- !u!1 &6010453024772845686
 GameObject:
   m_ObjectHideFlags: 0

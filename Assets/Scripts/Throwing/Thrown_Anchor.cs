@@ -18,9 +18,9 @@ public class Thrown_Anchor : ThrowableObject
 
     private Direction _cachedDirectionLastThrow;
 
-    public override void Throw()
+    public override void Throw(Vector3 throwDirection)
     {
-        base.Throw();
+        base.Throw(throwDirection);
         _cachedDirectionLastThrow = Actor.i.movement.Direction;
         _startPosObj.transform.SetParent(null);
         _endPosObj.transform.SetParent(null);
