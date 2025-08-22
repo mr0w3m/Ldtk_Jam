@@ -1454,7 +1454,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1475,7 +1475,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1483,6 +1483,27 @@ TextureImporter:
       bones: []
       spriteID: 819f9396910f20c42aa89f91a4ba44b3
       internalID: 65366921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FireSeat
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 96
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4e17d8fe3f3f5149ad437b1edc9d9f8
+      internalID: 1772469550
       vertices: []
       indices: 
       edges: []
@@ -1532,6 +1553,7 @@ TextureImporter:
       Emerge_Title: 1477823987
       ExitOfCave: 534872981
       FallingSpike: 1454479847
+      FireSeat: 1772469550
       Heart_Empty: 2142197655
       Heart_Full: -1310383007
       Hunger_Icon: 1992008131

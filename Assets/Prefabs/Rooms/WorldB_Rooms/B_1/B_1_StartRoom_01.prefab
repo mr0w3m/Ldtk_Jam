@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1291641839914783880}
+  - component: {fileID: 1970664924338070214}
   m_Layer: 0
   m_Name: B_1_StartRoom_01
   m_TagString: Untagged
@@ -36,6 +37,19 @@ Transform:
   - {fileID: 3856104034705579715}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1970664924338070214
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 247314694119394933}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c7e53bc516608b429d89928f54dc674, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlayerStartPosition: {fileID: 1808869040662065423}
 --- !u!1 &6924972124963280878
 GameObject:
   m_ObjectHideFlags: 0

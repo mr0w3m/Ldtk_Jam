@@ -153,22 +153,31 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _chunksStartRoom:
-  - {fileID: 247314694119394933, guid: bbcefff13b7b4d645a41e2a589c1153e, type: 3}
+  - {fileID: 247314694119394933, guid: a02832addadd3bd4d938d8316537cf63, type: 3}
   _chunkEndRoom_LR: {fileID: 7990931648133681583, guid: 97687cf95cb404748860d5eed42f1da9, type: 3}
   _chunks_LR:
-  - {fileID: 247314694119394933, guid: f6928cc00e86eb6459a0ea728339ec6b, type: 3}
-  - {fileID: 247314694119394933, guid: b12cda08e6e81c143be82e00122d1042, type: 3}
+  - {fileID: 247314694119394933, guid: ecb79eb4ac3d9214383f9fb9dfb8fecb, type: 3}
+  - {fileID: 247314694119394933, guid: 88ad64ccb97f06641a72115987fe8a9d, type: 3}
   - {fileID: 247314694119394933, guid: 975ec71fa1565f8438c66bd2c105136f, type: 3}
   - {fileID: 247314694119394933, guid: aff3bda2eea470d45bafed6efcfb8026, type: 3}
-  - {fileID: 247314694119394933, guid: bdcadc28abf66034b963f5cfc134bff0, type: 3}
+  - {fileID: 247314694119394933, guid: e9afa47f6474e244089cddd0485dd5c4, type: 3}
+  - {fileID: 247314694119394933, guid: 6ab7ab0548fef3a418e81d84225e674c, type: 3}
+  - {fileID: 247314694119394933, guid: cfc676b87788edf4caaa42c89b1236f6, type: 3}
   _chunks_LRD:
   - {fileID: 247314694119394933, guid: 90d8f68585a1df942a6da04cd46c5577, type: 3}
+  - {fileID: 247314694119394933, guid: 1fe068e0158924a4896c3d84b22d41ca, type: 3}
+  - {fileID: 247314694119394933, guid: 6c5d752a413c62b469ef9267fbbad5e3, type: 3}
   _chunks_LRU:
   - {fileID: 247314694119394933, guid: d4e490ae25b97054a8576cca8802c1d8, type: 3}
   - {fileID: 247314694119394933, guid: 12e162b3ca051114192bfb094577aa08, type: 3}
+  - {fileID: 247314694119394933, guid: a8398de36f35b1c4f86fbf6cea7b91e9, type: 3}
+  - {fileID: 247314694119394933, guid: 97d538bff17ae594a9649e615fa572a6, type: 3}
   _chunks_LRUD:
   - {fileID: 247314694119394933, guid: 8c2a18cf619c0a84eb2b46b9bc481c1c, type: 3}
   - {fileID: 247314694119394933, guid: a54c244693dbc0546a8827aa5f3a855a, type: 3}
+  - {fileID: 247314694119394933, guid: f3e23e94534813848befb8b8f9f47a27, type: 3}
+  - {fileID: 247314694119394933, guid: c60575fbbc92d244aad9a99a604372bc, type: 3}
+  - {fileID: 247314694119394933, guid: b5ff8338dcbf7e74f9b77a985c2234c7, type: 3}
   _chunk_Exterior: {fileID: 1871638223600732584, guid: 0dd804bceb78d5f47b699fa11fe6d505, type: 3}
   _chunkSize: {x: 10, y: 8}
   _levelSizeX: 4
@@ -266,7 +275,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4794970517972608859, guid: c16e1a7f96b4b154fbc2d0771a861734, type: 3}
       propertyPath: m_Intensity
-      value: 0.01
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 7938402934834404553, guid: c16e1a7f96b4b154fbc2d0771a861734, type: 3}
       propertyPath: m_LocalPosition.x

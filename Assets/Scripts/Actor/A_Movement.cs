@@ -230,6 +230,7 @@ public class A_Movement : MonoBehaviour
 
     public void SetPosition(Vector2 pos)
     {
+        Debug.Log("SettingPositionTo: " + pos.ToString());
         _rb2d.isKinematic = true;
         _movementDisabled = true;
         _rb2d.velocity = Vector2.zero;

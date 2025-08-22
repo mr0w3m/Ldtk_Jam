@@ -26,6 +26,8 @@ ScriptedImporter:
     _asset: {instanceID: 0}
   - _key: CaveTileset_4
     _asset: {instanceID: 0}
+  - _key: CaveTileset_5
+    _asset: {instanceID: 0}
   _entities: []
   _enumGenerate: 0
   _enumPath: 

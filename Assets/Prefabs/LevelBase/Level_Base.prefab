@@ -6347,6 +6347,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: UpgradeSlot_ItemSlot
       objectReference: {fileID: 0}
+    - target: {fileID: 7356685190692194733, guid: 46d1e27ab452f6c43bd0036d357bda08, type: 3}
+      propertyPath: m_text
+      value: Item Slot
+      objectReference: {fileID: 0}
     - target: {fileID: 8443657023844711973, guid: 46d1e27ab452f6c43bd0036d357bda08, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -6606,6 +6610,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: -1310383007, guid: e922bde36bc2c834fb53a5f1a3ef924d, type: 3}
+    - target: {fileID: 7356685190692194733, guid: 46d1e27ab452f6c43bd0036d357bda08, type: 3}
+      propertyPath: m_text
+      value: Health
+      objectReference: {fileID: 0}
     - target: {fileID: 8527419390269026223, guid: 46d1e27ab452f6c43bd0036d357bda08, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5

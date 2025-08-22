@@ -79,9 +79,12 @@ public class Win : MonoBehaviour
         playerSaveRef.totalItemSlots = Actor.i.inventory.totalInventoryCount;
         playerSaveRef.items = new List<string>(Actor.i.inventory.inventoryItemStrings);
         PlayerSaveManager.i.playerSaveData = playerSaveRef;
-        Actor.i.fader.FadeComplete += AfterFadeOut2;
-        Actor.i.fader.FadeOut(0, 1f);
-        Actor.i.sleeping = false;
+
+        GoToNextLevel();
+
+        //Actor.i.fader.FadeComplete += AfterFadeOut2;
+        //Actor.i.fader.FadeOut(0, 1f);
+        //Actor.i.sleeping = false;
     }
 
     private void AfterFadeOut2()

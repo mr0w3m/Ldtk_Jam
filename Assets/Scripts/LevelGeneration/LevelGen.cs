@@ -265,8 +265,27 @@ public class LevelGen : MonoBehaviour
     {
         GameObject go = Instantiate(ReturnRoom(data));
         go.transform.position = new Vector3(data.coordinate.x * _chunkSize.x, data.coordinate.y * _chunkSize.y, 0);
+
+        LevelChunkObject levelChunkRef = go.GetComponent<LevelChunkObject>();
+
+        //set the player position if it's the first chunk
+        if (data.coordinate.x == _startingRoomCoordinate.x && data.coordinate.y == _startingRoomCoordinate.y)
+        {
+            if (levelChunkRef != null)
+            {
+                Debug.Log("Setting Player Position to " + levelChunkRef.PlayerStartPosition.position.ToString());
+                _playerPosition = levelChunkRef.PlayerStartPosition.position;
+            }
+            else
+            {
+                Debug.Log("Setting Player Position to Default Center Room");
+                _playerPosition = new Vector2((data.coordinate.x * _chunkSize.x) + (_chunkSize.x / 2), (data.coordinate.y * _chunkSize.y) + (_chunkSize.y / 2));
+            }
+        }
+
     }
 
+    //outerwall override
     private void SpawnRoom(GameObject room, int x, int y)
     {
         GameObject go = Instantiate(room);
@@ -277,8 +296,8 @@ public class LevelGen : MonoBehaviour
     {
         if (data.coordinate.x == _startingRoomCoordinate.x && data.coordinate.y == _startingRoomCoordinate.y)
         {
-            _playerPosition = new Vector2((data.coordinate.x * _chunkSize.x) + (_chunkSize.x/2), (data.coordinate.y * _chunkSize.y) + (_chunkSize.y/2));
-            return _chunksStartRoom[Random.Range(0, _chunksStartRoom.Count)];
+            GameObject gameObjectRef = _chunksStartRoom[Random.Range(0, _chunksStartRoom.Count)];
+            return gameObjectRef;
         }
         else if (data.coordinate.x == _endRoomCoordinate.x && data.coordinate.y == _endRoomCoordinate.y)
         {

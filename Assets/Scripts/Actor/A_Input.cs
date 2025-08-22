@@ -293,6 +293,10 @@ public class A_Input : MonoBehaviour
         {
             return;
         }
+        if (_rePlayer.controllers.GetLastActiveController() == null)
+        {
+            return;
+        }
         if (_rePlayer.controllers.GetLastActiveController().type == ControllerType.Joystick)
         {
             MouseMode = false;
