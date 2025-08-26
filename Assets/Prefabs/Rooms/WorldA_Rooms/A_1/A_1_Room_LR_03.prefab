@@ -1170,6 +1170,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: A_1_LeftRight_03
       objectReference: {fileID: 0}
+    - target: {fileID: 7612429322051426815, guid: 8c96fd1094eaba44e9bd58c04d177df8, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9093977665863921532, guid: 8c96fd1094eaba44e9bd58c04d177df8, type: 3}
       propertyPath: m_ColliderPaths.Array.size
       value: 1

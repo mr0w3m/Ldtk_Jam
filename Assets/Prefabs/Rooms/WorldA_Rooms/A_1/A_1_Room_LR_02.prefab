@@ -896,6 +896,10 @@ PrefabInstance:
       propertyPath: m_ColliderPaths.Array.data[0].m_ColliderPaths.Array.data[7].Array.data[5].X
       value: 70000000
       objectReference: {fileID: 0}
+    - target: {fileID: 9072344910891088739, guid: 78f05c29dd819f0468464cb5489a4d26, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

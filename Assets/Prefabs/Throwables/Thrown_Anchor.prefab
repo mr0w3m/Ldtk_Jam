@@ -340,7 +340,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _platformToDisable: {fileID: 2393834680397537391}
-  _clamberOffset: 0.4
+  _clamberOffset: 0.5
 --- !u!1 &7205345832468745507
 GameObject:
   m_ObjectHideFlags: 0

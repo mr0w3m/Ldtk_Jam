@@ -1218,6 +1218,10 @@ PrefabInstance:
       propertyPath: m_ColliderPaths.Array.data[0].m_Collider
       value: 
       objectReference: {fileID: 4412153852830507889}
+    - target: {fileID: 317365587669022713, guid: 6397212721b56794fa9d571f053995bd, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4292772964832596386, guid: 6397212721b56794fa9d571f053995bd, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0

@@ -268,15 +268,17 @@ public class Enemy_Snake : MonoBehaviour
         if (hitInfoRight.collider != null && _currentDirection == Direction.right)
         {
             _wallDetected = true;
+            _aggroTimer = 0;
         }
         else if (hitInfoLeft.collider != null && _currentDirection == Direction.left)
         {
             _wallDetected = true;
+            _aggroTimer = 0;
         }
     }
 
     //runs in update
-    private void CheckForPit()
+    public virtual void CheckForPit()
     {
         Vector2 _pitCheckForwardPosition = (_currentDirection == Direction.right ? (Vector2)_centerT.position + (Vector2.right * _pitCheckStartDistanceMultiplier) : (Vector2)_centerT.position + (Vector2.left * _pitCheckStartDistanceMultiplier));
 
@@ -286,6 +288,7 @@ public class Enemy_Snake : MonoBehaviour
             //NoGround
             //change direction
             FlipDirection();
+            _aggroTimer = 0;
         }
     }
 

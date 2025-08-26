@@ -1178,14 +1178,6 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
-    - target: {fileID: -1235912404833073744, guid: 977a8debb63db4448b3043c288c54c4c, type: 3}
-      propertyPath: m_ColliderPaths.Array.size
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: -1235912404833073744, guid: 977a8debb63db4448b3043c288c54c4c, type: 3}
-      propertyPath: m_ColliderPaths.Array.data[0].m_Collider
-      value: 
-      objectReference: {fileID: 385648757991816733}
     - target: {fileID: -759712511758456197, guid: 977a8debb63db4448b3043c288c54c4c, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -1234,6 +1226,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7133045315604680083, guid: 977a8debb63db4448b3043c288c54c4c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1242,11 +1238,6 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 7760578500106701554}
   m_SourcePrefab: {fileID: -1934345717165055291, guid: 977a8debb63db4448b3043c288c54c4c, type: 3}
---- !u!19719996 &385648757991816733 stripped
-TilemapCollider2D:
-  m_CorrespondingSourceObject: {fileID: -3162029854345859588, guid: 977a8debb63db4448b3043c288c54c4c, type: 3}
-  m_PrefabInstance: {fileID: 5855857201228600289}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1421297310979712891 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4827112536879740058, guid: 977a8debb63db4448b3043c288c54c4c, type: 3}

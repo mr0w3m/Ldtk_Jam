@@ -5503,6 +5503,10 @@ PrefabInstance:
       propertyPath: m_SortingLayerID
       value: 1870910115
       objectReference: {fileID: 0}
+    - target: {fileID: 2773793869699667664, guid: 8f952539deb9cce4f860ade07a1b1abe, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4403139400163362156, guid: 8f952539deb9cce4f860ade07a1b1abe, type: 3}
       propertyPath: m_Name
       value: A_2_StartRoom_01

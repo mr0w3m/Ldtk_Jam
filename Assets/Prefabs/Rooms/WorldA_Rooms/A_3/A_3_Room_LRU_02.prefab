@@ -304,17 +304,13 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 7877076446350028640}
     m_Modifications:
-    - target: {fileID: 81701781471072813, guid: 7a366b1c56dd31c4b90e529eb02f5aed, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 5293431443733717920, guid: 7a366b1c56dd31c4b90e529eb02f5aed, type: 3}
       propertyPath: m_Name
       value: Rope
       objectReference: {fileID: 0}
     - target: {fileID: 6461256087947831247, guid: 7a366b1c56dd31c4b90e529eb02f5aed, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 8.5
+      value: 9.5
       objectReference: {fileID: 0}
     - target: {fileID: 6461256087947831247, guid: 7a366b1c56dd31c4b90e529eb02f5aed, type: 3}
       propertyPath: m_LocalPosition.y
@@ -435,6 +431,10 @@ PrefabInstance:
     - target: {fileID: -8917785475496573447, guid: 6a04cda9e29d91b4e8defd798338c061, type: 3}
       propertyPath: m_Layer
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -2553667777965231282, guid: 6a04cda9e29d91b4e8defd798338c061, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -2420176457180138550, guid: 6a04cda9e29d91b4e8defd798338c061, type: 3}
       propertyPath: m_Name

@@ -64,7 +64,7 @@ public class Thrown_Anchor : ThrowableObject
 
         float oa = Mathf.Abs(_startPosObj.transform.localPosition.y) / Mathf.Abs(_startPosObj.transform.localPosition.x);
         float angle = Mathf.Rad2Deg * Mathf.Atan(oa);
-        _platformEffector.rotationalOffset = (angle * (_cachedDirectionLastThrow == Direction.right ? 1 : -1));
+        //_platformEffector.rotationalOffset = (angle * (_cachedDirectionLastThrow == Direction.right ? 1 : -1));
     }
 
     private void RerenderLine()

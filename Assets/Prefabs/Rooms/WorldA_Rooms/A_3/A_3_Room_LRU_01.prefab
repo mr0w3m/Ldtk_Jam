@@ -555,6 +555,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -6702793376057382005, guid: 46089e2d2c97daf4484413db5bc85d32, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -6186382414241226504, guid: 46089e2d2c97daf4484413db5bc85d32, type: 3}
       propertyPath: m_ColliderPaths.Array.size
       value: 0
