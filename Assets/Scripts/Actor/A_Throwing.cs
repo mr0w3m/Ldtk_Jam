@@ -59,7 +59,16 @@ public class A_Throwing : MonoBehaviour
             }
             else
             {
-                _throwDirection = new Vector3(_input.LSX, _input.LSY, 0);
+                if (Mathf.Abs(_input.LSX) > 0.01f || Mathf.Abs(_input.LSY) > 0.01f)
+                {
+                    //there is input on the left stick so take it
+                    _throwDirection = new Vector3(_input.LSX, _input.LSY, 0);
+                }
+                else
+                {
+                    //No input on the left stick, let's set a constant based on the direction they are looking
+                    _throwDirection = new Vector3((_movement.Direction == Direction.left ? -1:1), 0.5f, 0);
+                }
             }
 
 

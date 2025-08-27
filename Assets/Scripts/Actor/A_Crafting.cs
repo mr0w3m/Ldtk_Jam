@@ -99,6 +99,7 @@ public class A_Crafting : MonoBehaviour
             _ing1Index = _inventoryUI.selectedInt;
             _ui.SetIngredientItem(true, _ingredientA);
             _craftingStep = 1;
+            _inventoryUI.TabRight();
         }
         else if (_craftingStep == 1)
         {

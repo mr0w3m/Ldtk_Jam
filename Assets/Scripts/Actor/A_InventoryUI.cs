@@ -94,7 +94,7 @@ public class A_InventoryUI : MonoBehaviour
         _inventorySlots[_selectedInt].Select(true);
     }
 
-    private void TabRight()
+    public void TabRight()
     {
         if (_throwing.throwing)
         {
@@ -115,7 +115,7 @@ public class A_InventoryUI : MonoBehaviour
         OnInventoryItemSelected();
         AudioController.control.PlayClip(_changeSelectionClip);
     }
-    private void TabLeft()
+    public void TabLeft()
     {
         if (_throwing.throwing)
         {

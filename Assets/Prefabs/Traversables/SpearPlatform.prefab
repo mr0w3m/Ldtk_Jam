@@ -158,7 +158,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 1
   m_UsedByComposite: 0
-  m_Offset: {x: -0.5, y: -0.0003399253}
+  m_Offset: {x: -0.37642753, y: -0.0003399253}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -169,7 +169,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.0122354, y: 0.13867989}
+  m_Size: {x: 0.76509047, y: 0.13867989}
   m_EdgeRadius: 0
 --- !u!50 &8362450058525084659
 Rigidbody2D:
@@ -214,6 +214,9 @@ MonoBehaviour:
   _destroyOnInteract: 1
   _parentToDestroy: {fileID: 1946972340310542221}
   _interactClip: {fileID: 8300000, guid: 521d5e5f8931c6c438190a8e6e4d611a, type: 3}
+  _sr: {fileID: 0}
+  _highlightMat: {fileID: 0}
+  _normalMat: {fileID: 0}
 --- !u!251 &8835530332012222797
 PlatformEffector2D:
   m_ObjectHideFlags: 0
@@ -374,6 +377,9 @@ MonoBehaviour:
   _destroyOnInteract: 1
   _parentToDestroy: {fileID: 1946972340310542221}
   _interactClip: {fileID: 0}
+  _sr: {fileID: 0}
+  _highlightMat: {fileID: 0}
+  _normalMat: {fileID: 0}
 --- !u!1 &4748080164243515034
 GameObject:
   m_ObjectHideFlags: 0

@@ -14,6 +14,7 @@ public class Spikes : MonoBehaviour
 
     private void HitPlayer()
     {
+        //Actor.i.health.Hit(transform.position); eh i don't like it you can get stuck
         Actor.i.health.Death();
     }
 }

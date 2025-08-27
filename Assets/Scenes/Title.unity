@@ -186,7 +186,7 @@ MonoBehaviour:
   _input: {fileID: 1347696231}
   _sceneController: {fileID: 1217871999}
   _cameraMover: {fileID: 1077365889}
-  _sceneToLoad: Cave_A_3
+  _sceneToLoad: Cave_A_1
   _sFX_startGame: {fileID: 8300000, guid: 2b5490b7a2106cb4daa3208c287111e1, type: 3}
 --- !u!4 &129432407
 Transform:
