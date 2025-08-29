@@ -90,7 +90,7 @@ public class A_Jump : MonoBehaviour
 
     private void BeginJump()
     {
-        if (Actor.i.crafting.crafting || Actor.i.paused || Actor.i.input.LSY < -0.9f)
+        if (Actor.i.crafting.crafting || Actor.i.paused || Actor.i.input.LSY < -0.9f || Actor.i.death.playerDead)
         {
             return;
         }

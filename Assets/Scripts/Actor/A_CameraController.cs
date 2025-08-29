@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class A_CameraController : MonoBehaviour
 {
+    public static A_CameraController i;
+
+    [SerializeField] private GameObject _cameraObject;
     [SerializeField] private GameObject _leader;
     [SerializeField] private Vector3 _offset;
 
@@ -16,10 +19,73 @@ public class A_CameraController : MonoBehaviour
 
     private Vector2 _offsetDown = Vector2.down;
 
+    //camer Shake
+    [SerializeField] private float _cameraShakeIntensityDefault;
+
+
+    private float _cameraShakeTime = 0;
+    private float _currentCameraShakeIntensity;
+    //private Vector3 _cachedCameraPosition = Vector3.zero;
+
+
+    private void Awake()
+    {
+        if (i == null)
+        {
+            i = this;
+        }
+        else
+        {
+            Destroy(this.gameObject);
+        }
+    }
 
     public void Init(GameObject go)
     {
         _leader = go;
+    }
+
+    public void AddCameraShake(float timeToShake, float intensity)
+    {
+        if (intensity > _currentCameraShakeIntensity)
+        {
+            _currentCameraShakeIntensity = intensity;
+        }
+
+        if (_cameraShakeTime < timeToShake) 
+        {
+            _cameraShakeTime = timeToShake;
+        }
+    }
+
+    private void Update()
+    {
+        if (_cameraShakeTime > 0)
+        {
+            CameraShake();
+        }
+    }
+
+    private void CameraShake()
+    {
+        _cameraShakeTime -= Time.deltaTime;
+
+        float x = Random.Range(-1f, 1) * _currentCameraShakeIntensity;
+        float y = Random.Range(-1f, 1) * _currentCameraShakeIntensity;
+
+        _currentCameraShakeIntensity *= 0.5f;
+        _cameraObject.transform.localPosition = Vector3.zero + new Vector3(x, y, 0);
+
+        if (_cameraShakeTime <= 0 )
+        {
+            CameraShakeEnd();
+        }
+    }
+
+    private void CameraShakeEnd()
+    {
+        //_currentCameraShakeIntensity = _cameraShakeIntensityDefault;
+        _cameraObject.transform.localPosition = Vector3.zero;
     }
 
     private void LateUpdate()

@@ -38,7 +38,7 @@ public class FoodSpawner : MonoBehaviour
             randomValue -= f.itemWeight;
             if (randomValue <= 0)
             {
-                Debug.Log("FoodChosen: " + f.prefab.name);
+                //Debug.Log("FoodChosen: " + f.prefab.name);
                 chosenFood = f;
                 break;
             }

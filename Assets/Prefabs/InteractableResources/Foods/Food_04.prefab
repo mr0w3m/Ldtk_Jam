@@ -4935,6 +4935,7 @@ MonoBehaviour:
   hungerHealed: 100
   hpHealed: 0
   _eatClip: {fileID: 8300000, guid: f389eeb9354b7864fbf75f99a969c6b9, type: 3}
+  _dmgClip: {fileID: 8300000, guid: 3d06e076b648f984b8f2a98415a5d5fd, type: 3}
   _sr: {fileID: 472832904208661942}
   _highlightMat: {fileID: 2100000, guid: b54921a3377527545b39b78437b8a991, type: 2}
   _normalMat: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}

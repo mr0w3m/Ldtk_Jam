@@ -103,7 +103,7 @@ public class A_Throwing : MonoBehaviour
 
     private void StartThrowing()
     {
-        if (_crafting.crafting || Actor.i.paused)
+        if (_crafting.crafting || Actor.i.paused || Actor.i.death.playerDead)
         {
             return;
         }

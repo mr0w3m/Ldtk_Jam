@@ -8,6 +8,7 @@ public class InteractableFood : MonoBehaviour, InteractableObj
     public int hpHealed = 1;
 
     [SerializeField] private AudioClip _eatClip;
+    [SerializeField] private AudioClip _dmgClip;
 
     [SerializeField] private SpriteRenderer _sr;
     [SerializeField] private Material _highlightMat;
@@ -19,7 +20,15 @@ public class InteractableFood : MonoBehaviour, InteractableObj
         Actor.i.hunger.EatFood(hungerHealed);
         Actor.i.health.AddHP(hpHealed);
 
-        AudioController.control.PlayClip(_eatClip);
+        
+        if (hungerHealed < 0 || hpHealed < 0)
+        {
+            AudioController.control.PlayClip(_dmgClip);
+        }
+        else
+        {
+            AudioController.control.PlayClip(_eatClip);
+        }
 
         Destroy(this.gameObject);
     }

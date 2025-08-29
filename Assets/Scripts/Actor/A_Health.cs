@@ -124,6 +124,7 @@ public class A_Health : MonoBehaviour
             OnHealthLost();
             TriggerInvulnerable();
             AudioController.control.PlayClip(_getHitClip);
+            A_CameraController.i.AddCameraShake(0.2f, 0.1f);
         }
     }
 

@@ -273,7 +273,7 @@ public class LevelGen : MonoBehaviour
         {
             if (levelChunkRef != null)
             {
-                Debug.Log("Setting Player Position to " + levelChunkRef.PlayerStartPosition.position.ToString());
+                //Debug.Log("Setting Player Position to " + levelChunkRef.PlayerStartPosition.position.ToString());
                 _playerPosition = levelChunkRef.PlayerStartPosition.position;
             }
             else

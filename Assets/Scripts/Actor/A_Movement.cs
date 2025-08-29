@@ -177,7 +177,7 @@ public class A_Movement : MonoBehaviour
 
     private void Clamber(Vector2 position)
     {
-        Debug.Log("StartClamber");
+        //Debug.Log("StartClamber");
         //if we detect a stepthroughplatform,
         _clambering = true;
         _clamberTimer = _clamberTime;
@@ -200,7 +200,7 @@ public class A_Movement : MonoBehaviour
 
     private void MoveLeftRight(float input)
     {
-        if (_movementDisabled || Actor.i.paused || (Actor.i.input.MouseMode && Actor.i.throwing.throwing))
+        if (_movementDisabled || Actor.i.paused || (Actor.i.input.MouseMode && Actor.i.throwing.throwing) || Actor.i.death.playerDead)
         {
             //Debug.Log("ReturningMoveLeftRight");
             return;
@@ -230,7 +230,7 @@ public class A_Movement : MonoBehaviour
 
     public void SetPosition(Vector2 pos)
     {
-        Debug.Log("SettingPositionTo: " + pos.ToString());
+        //Debug.Log("SettingPositionTo: " + pos.ToString());
         _rb2d.isKinematic = true;
         _movementDisabled = true;
         _rb2d.velocity = Vector2.zero;

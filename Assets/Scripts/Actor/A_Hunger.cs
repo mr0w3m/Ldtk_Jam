@@ -30,6 +30,12 @@ public class A_Hunger : MonoBehaviour
     [SerializeField] private Image _hungerImg;
     [SerializeField] private GameObject _shakeObj;
 
+    [SerializeField] private AnimationCurve _lightDropOffCurve;
+    [SerializeField] private AudioClip _starvingClip;
+
+
+    [SerializeField] private float _shakeTime = 0.2f;
+
     private bool _initialized = false;
     private float _timer;
 
@@ -69,6 +75,11 @@ public class A_Hunger : MonoBehaviour
             {
                 _hunger -= 1;
                 _timer = _timeToLoseHunger;
+                if (_hunger < (_totalStartHunger / 5))
+                {
+                    A_CameraController.i.AddCameraShake(_shakeTime, 0.1f);
+                    AudioController.control.PlayClip(_starvingClip, Random.Range(0.85f, 2), 0.5f);
+                }
             }
         }
 
@@ -80,6 +91,11 @@ public class A_Hunger : MonoBehaviour
 
 
         _hungerImg.color = new Color(1, 1, 1, Util.MapValue(_hunger, 0, _totalStartHunger, 1, 0));
+
+        //evaluate the curve set, to change the intensity of the light from 0.7 to 0 based on the hunger of the player relative to their total hunger. (phew that's a mouthful)
+        GlobalLightController.i.globalLightRef.intensity = _lightDropOffCurve.Evaluate(Util.MapValue(_hunger, _totalStartHunger, 0, 0.7f, 0));
+
+        
     }
 
     public void EatFood(int amt)

@@ -44,7 +44,7 @@ public class A_InventoryUI : MonoBehaviour
         _inventory.InventoryUpdated += UpdateUI;
         _input.RBDown += TabRight;
         _input.LBDown += TabLeft;
-        Debug.Log("totalInventoryCount: " + _inventory.totalInventoryCount);
+        //Debug.Log("totalInventoryCount: " + _inventory.totalInventoryCount);
         for (int i = 0; i < _inventory.totalInventoryCount; i++)
         {
             InventorySlot slot = Instantiate(_invSlotPrefab, _invSlotParent);

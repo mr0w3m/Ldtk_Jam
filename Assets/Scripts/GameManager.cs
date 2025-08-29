@@ -49,7 +49,8 @@ public class GameManager : MonoBehaviour
 
     private void CheckForReload()
     {
-        Actor.i.input.ADown += Reload;
+        Actor.i.input.StartDown -= ToggleMenu;
+        Actor.i.input.StartDown += Reload;
         _checkForReload = true;
     }
 
