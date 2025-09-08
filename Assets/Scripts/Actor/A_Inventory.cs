@@ -9,6 +9,9 @@ public class A_Inventory : MonoBehaviour
     [SerializeField] private A_InventoryUI _ui;
 
     public event Action InventoryUpdated;
+    public event Action<string> ItemAdded;
+    public event Action<string> ItemRemoved;
+
     //reference to database where these items and their associated sprites can be referenced
     [SerializeField] private List<string> _inventoryItemStrings = new List<string>();
 
@@ -49,6 +52,22 @@ public class A_Inventory : MonoBehaviour
         }
     }
 
+    private void OnItemAdded(string id)
+    {
+        if (ItemAdded != null)
+        {
+            ItemAdded.Invoke(id);
+        }
+    }
+
+    private void OnItemRemoved(string id)
+    {
+        if (ItemRemoved != null)
+        {
+            ItemRemoved.Invoke(id);
+        }
+    }
+
     private void Start()
     {
         Initialize();
@@ -66,6 +85,7 @@ public class A_Inventory : MonoBehaviour
     {
         _inventoryItemStrings.Add(id);
         OnInventoryUpdated();
+        OnItemAdded(id);
     }
 
     public bool AddItemToInventory(string id)
@@ -85,12 +105,14 @@ public class A_Inventory : MonoBehaviour
 
     public void RemoveItemSelected()
     {
+        OnItemRemoved(_inventoryItemStrings[_ui.selectedInt]);
         _inventoryItemStrings.RemoveAt(_ui.selectedInt);
         OnInventoryUpdated();
     }
 
     public void RemoveItem(int index)
     {
+        OnItemRemoved(_inventoryItemStrings[index]);
         _inventoryItemStrings.RemoveAt(index);
         OnInventoryUpdated();
     }
@@ -100,6 +122,7 @@ public class A_Inventory : MonoBehaviour
         if (_inventoryItemStrings.Contains(id))
         {
             _inventoryItemStrings.Remove(id);
+            OnItemRemoved(id);
             OnInventoryUpdated();
         }
     }

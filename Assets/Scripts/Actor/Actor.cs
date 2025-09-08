@@ -33,6 +33,7 @@ public class Actor : MonoBehaviour
     public TimedFader_CanvasGroup fader;
     public HUD_Conversation conversation;
     public A_Upgrade upgrade;
+    public A_ReviveTotem reviveTotem;
 
 
     public Transform playerCenterT;

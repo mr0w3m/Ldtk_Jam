@@ -143,8 +143,20 @@ public class A_Health : MonoBehaviour
             _hp = _maxHP;
         }
 
+        if (amt < 0)
+        {
+            OnHealthLost();
+        }
+
         OnHealthChanged();
         TriggerInvulnerable();
+        CheckDeath();
+    }
+
+    public void FullHeal()
+    {
+        _hp = _maxHP;
+        OnHealthChanged();
     }
 
     private void TriggerInvulnerable()

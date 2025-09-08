@@ -110,7 +110,7 @@ public class HitBoxCheck : MonoBehaviour
 
         if (debug)
         {
-            Debug.Log("Checking");
+            Debug.Log("Checking on : " + this.gameObject.name);
         }
 
     }

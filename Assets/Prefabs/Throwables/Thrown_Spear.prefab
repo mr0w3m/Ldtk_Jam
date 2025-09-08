@@ -94,6 +94,10 @@ PrefabInstance:
       propertyPath: m_Offset.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6474115611386102511, guid: 7b5009e6b4ca07e499e11b5ebb045768, type: 3}
+      propertyPath: debug
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6488864193108960035, guid: 7b5009e6b4ca07e499e11b5ebb045768, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -238,3 +242,5 @@ MonoBehaviour:
   _endLinecastPos: {fileID: 7362898588980586524}
   _hitAudioClip: {fileID: 8300000, guid: c64bfd8de6df66e4f93a32aeff24296e, type: 3}
   angleOffset: 0
+  _castRadius: 0
+  _castDistance: 0

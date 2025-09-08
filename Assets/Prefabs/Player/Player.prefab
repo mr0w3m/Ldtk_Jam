@@ -5624,7 +5624,9 @@ MonoBehaviour:
   _yourdeadParent: {fileID: 0}
   _playerSprite: {fileID: 4741276235940982619}
   _deadSprite: {fileID: -692476820, guid: e922bde36bc2c834fb53a5f1a3ef924d, type: 3}
+  _revivedSprite: {fileID: 0}
   _dieClip: {fileID: 8300000, guid: 0fd340228f65c674e8294b160275ab8d, type: 3}
+  _reviveClip: {fileID: 8300000, guid: f389eeb9354b7864fbf75f99a969c6b9, type: 3}
   playerDead: 0
 --- !u!1 &4824445411990692089
 GameObject:
@@ -6032,6 +6034,7 @@ Transform:
   - {fileID: 8656261052388278529}
   - {fileID: 3409380009225261846}
   - {fileID: 6427563442779101670}
+  - {fileID: 4026665020143311175}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &8055143321533926729
@@ -6061,6 +6064,7 @@ MonoBehaviour:
   fader: {fileID: 0}
   conversation: {fileID: 0}
   upgrade: {fileID: 2907384382270822364}
+  reviveTotem: {fileID: 0}
   playerCenterT: {fileID: 8656261052388278529}
   paused: 0
   sleeping: 0
@@ -6413,6 +6417,51 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2476226595096375472}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &8241019321149216611
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4026665020143311175}
+  - component: {fileID: 8518886284281149851}
+  m_Layer: 6
+  m_Name: ReviveTotem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4026665020143311175
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8241019321149216611}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2476226595096375472}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8518886284281149851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8241019321149216611}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 956f45c8b5ab0c1429b1aa56601a7606, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _holdingReviveTotem: 0
 --- !u!1 &8637028789525873253
 GameObject:
   m_ObjectHideFlags: 0

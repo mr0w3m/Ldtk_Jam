@@ -4934,11 +4934,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hungerHealed: 30
   hpHealed: 1
-  _eatClip: {fileID: 8300000, guid: f389eeb9354b7864fbf75f99a969c6b9, type: 3}
+  _eatClip: {fileID: 8300000, guid: 0a0328e77b02bf645baf085541f70116, type: 3}
   _dmgClip: {fileID: 8300000, guid: 3d06e076b648f984b8f2a98415a5d5fd, type: 3}
   _sr: {fileID: 472832904208661942}
   _highlightMat: {fileID: 2100000, guid: b54921a3377527545b39b78437b8a991, type: 2}
   _normalMat: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  _parentToDestroy: {fileID: 0}
 --- !u!1 &7973329524574510869
 GameObject:
   m_ObjectHideFlags: 0

@@ -24,6 +24,8 @@ public class Enemy_Bat : MonoBehaviour
     [SerializeField] private GameObject _debugTargetObject;
     [SerializeField] private GameObject _debugForwardObject;
 
+    [SerializeField] private GameObject _deathFood;
+
     private bool _awake = false;
     private bool _wallDetected = false;
     private Vector2 _targetPos;
@@ -141,6 +143,9 @@ public class Enemy_Bat : MonoBehaviour
         _hp.Died -= Dead;
         Instantiate(_deadFxObj, transform.position,Quaternion.identity);
         AudioController.control.StopLoopingAudio("wingFlap" + _randomfloat);
+
+        Instantiate(_deathFood, transform).transform.SetParent(null);
+
 
         Destroy(this.gameObject);
     }

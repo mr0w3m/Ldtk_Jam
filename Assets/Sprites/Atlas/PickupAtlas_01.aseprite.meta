@@ -121,7 +121,7 @@ ScriptedImporter:
   animatedSpriteImportData:
   - name: PickupAtlas_01
     originalName: 
-    pivot: {x: 1.3301888, y: -10.749999}
+    pivot: {x: 1.3301888, y: -2.1333334}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -129,7 +129,7 @@ ScriptedImporter:
       x: 4
       y: 4
       width: 106
-      height: 12
+      height: 45
     spriteID: 4015e292ad69b5d4fbe75f0747d80606
     spriteBone: []
     spriteOutline: []
@@ -152,9 +152,9 @@ ScriptedImporter:
       frameIndex: 0
       cellRect:
         x: 19
-        y: 129
+        y: 96
         width: 106
-        height: 12
+        height: 45
       spriteId: 4015e292ad69b5d4fbe75f0747d80606
     linkedCells: []
     parentIndex: -1

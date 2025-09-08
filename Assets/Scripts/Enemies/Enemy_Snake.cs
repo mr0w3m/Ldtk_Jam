@@ -19,6 +19,8 @@ public class Enemy_Snake : MonoBehaviour
     [SerializeField] private AudioClip _attackTriggerClip;
     [SerializeField] private AudioClip _onAttackClip;
 
+    [SerializeField] private GameObject _deathFood;
+
     private Vector2 _targetPos;
     private Vector2 _forwardPosition;
 
@@ -308,6 +310,8 @@ public class Enemy_Snake : MonoBehaviour
     {
         _hp.Died -= Dead;
         Instantiate(_deadFxObj, _centerT.position, Quaternion.identity);
+        Instantiate(_deathFood, _centerT.transform.position, Quaternion.identity);//.transform.SetParent(null);
+
         Destroy(this.gameObject);
     }
 
