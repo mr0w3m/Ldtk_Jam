@@ -4932,10 +4932,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c7f3dfd6d23c2c244b0b0a27e04b0de6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hungerHealed: 60
-  hpHealed: 0
+  _foodData: {fileID: 11400000, guid: d2d14b046aed23d489caafc560a5168d, type: 2}
   _eatClip: {fileID: 8300000, guid: 0a0328e77b02bf645baf085541f70116, type: 3}
   _dmgClip: {fileID: 8300000, guid: 3d06e076b648f984b8f2a98415a5d5fd, type: 3}
+  _pickupClip: {fileID: 8300000, guid: 521d5e5f8931c6c438190a8e6e4d611a, type: 3}
   _sr: {fileID: 472832904208661942}
   _highlightMat: {fileID: 2100000, guid: b54921a3377527545b39b78437b8a991, type: 2}
   _normalMat: {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}

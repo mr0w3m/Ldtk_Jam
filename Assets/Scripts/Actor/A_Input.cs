@@ -18,6 +18,7 @@ public class A_Input : MonoBehaviour
     private bool _lbDown;
     private bool _selectDown;
     private bool _startDown;
+    private bool _rStickDown;
 
     private bool _aUp;
     private bool _bUp;
@@ -50,6 +51,7 @@ public class A_Input : MonoBehaviour
     public event Action LBDown;
     public event Action SelectDown;
     public event Action StartDown;
+    public event Action RStickDown;
 
     public event Action AUp;
     public event Action BUp;
@@ -158,6 +160,13 @@ public class A_Input : MonoBehaviour
         if (StartDown != null)
         {
             StartDown.Invoke();
+        }
+    }
+    private void OnRightStickDown()
+    {
+        if (RStickDown != null)
+        {
+            RStickDown.Invoke();
         }
     }
 
@@ -333,6 +342,7 @@ public class A_Input : MonoBehaviour
         _lbDown = _rePlayer.GetButtonDown("LeftBumper");
         _selectDown = _rePlayer.GetButtonDown("Select");
         _startDown = _rePlayer.GetButtonDown("Start");
+        _rStickDown = _rePlayer.GetButtonDown("RightStick");
 
         _aUp = _rePlayer.GetButtonUp("AButton");
         _bUp = _rePlayer.GetButtonUp("BButton");
@@ -412,6 +422,7 @@ public class A_Input : MonoBehaviour
         if (_lbDown) { OnLBDown(); }
         if (_selectDown) { OnSelectDown(); }
         if (_startDown) { OnStartDown(); }
+        if (_rStickDown) { OnRightStickDown(); }
 
         if (_aUp) { OnAUp(); }
         if (_bUp) { OnBUp(); }

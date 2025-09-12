@@ -36,6 +36,14 @@ PrefabInstance:
       propertyPath: m_Offset.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5704621972408927531, guid: 9dc0d81b54d0c2a49b1cc98ca0d4e4e4, type: 3}
+      propertyPath: foodData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4165b0a35048a954eadea88dd0feed72, type: 2}
+    - target: {fileID: 5704621972408927531, guid: 9dc0d81b54d0c2a49b1cc98ca0d4e4e4, type: 3}
+      propertyPath: _foodData
+      value: 
+      objectReference: {fileID: 11400000, guid: 4165b0a35048a954eadea88dd0feed72, type: 2}
     - target: {fileID: 6977072918158957702, guid: 9dc0d81b54d0c2a49b1cc98ca0d4e4e4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0

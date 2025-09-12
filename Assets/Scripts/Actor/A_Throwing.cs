@@ -101,6 +101,20 @@ public class A_Throwing : MonoBehaviour
         }
     }
 
+    public void DropItem(string id)
+    {
+        //throw item with 0 force
+        Debug.Log("Dropping: " + id);
+        ThrowableObject tObj = Instantiate(_itemDatabase.ReturnItemData(id)._throwablePrefab, _targetSpawnThrownLocation.position, Quaternion.identity);
+        
+        tObj.rb.AddForce(Random.insideUnitCircle * tObj.throwForce * 0.3f, ForceMode2D.Impulse);
+        tObj.Throw(_throwDirection);
+
+        AudioController.control.PlayClip(_throwClip);
+
+        _inventory.RemoveItemSelected();
+    }
+
     private void StartThrowing()
     {
         if (_crafting.crafting || Actor.i.paused || Actor.i.death.playerDead)

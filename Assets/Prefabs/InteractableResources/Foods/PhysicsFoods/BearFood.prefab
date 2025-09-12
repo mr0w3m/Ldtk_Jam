@@ -21,9 +21,17 @@ PrefabInstance:
       value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 5704621972408927531, guid: 9dc0d81b54d0c2a49b1cc98ca0d4e4e4, type: 3}
+      propertyPath: foodData
+      value: 
+      objectReference: {fileID: 11400000, guid: 16815f84d6b9bde4697b5b8f4ab8a8c1, type: 2}
+    - target: {fileID: 5704621972408927531, guid: 9dc0d81b54d0c2a49b1cc98ca0d4e4e4, type: 3}
       propertyPath: hpHealed
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5704621972408927531, guid: 9dc0d81b54d0c2a49b1cc98ca0d4e4e4, type: 3}
+      propertyPath: _foodData
+      value: 
+      objectReference: {fileID: 11400000, guid: 16815f84d6b9bde4697b5b8f4ab8a8c1, type: 2}
     - target: {fileID: 5704621972408927531, guid: 9dc0d81b54d0c2a49b1cc98ca0d4e4e4, type: 3}
       propertyPath: hungerHealed
       value: 50

@@ -16,6 +16,7 @@ public class A_Interaction : MonoBehaviour
     InteractableObj tempInteractableObj = null;
 
     private bool _colliding;
+    private GameObject _collidedObject;
 
 
     private void Start()
@@ -57,6 +58,9 @@ public class A_Interaction : MonoBehaviour
             tempInteractableObj = hitCollider.GetComponent<InteractableObj>();
             if (tempInteractableObj != null)
             {
+                //set collided gameobject so we can get component on it for later lunchbox system
+                _collidedObject = hitCollider.gameObject;
+
                 if (tempInteractableObj != prevTempInteractableObj)
                 {
                     if (prevTempInteractableObj != null)
@@ -104,6 +108,15 @@ public class A_Interaction : MonoBehaviour
         */
     }
 
+    public InteractableObj ReturnInteraction()
+    {
+        if (_crafting.crafting && !_colliding)
+        {
+            return null;
+        }
+
+        return tempInteractableObj;
+    }
 
     
     
@@ -118,6 +131,15 @@ public class A_Interaction : MonoBehaviour
 
         if (tempInteractableObj != null)
         {
+            InteractableFood foodItem = _collidedObject.GetComponent<InteractableFood>();
+            if (foodItem != null && Actor.i.lunchbox.holdingLunchbox && !Actor.i.lunchbox.foodItemHeld)
+            {
+                Actor.i.lunchbox.AddFoodItem(foodItem.foodData.itemID);
+                foodItem.PickUp();
+                //don't interact with it/return.
+                return;
+            }
+
             tempInteractableObj.Interact();
         }
         else

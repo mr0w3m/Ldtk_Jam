@@ -6267,6 +6267,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d984494a11c0b748848faefc869ec1c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _cameraObject: {fileID: 0}
   _leader: {fileID: 1077365884}
   _offset: {x: 0, y: 0, z: 0}
   _maxDistance: 2
@@ -6295,6 +6296,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+  _cameraShakeIntensityDefault: 0
 --- !u!114 &1723651611
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -73,11 +73,17 @@ public class Win : MonoBehaviour
         PlayerSaveData playerSaveRef = PlayerSaveManager.i.playerSaveData;
         playerSaveRef.hunger = Actor.i.hunger.totalStartHunger;
         playerSaveRef.totalHunger = Actor.i.hunger.totalStartHunger;
-        Actor.i.health.AddHP(100);
+        Actor.i.health.FullHeal();
         playerSaveRef.hp = Actor.i.health.hp;
         playerSaveRef.totalHp = Actor.i.health.maxHP;
         playerSaveRef.totalItemSlots = Actor.i.inventory.totalInventoryCount;
         playerSaveRef.items = new List<string>(Actor.i.inventory.inventoryItemStrings);
+        
+        if (Actor.i.lunchbox.foodItemHeld)
+        {
+            playerSaveRef.lunchboxItem = Actor.i.lunchbox.foodItemString;
+        }
+        
         PlayerSaveManager.i.playerSaveData = playerSaveRef;
 
         GoToNextLevel();

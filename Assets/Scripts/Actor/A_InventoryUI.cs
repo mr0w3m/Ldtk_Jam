@@ -10,10 +10,13 @@ public class A_InventoryUI : MonoBehaviour
     [SerializeField] private A_Inventory _inventory;
     [SerializeField] private A_Input _input;
     [SerializeField] private InventorySlot _invSlotPrefab;
+    [SerializeField] private InventorySlot_Lunchbox _lunchboxSlotPrefab;
     [SerializeField] private Transform _invSlotParent;
     [SerializeField] private GenericItemDataList _itemDatabase;
+    [SerializeField] private FoodItemDatabase _foodDatabase;
     [SerializeField] private AudioClip _changeSelectionClip;
 
+    private InventorySlot_Lunchbox _lunchboxSlot;
     private List<InventorySlot> _inventorySlots = new List<InventorySlot>();
     private int _selectedInt = 0;
     public int selectedInt
@@ -44,7 +47,7 @@ public class A_InventoryUI : MonoBehaviour
         _inventory.InventoryUpdated += UpdateUI;
         _input.RBDown += TabRight;
         _input.LBDown += TabLeft;
-        //Debug.Log("totalInventoryCount: " + _inventory.totalInventoryCount);
+
         for (int i = 0; i < _inventory.totalInventoryCount; i++)
         {
             InventorySlot slot = Instantiate(_invSlotPrefab, _invSlotParent);
@@ -53,6 +56,42 @@ public class A_InventoryUI : MonoBehaviour
         }
 
         _inventorySlots[0].Select(true);
+
+        if (Actor.i.lunchbox.holdingLunchbox)
+        {
+            AddLunchBox();
+        }
+    }
+
+    public void AddLunchBox()
+    {
+        InventorySlot_Lunchbox slot = Instantiate(_lunchboxSlotPrefab, _invSlotParent);
+        slot.Init(null);
+        _lunchboxSlot = slot;
+        _lunchboxSlot.ToggleInputIcon(Actor.i.lunchbox.foodItemHeld);
+    }
+
+    public void UpdateLunchBoxItem()
+    {
+        if (Actor.i.lunchbox.foodItemHeld)
+        {
+            FoodItemDataObject foodData = _foodDatabase.ReturnFoodItem(Actor.i.lunchbox.foodItemString);
+            _lunchboxSlot.Init(foodData.itemID, foodData.sprite);
+        }
+        else
+        {
+            _lunchboxSlot.Init(null);
+        }
+        _lunchboxSlot.ToggleInputIcon(Actor.i.lunchbox.foodItemHeld);
+    }
+
+    public void RemoveLunchBox()
+    {
+        if (_lunchboxSlot != null)
+        {
+            Destroy(_lunchboxSlot.gameObject);
+        }
+        _lunchboxSlot = null;
     }
 
     public void ReInitialize()
@@ -62,6 +101,7 @@ public class A_InventoryUI : MonoBehaviour
             Destroy(slot.gameObject);
         }
         _inventorySlots.Clear();
+
 
         for (int i = 0; i < _inventory.totalInventoryCount; i++)
         {
@@ -78,7 +118,7 @@ public class A_InventoryUI : MonoBehaviour
         _invSlotParent.gameObject.SetActive(!state);
     }
 
-    private void UpdateUI()
+    public void UpdateUI()
     {
         for (int i = 0; i < _inventory.totalInventoryCount; i++)
         {

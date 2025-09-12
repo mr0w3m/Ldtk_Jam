@@ -11,8 +11,8 @@
 	"identifier": "A_1_LeftRight_03",
 	"iid": "51a44c20-fec0-11ee-a023-dfbbd69d9ee5",
 	"uid": 169,
-	"worldX": 480,
-	"worldY": 0,
+	"worldX": 160,
+	"worldY": 256,
 	"worldDepth": 0,
 	"pxWid": 160,
 	"pxHei": 128,
@@ -174,5 +174,5 @@
 			"entityInstances": []
 		}
 	],
-	"__neighbours": [ { "levelIid": "b0a7a110-fec0-11ee-8f60-055a13a1cf23", "dir": "w" }, { "levelIid": "6ef69ad0-fec0-11ee-b828-115f3a434b30", "dir": "e" }, { "levelIid": "16fceae1-8560-11f0-83c7-5dc09b972ca6", "dir": "s" } ]
+	"__neighbours": [{ "levelIid": "b0a7a110-fec0-11ee-8f60-055a13a1cf23", "dir": "n" }]
 }

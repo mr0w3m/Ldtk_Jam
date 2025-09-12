@@ -28,6 +28,20 @@ public class InventorySlot : MonoBehaviour
         }
         _highlight.SetActive(false);
     }
+    public void Init(string id, Sprite sprite)
+    {
+        if (!string.IsNullOrEmpty(id))
+        {
+            _occupied = true;
+            SetSprite(sprite);
+        }
+        else
+        {
+            _occupied = false;
+            SetSprite(null);
+        }
+        _highlight.SetActive(false);
+    }
 
     public void Select(bool state)
     {

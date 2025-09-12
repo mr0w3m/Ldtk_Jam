@@ -1517,7 +1517,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1525,6 +1525,48 @@ TextureImporter:
       bones: []
       spriteID: 6b548c6e2fc36de4b9a76b2e92ebdb40
       internalID: 315728818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UISlice_LunchBox
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 5
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 3, y: 3, z: 3, w: 3}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf84ac04753ca234683bb2d0b3a447ad
+      internalID: -1523263298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UISlice_Backpack
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 5
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 3, y: 3, z: 3, w: 3}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af0746b48a642bd4eac5f9c832bc1aba
+      internalID: 865979631
       vertices: []
       indices: 
       edges: []
@@ -1605,6 +1647,8 @@ TextureImporter:
       ThrowingIndicator: -7293886
       Torch: 390807882
       UISlice: -819983087
+      UISlice_Backpack: 865979631
+      UISlice_LunchBox: -1523263298
       UI_Bar_Backfill: 691436947
       UI_Bar_Frame: 1749530879
       UI_Bar_Slider: 899290683

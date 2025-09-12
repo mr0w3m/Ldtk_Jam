@@ -18,6 +18,7 @@ public class Actor : MonoBehaviour
         }
     }
 
+    public A_Interaction interaction;
     public A_Inventory inventory;
     public A_InventoryUI inventoryUI;
     public A_Movement movement;
@@ -34,6 +35,7 @@ public class Actor : MonoBehaviour
     public HUD_Conversation conversation;
     public A_Upgrade upgrade;
     public A_ReviveTotem reviveTotem;
+    public A_Lunchbox lunchbox;
 
 
     public Transform playerCenterT;
