@@ -41,6 +41,7 @@ public class LevelGen : MonoBehaviour
     [SerializeField] private List<GameObject> _chunks_LRD;
     [SerializeField] private List<GameObject> _chunks_LRU;
     [SerializeField] private List<GameObject> _chunks_LRUD;
+    [SerializeField] private List<GameObject> _chunks_SP;
     [SerializeField] private GameObject _chunk_Exterior;
 
 
@@ -228,6 +229,8 @@ public class LevelGen : MonoBehaviour
             SpawnRoom(data);
         }
 
+        bool spawnedSpRoom = false;
+
         for (int x = 0; x < _levelSizeX; x++)
         {
             for (int y = 0; y < _levelSizeY; y++)
@@ -243,7 +246,19 @@ public class LevelGen : MonoBehaviour
 
                 if (!onMainPath)
                 {
-                    SpawnRoom(new LevelGenData(new Vector2Int(x,y), false, true));
+                    //here's where we can inject a room off the beaten path that holds a special item.
+
+                    //if we're off of the beaten trail, but also above level 1 in the y, and not the top level, and !placedSpItem
+
+                    if (y > 0 && !(y == _levelSizeY - 1) && !spawnedSpRoom && Random.value < 0.1f)
+                    {
+                        spawnedSpRoom = true;
+                        SpawnRoom(_chunks_SP[Random.Range(0, _chunks_SP.Count)], x, y);
+                    }
+                    else
+                    {
+                        SpawnRoom(new LevelGenData(new Vector2Int(x, y), false, true));
+                    }
                 }
             }
         }

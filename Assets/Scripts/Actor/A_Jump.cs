@@ -44,6 +44,8 @@ public class A_Jump : MonoBehaviour
             if (timer > 0)
             {
                 timer -= Time.deltaTime;
+                //Debug.Log("jumpTimer: " + timer);
+
                 //jumpForce = (_continuousJumpForce * Util.MapValue(timer, _timeToFullJump, 0, 0, 1));
                 _movement.MoveUp(_jumpVector * jumpForce);
             }

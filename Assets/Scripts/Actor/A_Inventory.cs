@@ -80,21 +80,6 @@ public class A_Inventory : MonoBehaviour
         _inventoryItemStrings = new List<string>(PlayerSaveManager.i.playerSaveData.items);
         OnDataLoaded();
         OnInventoryUpdated();
-
-        foreach(string s in _inventoryItemStrings)
-        {
-            if (s == "lunchbox")
-            {
-                Actor.i.lunchbox.ForceAddLunchbox();
-
-                Debug.Log("Testing Save Data item count: " + PlayerSaveManager.i.playerSaveData.items.Count);
-
-                if (!string.IsNullOrEmpty(PlayerSaveManager.i.playerSaveData.lunchboxItem))
-                {
-                    Actor.i.lunchbox.AddFoodItem(PlayerSaveManager.i.playerSaveData.lunchboxItem);
-                }
-            }
-        }
     }
 
     private void AddItem(string id)

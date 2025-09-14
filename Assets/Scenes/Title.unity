@@ -5461,7 +5461,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _chunksStartRoom:
-  - {fileID: 247314694119394933, guid: fdad96325d8bc414a883091916c8d5dd, type: 3}
+  - {fileID: 247314694119394933, guid: 1125c5553d0f5584b99534fccd09729c, type: 3}
   _chunkEndRoom_LR: {fileID: 7990931648133681583, guid: 147c13558badc434aa3de489c0c8fb89, type: 3}
   _chunks_LR:
   - {fileID: 247314694119394933, guid: f6928cc00e86eb6459a0ea728339ec6b, type: 3}
@@ -5474,6 +5474,8 @@ MonoBehaviour:
   - {fileID: 247314694119394933, guid: fa00e211858c3304f855b4af4a6478fc, type: 3}
   _chunks_LRUD:
   - {fileID: 247314694119394933, guid: 5258ee73ef3b80f41a8eae3346886010, type: 3}
+  _chunks_SP:
+  - {fileID: 247314694119394933, guid: e3478190382c8c54abcdaa8cfada0ab1, type: 3}
   _chunk_Exterior: {fileID: 1871638223600732584, guid: 0dd804bceb78d5f47b699fa11fe6d505, type: 3}
   _chunkSize: {x: 10, y: 8}
   _levelSizeX: 4

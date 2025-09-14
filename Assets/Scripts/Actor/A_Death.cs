@@ -23,6 +23,8 @@ public class A_Death : MonoBehaviour
         _playerSprite.sprite = _revivedSprite;
         playerDead = false;
         Actor.i.movement.PauseMovement = false;
+
+        Actor.i.movement.SetPosition(Actor.i.reviveTotem.LastSafeLocation);
         AudioController.control.PlayClip(_reviveClip);
         Actor.i.health.FullHeal();
     }

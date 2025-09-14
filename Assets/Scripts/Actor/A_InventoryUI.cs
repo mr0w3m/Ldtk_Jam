@@ -19,6 +19,7 @@ public class A_InventoryUI : MonoBehaviour
     private InventorySlot_Lunchbox _lunchboxSlot;
     private List<InventorySlot> _inventorySlots = new List<InventorySlot>();
     private int _selectedInt = 0;
+
     public int selectedInt
     {
         get { return _selectedInt; }
@@ -57,10 +58,12 @@ public class A_InventoryUI : MonoBehaviour
 
         _inventorySlots[0].Select(true);
 
+        /*
         if (Actor.i.lunchbox.holdingLunchbox)
         {
             AddLunchBox();
         }
+        */
     }
 
     public void AddLunchBox()
@@ -68,7 +71,7 @@ public class A_InventoryUI : MonoBehaviour
         InventorySlot_Lunchbox slot = Instantiate(_lunchboxSlotPrefab, _invSlotParent);
         slot.Init(null);
         _lunchboxSlot = slot;
-        _lunchboxSlot.ToggleInputIcon(Actor.i.lunchbox.foodItemHeld);
+        //_lunchboxSlot.ToggleInputIcon(Actor.i.lunchbox.foodItemHeld);
     }
 
     public void UpdateLunchBoxItem()
@@ -82,7 +85,7 @@ public class A_InventoryUI : MonoBehaviour
         {
             _lunchboxSlot.Init(null);
         }
-        _lunchboxSlot.ToggleInputIcon(Actor.i.lunchbox.foodItemHeld);
+        //_lunchboxSlot.ToggleInputIcon(Actor.i.lunchbox.foodItemHeld);
     }
 
     public void RemoveLunchBox()
@@ -155,6 +158,7 @@ public class A_InventoryUI : MonoBehaviour
         OnInventoryItemSelected();
         AudioController.control.PlayClip(_changeSelectionClip);
     }
+
     public void TabLeft()
     {
         if (_throwing.throwing)

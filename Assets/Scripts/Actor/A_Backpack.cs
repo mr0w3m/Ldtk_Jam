@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class A_Backpack : MonoBehaviour
@@ -10,6 +11,17 @@ public class A_Backpack : MonoBehaviour
     {
         Actor.i.inventory.ItemAdded += CheckAdd;
         Actor.i.inventory.ItemRemoved += CheckRemove;
+
+        List<string> saveItemList = PlayerSaveManager.i.playerSaveData.items.Where(i => i == "backpack").ToList();
+        if (saveItemList.Count > 0)
+        {
+            Debug.Log("We Have A backpack");
+            CheckAdd(saveItemList[0]);
+        }
+        else
+        {
+            Debug.Log("We do not have a backpack");
+        }
     }
 
     private void CheckAdd(string id)

@@ -11,6 +11,7 @@ public class A_Interaction : MonoBehaviour
     [SerializeField] private LayerMask _interactableLayer;
     [SerializeField] private A_Crafting _crafting;
     [SerializeField] private GameObject _button;
+    [SerializeField] private GameObject _lunchboxButton;
 
     InteractableObj prevTempInteractableObj = null;
     InteractableObj tempInteractableObj = null;
@@ -70,6 +71,16 @@ public class A_Interaction : MonoBehaviour
                     prevTempInteractableObj = tempInteractableObj;
                 }
                 _button.SetActive(true);
+
+
+                if (Actor.i.lunchbox.holdingLunchbox && !Actor.i.lunchbox.foodItemHeld && hitCollider.GetComponent<InteractableFood>() != null)
+                {
+                    _lunchboxButton.SetActive(true);
+                }
+                else
+                {
+                    _lunchboxButton.SetActive(false);
+                }
                 tempInteractableObj.Highlight(true);
             }
         }
@@ -81,6 +92,8 @@ public class A_Interaction : MonoBehaviour
             }
             tempInteractableObj = null;
             _button.SetActive(false);
+            
+            _lunchboxButton.SetActive(false);
         }
 
         //problem is in the same frame we'll remain colliding and switch the subject. WE need a way to detect if we actually did it
@@ -131,6 +144,7 @@ public class A_Interaction : MonoBehaviour
 
         if (tempInteractableObj != null)
         {
+            /*
             InteractableFood foodItem = _collidedObject.GetComponent<InteractableFood>();
             if (foodItem != null && Actor.i.lunchbox.holdingLunchbox && !Actor.i.lunchbox.foodItemHeld)
             {
@@ -139,12 +153,31 @@ public class A_Interaction : MonoBehaviour
                 //don't interact with it/return.
                 return;
             }
+            */
 
             tempInteractableObj.Interact();
         }
         else
         {
 
+        }
+    }
+
+    public void LunchBoxInteract()
+    {
+        if (_crafting.crafting && !_colliding)
+        {
+            return;
+        }
+
+        if (tempInteractableObj != null)
+        {
+            InteractableFood foodItem = _collidedObject.GetComponent<InteractableFood>();
+            if (foodItem != null && Actor.i.lunchbox.holdingLunchbox && !Actor.i.lunchbox.foodItemHeld)
+            {
+                Actor.i.lunchbox.AddFoodItem(foodItem.foodData.itemID);
+                foodItem.PickUp();
+            }
         }
     }
 }

@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class A_Lunchbox : MonoBehaviour
@@ -24,12 +25,26 @@ public class A_Lunchbox : MonoBehaviour
         get { return _foodItemString; }
     }
     private string _foodItemString;
-    
+
     private void Start()
     {
         Actor.i.inventory.ItemAdded += CheckAdd;
         Actor.i.inventory.ItemRemoved += CheckRemove;
 
+        List<string> saveItemList = PlayerSaveManager.i.playerSaveData.items.Where(i => i == "lunchbox").ToList();
+        if (saveItemList.Count > 0)
+        {
+            Debug.Log("We Have A lunchbox");
+            CheckAdd(saveItemList[0]);
+            if (!string.IsNullOrEmpty(PlayerSaveManager.i.playerSaveData.lunchboxItem))
+            {
+                AddFoodItem(PlayerSaveManager.i.playerSaveData.lunchboxItem);
+            }
+        }
+        else
+        {
+            Debug.Log("We do not have a lunchbox");
+        }
     }
 
     private void CheckAdd(string id)
@@ -48,7 +63,7 @@ public class A_Lunchbox : MonoBehaviour
     {
         if (holdingLunchbox && id == "lunchbox")
         {
-            
+
             holdingLunchbox = false;
             Debug.Log("Removed Lunchbox");
             Actor.i.inventoryUI.RemoveLunchBox();
@@ -59,28 +74,23 @@ public class A_Lunchbox : MonoBehaviour
     private void UseLunchbox()
     {
         //lunchbox item used or store lunchbox item
-        if (Actor.i.crafting.crafting && Actor.i.interaction.ReturnInteraction() != null)
+        if (Actor.i.crafting.crafting || Actor.i.death.playerDead)
         {
             Debug.Log("Can't Use Lunchbox Now");
             return;
         }
 
-        
-        if (_foodItemHeld)
+        if (!_foodItemHeld)
+        {
+            Debug.Log("if not holding food item, LunchBoxInteract");
+            Actor.i.interaction.LunchBoxInteract();
+        }
+        else
         {
             //eat food item
             UseFoodItem();
             Debug.Log("Use Food Item");
         }
-    }
-
-    public void ForceAddLunchbox()
-    {
-        holdingLunchbox = true;
-        Debug.Log("Added Lunchbox");
-        Actor.i.input.RStickDown += UseLunchbox;
-        Actor.i.inventoryUI.AddLunchBox();
-        Actor.i.inventoryUI.UpdateLunchBoxItem();
     }
 
     public void AddFoodItem(string id)
@@ -89,9 +99,6 @@ public class A_Lunchbox : MonoBehaviour
         _foodItemHeld = true;
         _foodItemString = id;
         Actor.i.inventoryUI.UpdateLunchBoxItem();
-        //go into inventory and slap an icon on top of the lunchbox icon.
-        //also lunchbox should have a y button when we have an item
-        //we're going to need a way to custom spawn in inventory slots and sort them
     }
 
     private void UseFoodItem()

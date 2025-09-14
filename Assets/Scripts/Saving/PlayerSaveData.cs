@@ -12,6 +12,7 @@ public class PlayerSaveData
     public int totalItemSlots;
     public List<string> items;
     public string lunchboxItem;
+    public List<string> specialItemsToSpawn;
 
     public PlayerSaveData()
     {
@@ -22,6 +23,7 @@ public class PlayerSaveData
         this.totalItemSlots = 2;
         this.items = new List<string>();
         this.lunchboxItem = "";
+        this.specialItemsToSpawn = new List<string>();
     }
     
     public PlayerSaveData(PlayerSaveData data)
@@ -33,9 +35,11 @@ public class PlayerSaveData
         this.totalItemSlots= data.totalItemSlots;
         this.items = new List<string>(data.items);
         this.lunchboxItem = data.lunchboxItem;
+
+        this.specialItemsToSpawn = data.specialItemsToSpawn;
     }
 
-    public PlayerSaveData(int hp, int totalHp, int hunger, int totalHunger, int totalItemSlots, List<string> items, string lbitem)
+    public PlayerSaveData(int hp, int totalHp, int hunger, int totalHunger, int totalItemSlots, List<string> items, string lbitem, List<string> spItemsLeft)
     {
         this.hp = hp;
         this.totalHp = totalHp;
@@ -44,6 +48,8 @@ public class PlayerSaveData
         this.totalItemSlots = totalItemSlots;
         this.items = new List<string>(items);
         this.lunchboxItem = lbitem;
+
+        this.specialItemsToSpawn = spItemsLeft;
     }
 
 }

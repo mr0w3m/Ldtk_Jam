@@ -178,6 +178,8 @@ MonoBehaviour:
   - {fileID: 247314694119394933, guid: f3e23e94534813848befb8b8f9f47a27, type: 3}
   - {fileID: 247314694119394933, guid: c60575fbbc92d244aad9a99a604372bc, type: 3}
   - {fileID: 247314694119394933, guid: b5ff8338dcbf7e74f9b77a985c2234c7, type: 3}
+  _chunks_SP:
+  - {fileID: 247314694119394933, guid: e3478190382c8c54abcdaa8cfada0ab1, type: 3}
   _chunk_Exterior: {fileID: 1871638223600732584, guid: 0dd804bceb78d5f47b699fa11fe6d505, type: 3}
   _chunkSize: {x: 10, y: 8}
   _levelSizeX: 4

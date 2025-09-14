@@ -14,6 +14,8 @@ public class HitBoxCheck : MonoBehaviour
 
     public LayerMask _targetLayer;
 
+    public bool disabled = false;
+
 
     //This should change to a HitInfo Class that we can pass through when collision happens.
     public event Action EnterCollider;
@@ -70,6 +72,10 @@ public class HitBoxCheck : MonoBehaviour
 
     private void FixedUpdate()
     {
+        if (disabled)
+        {
+            return;
+        }
         CheckRoutine();
     }
 
