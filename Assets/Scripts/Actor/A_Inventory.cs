@@ -24,6 +24,7 @@ public class A_Inventory : MonoBehaviour
             _totalInventoryCount = value;
             _ui.ReInitialize();
             _ui.UpdateUI();
+            Debug.Log("TotalInventoryCount: " + _totalInventoryCount);
         }
     }
 

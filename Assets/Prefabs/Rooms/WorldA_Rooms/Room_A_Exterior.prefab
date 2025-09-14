@@ -524,6 +524,10 @@ PrefabInstance:
       propertyPath: m_SortingLayerID
       value: 1870910115
       objectReference: {fileID: 0}
+    - target: {fileID: 5853138254511737255, guid: fddddb17c1e66204fbac755d383d1901, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6379384716637198709, guid: fddddb17c1e66204fbac755d383d1901, type: 3}
       propertyPath: m_ColliderPaths.Array.size
       value: 0

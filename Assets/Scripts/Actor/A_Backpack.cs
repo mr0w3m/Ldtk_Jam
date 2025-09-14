@@ -12,16 +12,20 @@ public class A_Backpack : MonoBehaviour
         Actor.i.inventory.ItemAdded += CheckAdd;
         Actor.i.inventory.ItemRemoved += CheckRemove;
 
+        //dont need to do this because the inventory slots are increased and saved...
+        
         List<string> saveItemList = PlayerSaveManager.i.playerSaveData.items.Where(i => i == "backpack").ToList();
         if (saveItemList.Count > 0)
         {
             Debug.Log("We Have A backpack");
-            CheckAdd(saveItemList[0]);
+            //CheckAdd(saveItemList[0]);
+            holdingbackpack = true;
         }
         else
         {
             Debug.Log("We do not have a backpack");
         }
+        
     }
 
     private void CheckAdd(string id)
