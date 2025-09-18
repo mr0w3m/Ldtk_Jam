@@ -95,7 +95,6 @@ GameObject:
   - component: {fileID: 111874929142668044}
   - component: {fileID: 8191061873090038327}
   - component: {fileID: 8362450058525084659}
-  - component: {fileID: 3796492548866743710}
   - component: {fileID: 8835530332012222797}
   - component: {fileID: 3337781158897253494}
   - component: {fileID: 7844484690569300364}
@@ -198,25 +197,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 0
---- !u!114 &3796492548866743710
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1946972340310542221}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: da70266585233b94b9bb7c9a9991d6ed, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _id: spear
-  _destroyOnInteract: 1
-  _parentToDestroy: {fileID: 1946972340310542221}
-  _interactClip: {fileID: 8300000, guid: 521d5e5f8931c6c438190a8e6e4d611a, type: 3}
-  _sr: {fileID: 0}
-  _highlightMat: {fileID: 0}
-  _normalMat: {fileID: 0}
 --- !u!251 &8835530332012222797
 PlatformEffector2D:
   m_ObjectHideFlags: 0
@@ -256,6 +236,7 @@ MonoBehaviour:
   _targetLayer:
     serializedVersion: 2
     m_Bits: 64
+  disabled: 0
 --- !u!114 &7844484690569300364
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -376,10 +357,10 @@ MonoBehaviour:
   _id: spear
   _destroyOnInteract: 1
   _parentToDestroy: {fileID: 1946972340310542221}
-  _interactClip: {fileID: 0}
-  _sr: {fileID: 0}
-  _highlightMat: {fileID: 0}
-  _normalMat: {fileID: 0}
+  _interactClip: {fileID: 8300000, guid: 521d5e5f8931c6c438190a8e6e4d611a, type: 3}
+  _sr: {fileID: 4227863998528850909}
+  _highlightMat: {fileID: 2100000, guid: b54921a3377527545b39b78437b8a991, type: 2}
+  _normalMat: {fileID: 2100000, guid: 9f1f62d03ffbb664d953300ae7674e48, type: 2}
 --- !u!1 &4748080164243515034
 GameObject:
   m_ObjectHideFlags: 0

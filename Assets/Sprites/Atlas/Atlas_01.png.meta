@@ -543,7 +543,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RopeSpear_RopePile
+      name: RopeSpear_RopePile_Centered
       rect:
         serializedVersion: 2
         x: 112
@@ -1538,7 +1538,7 @@ TextureImporter:
         width: 6
         height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 3, y: 3, z: 3, w: 3}
       outline: []
       physicsShape: []
@@ -1559,7 +1559,7 @@ TextureImporter:
         width: 6
         height: 6
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 3, y: 3, z: 3, w: 3}
       outline: []
       physicsShape: []
@@ -1567,6 +1567,48 @@ TextureImporter:
       bones: []
       spriteID: af0746b48a642bd4eac5f9c832bc1aba
       internalID: 865979631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icon_RopeSpear
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d76cf9234ad584b439694120e0f94d40
+      internalID: 177870028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RopeSpear_RopePile_Bottom
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 80
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18bae13eb6d9f454e8d7b8e21fcad1da
+      internalID: 2042985937
       vertices: []
       indices: 
       edges: []
@@ -1620,6 +1662,7 @@ TextureImporter:
       Heart_Empty: 2142197655
       Heart_Full: -1310383007
       Hunger_Icon: 1992008131
+      Icon_RopeSpear: 177870028
       MonsterEye: -1709638619
       MonsterSprite: 142223211
       Mushrooms: -1043163848
@@ -1632,7 +1675,8 @@ TextureImporter:
       Rocks: 1118751564
       Rope: 1720811985
       RopeSpear: -1581650898
-      RopeSpear_RopePile: 1528578744
+      RopeSpear_RopePile_Bottom: 2042985937
+      RopeSpear_RopePile_Centered: 1528578744
       RopeUI: 1701799770
       SharpRock_Ceiling_01: 2001035095
       SharpRock_Ceiling_02: 617530648

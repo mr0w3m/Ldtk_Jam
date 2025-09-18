@@ -13,7 +13,8 @@ public class Enemy_Snake : MonoBehaviour
     [SerializeField] private LayerMask _wallLayer;
     [SerializeField] private List<GameObject> _objectsToFlip;
     [SerializeField] private float _timeToAttack;
-    [SerializeField] private Transform _centerT;
+    [SerializeField] private Transform _wallCheckT;
+    [SerializeField] private Transform _pitCheckT;
     [SerializeField] private GameObject _fireFx;
     [SerializeField] private AudioClip _moveClip;
     [SerializeField] private AudioClip _attackTriggerClip;
@@ -65,8 +66,8 @@ public class Enemy_Snake : MonoBehaviour
         _hp.Died += Dead;
         _hp.HitEvent += Aggro;
         _playerCheck.EnterCollider += TriggerSnakeAttack;
-        _wallCheckLeftPosition = (Vector2)_centerT.position + Vector2.left;
-        _wallCheckRightPosition = (Vector2)_centerT.position + Vector2.right;
+        _wallCheckLeftPosition = (Vector2)_wallCheckT.position + Vector2.left;
+        _wallCheckRightPosition = (Vector2)_wallCheckT.position + Vector2.right;
 
         _currentDirection = Direction.right;
 
@@ -186,7 +187,7 @@ public class Enemy_Snake : MonoBehaviour
 
     private void CatchOnFire()
     {
-        GameObject fireFXObj = Instantiate(_fireFx, _centerT.position, Quaternion.identity);
+        GameObject fireFXObj = Instantiate(_fireFx, _wallCheckT.position, Quaternion.identity);
         fireFXObj.transform.SetParent(this.transform);
         _onFire = true;
     }
@@ -262,8 +263,8 @@ public class Enemy_Snake : MonoBehaviour
     private void CheckForWall()
     {
 
-        _wallCheckRightPosition = (Vector2)_centerT.position + (Vector2.right * _wallCheckStartDistanceMultiplier);
-        _wallCheckLeftPosition = (Vector2)_centerT.position + (Vector2.left * _wallCheckStartDistanceMultiplier);
+        _wallCheckRightPosition = (Vector2)_wallCheckT.position + (Vector2.right * _wallCheckStartDistanceMultiplier);
+        _wallCheckLeftPosition = (Vector2)_wallCheckT.position + (Vector2.left * _wallCheckStartDistanceMultiplier);
         RaycastHit2D hitInfoRight = Physics2D.CircleCast(_wallCheckRightPosition, _wallCheckRadius, Vector2.right, _wallCheckDepth, _wallLayer);
         RaycastHit2D hitInfoLeft = Physics2D.CircleCast(_wallCheckLeftPosition, _wallCheckRadius, Vector2.left, _wallCheckDepth, _wallLayer);
 
@@ -282,7 +283,7 @@ public class Enemy_Snake : MonoBehaviour
     //runs in update
     public virtual void CheckForPit()
     {
-        Vector2 _pitCheckForwardPosition = (_currentDirection == Direction.right ? (Vector2)_centerT.position + (Vector2.right * _pitCheckStartDistanceMultiplier) : (Vector2)_centerT.position + (Vector2.left * _pitCheckStartDistanceMultiplier));
+        Vector2 _pitCheckForwardPosition = (_currentDirection == Direction.right ? (Vector2)_pitCheckT.position + (Vector2.right * _pitCheckStartDistanceMultiplier) : (Vector2)_pitCheckT.position + (Vector2.left * _pitCheckStartDistanceMultiplier));
 
         RaycastHit2D hitInfo = Physics2D.CircleCast(_pitCheckForwardPosition, _pitCheckRadius, Vector2.down, _pitCheckDepth, _wallLayer);
         if (hitInfo.collider == null)
@@ -309,8 +310,8 @@ public class Enemy_Snake : MonoBehaviour
     private void Dead()
     {
         _hp.Died -= Dead;
-        Instantiate(_deadFxObj, _centerT.position, Quaternion.identity);
-        Instantiate(_deathFood, _centerT.transform.position, Quaternion.identity);//.transform.SetParent(null);
+        Instantiate(_deadFxObj, _wallCheckT.position, Quaternion.identity);
+        Instantiate(_deathFood, _wallCheckT.transform.position, Quaternion.identity);//.transform.SetParent(null);
 
         Destroy(this.gameObject);
     }

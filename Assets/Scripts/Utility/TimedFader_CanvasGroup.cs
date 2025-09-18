@@ -10,6 +10,7 @@ public class TimedFader_CanvasGroup : MonoBehaviour
     public bool oneTime;
     [SerializeField] private int _savedIndexIfOneTime;
     public bool fadeInOnStart;
+    public bool fadedInOnStart = false;
     [SerializeField] private float _waitForFadeIn;
     [SerializeField] private float _timeToFadeIn;
 
@@ -53,6 +54,10 @@ public class TimedFader_CanvasGroup : MonoBehaviour
         if (fadeInOnStart)
         {
             FadeIn(_waitForFadeIn, _timeToFadeIn);
+        }
+        else if (fadedInOnStart)
+        {
+            _canvasGroup.alpha = 1;
         }
         else
         {

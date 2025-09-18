@@ -222,7 +222,8 @@ MonoBehaviour:
   _objectsToFlip:
   - {fileID: 8873657252431722095}
   _timeToAttack: 0.75
-  _centerT: {fileID: 2662863548696427520}
+  _wallCheckT: {fileID: 2662863548696427520}
+  _pitCheckT: {fileID: 2662863548696427520}
   _fireFx: {fileID: 2441730429701030594, guid: 332fb97bd99635c4295c397de82538c6, type: 3}
   _moveClip: {fileID: 0}
   _attackTriggerClip: {fileID: 8300000, guid: dcec392ddbf68724e859663c2e2583c7, type: 3}
@@ -699,6 +700,7 @@ MonoBehaviour:
   _targetLayer:
     serializedVersion: 2
     m_Bits: 64
+  disabled: 0
 --- !u!61 &8936574955662525918
 BoxCollider2D:
   m_ObjectHideFlags: 0

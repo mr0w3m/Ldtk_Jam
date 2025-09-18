@@ -21,12 +21,26 @@ public class GameManager : MonoBehaviour
         Actor.i.death.playerDied += CheckForReload;
         Actor.i.input.StartDown += ToggleMenu;
         Actor.i.input.ADown += Restart;
-        Actor.i.input.BDown += MainMenu;
+        Actor.i.input.YDown += MainMenu;
 
         if (!AudioController.control.IsTrackPlaying("ambience"))
         {
             AudioController.control.PlayLoopingAudio(_ambienceClip, _ambienceClip.length, false, "ambience", 2);
         }
+
+        //Player Wake Up
+        Actor.i.paused = true;
+        Actor.i.sleeping = true;
+        Actor.i.fader.FadeComplete += WakeUp;
+
+        Actor.i.fader.FadeOut(1f, 2f);
+    }
+
+    private void WakeUp()
+    {
+        Actor.i.fader.FadeComplete -= WakeUp;
+        Actor.i.sleeping = false;
+        Actor.i.paused = false;
     }
 
     private void Restart()

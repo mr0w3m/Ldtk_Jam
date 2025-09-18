@@ -148,6 +148,10 @@ public class A_Crafting : MonoBehaviour
         {
             return "spear";
         }
+        else if ((_ingredientA == "rope" && _ingredientB == "spear") || (_ingredientA == "spear" && _ingredientB == "rope"))
+        {
+            return "ropespear";
+        }
         else if ((_ingredientA == "rope" && _ingredientB == "rock") || (_ingredientA == "rock" && _ingredientB == "rope"))
         {
             return "anchor";
@@ -156,13 +160,21 @@ public class A_Crafting : MonoBehaviour
         {
             return "torch";
         }
-        else if ((_ingredientA == "stick" && _ingredientB == "stick"))
+        else if (_ingredientA == "stick" && _ingredientB == "stick")
         {
             return "doublestick";
         }
-        else if ((_ingredientA == "rock" && _ingredientB == "rock"))
+        else if (_ingredientA == "rock" && _ingredientB == "rock")
         {
             return "doublerock";
+        }
+        else if (_ingredientA == "rock" && _ingredientB == "doublestick")
+        {
+            return "spear";
+        }
+        else if (_ingredientA == "doublestick" && _ingredientB == "rock")
+        {
+            return "spear";
         }
         return returnItem;
     }

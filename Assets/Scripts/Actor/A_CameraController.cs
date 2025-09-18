@@ -19,6 +19,8 @@ public class A_CameraController : MonoBehaviour
 
     private Vector2 _offsetDown = Vector2.down;
 
+    private float _offsetDownTimer = 0;
+
     //camer Shake
     [SerializeField] private float _cameraShakeIntensityDefault;
 
@@ -104,11 +106,19 @@ public class A_CameraController : MonoBehaviour
         {
             if (Actor.i.input.LSY < -0.75f && Actor.i.collision.Grounded && !Actor.i.throwing.throwing)
             {
-                AddOffset(_offsetDown);
+                if (_offsetDownTimer > 0)
+                {
+                    _offsetDownTimer -= Time.deltaTime;
+                }
+                else
+                {
+                    AddOffset(_offsetDown*3);
+                }
             }
             else
             {
                 AddOffset(Vector2.zero);
+                _offsetDownTimer = 1;
             }
         }
     }

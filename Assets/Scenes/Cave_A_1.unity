@@ -309,7 +309,7 @@ MonoBehaviour:
   _chunk_Exterior: {fileID: 1871638223600732584, guid: 0dd804bceb78d5f47b699fa11fe6d505, type: 3}
   _chunkSize: {x: 10, y: 8}
   _levelSizeX: 4
-  _levelSizeY: 4
+  _levelSizeY: 3
   _mainPathLevelGenData: []
   _startingRoomCoordinate: {x: 0, y: 0}
   _endRoomCoordinate: {x: 0, y: 0}

@@ -207,7 +207,7 @@ public class A_Movement : MonoBehaviour
         }
         if (Mathf.Abs(Actor.i.input.LSX) > 0.1f)
         {
-            Vector2 direction = new Vector2(Actor.i.input.LSX, 0);
+            Vector2 direction = new Vector2(Actor.i.input.LSX, _rb2d.velocity.y);
             _rb2d.velocity = new Vector2(direction.x * _moveSpeed, _rb2d.velocity.y);
         }
     }

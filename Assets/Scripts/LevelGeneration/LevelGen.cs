@@ -250,7 +250,7 @@ public class LevelGen : MonoBehaviour
 
                     //if we're off of the beaten trail, but also above level 1 in the y, and not the top level, and !placedSpItem
 
-                    if (y > 0 && !(y == _levelSizeY - 1) && !spawnedSpRoom && Random.value < 0.1f)
+                    if (y > 0 && !(y == _levelSizeY - 1) && !spawnedSpRoom && Random.value < 0.2f)
                     {
                         spawnedSpRoom = true;
                         SpawnRoom(_chunks_SP[Random.Range(0, _chunks_SP.Count)], x, y);

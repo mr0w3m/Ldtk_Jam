@@ -2127,7 +2127,7 @@ GameObject:
   - component: {fileID: 8331001453556280521}
   - component: {fileID: 2687759365026652186}
   m_Layer: 5
-  m_Name: Image_ControlIconUpdater_Throw
+  m_Name: Image_ControlIconUpdater_Y
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2180,7 +2180,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 8e4c9c7b64aae984bb5f258efd371677, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 26cd3fcdcd2f6f74097d3f7994cefb96, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2202,7 +2202,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b49f4eb53ce5e04ba93722d69a12a87, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _iconData: {fileID: 11400000, guid: 52816e5d6fa1d3c468508c50d5e29581, type: 2}
+  _iconData: {fileID: 11400000, guid: 2b076781290e30242a471b7fdd6e426d, type: 2}
   _sprite: {fileID: 0}
   _image: {fileID: 8331001453556280521}
   _mainMenu: 0
@@ -2599,6 +2599,7 @@ MonoBehaviour:
   oneTime: 0
   _savedIndexIfOneTime: 0
   fadeInOnStart: 0
+  fadedInOnStart: 1
   _waitForFadeIn: 0
   _timeToFadeIn: 0
 --- !u!1 &3333668967177670178
@@ -2670,7 +2671,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 4
+  orthographic size: 5
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -3524,7 +3525,7 @@ GameObject:
   - component: {fileID: 6077218365991872668}
   - component: {fileID: 1822272333252195951}
   m_Layer: 5
-  m_Name: Image_ControlIconUpdater_Throw
+  m_Name: Image_ControlIconUpdater_A
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3599,7 +3600,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0b49f4eb53ce5e04ba93722d69a12a87, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _iconData: {fileID: 11400000, guid: 5889bd9a2e4d27f4eb51bafc9e617cca, type: 2}
+  _iconData: {fileID: 11400000, guid: d333d9ed75efe4d4f9ddf9cf82401284, type: 2}
   _sprite: {fileID: 0}
   _image: {fileID: 6077218365991872668}
   _mainMenu: 0
@@ -5620,6 +5621,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _view: {fileID: 7312497680040969740}
   _conversationHolder: {fileID: 1904072930874546517}
+  _alternateInput: {fileID: 0}
 --- !u!1 &7892767481786807336
 GameObject:
   m_ObjectHideFlags: 0

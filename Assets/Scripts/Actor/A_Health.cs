@@ -11,6 +11,7 @@ public class A_Health : MonoBehaviour
     [SerializeField] private SpriteRenderer _playerSprite;
     [SerializeField] private Material _litMaterial;
     [SerializeField] private Material _flashMaterial;
+    [SerializeField] private Sprite _HPAlertIcon;
 
     [SerializeField] private int _maxHP = 3;
 
@@ -126,6 +127,8 @@ public class A_Health : MonoBehaviour
             AudioController.control.PlayClip(_getHitClip);
             A_CameraController.i.AddCameraShake(0.2f, 0.1f);
         }
+
+        Actor.i.alerts.Alert("-1", _HPAlertIcon);
     }
 
     public void Death()
@@ -137,6 +140,10 @@ public class A_Health : MonoBehaviour
 
     public void AddHP(int amt)
     {
+        if (amt == 0)
+        {
+            return;
+        }
         _hp += amt;
         if (_hp > _maxHP)
         {
@@ -148,6 +155,14 @@ public class A_Health : MonoBehaviour
             OnHealthLost();
         }
 
+        string alertString = amt.ToString();
+        if (amt > 0)
+        {
+            alertString = ("+" + alertString);
+        }
+
+        Actor.i.alerts.Alert(alertString, _HPAlertIcon);
+
         OnHealthChanged();
         TriggerInvulnerable();
         CheckDeath();
@@ -157,6 +172,7 @@ public class A_Health : MonoBehaviour
     {
         _hp = _maxHP;
         OnHealthChanged();
+        Actor.i.alerts.Alert(("+" + _maxHP.ToString()), _HPAlertIcon);
     }
 
     private void TriggerInvulnerable()

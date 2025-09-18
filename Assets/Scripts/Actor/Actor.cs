@@ -36,6 +36,7 @@ public class Actor : MonoBehaviour
     public A_Upgrade upgrade;
     public A_ReviveTotem reviveTotem;
     public A_Lunchbox lunchbox;
+    public A_Alerts alerts;
 
 
     public Transform playerCenterT;

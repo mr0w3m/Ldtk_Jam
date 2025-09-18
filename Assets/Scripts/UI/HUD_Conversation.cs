@@ -33,6 +33,7 @@ public class HUD_Conversation : MonoBehaviour
 
     [SerializeField] private ConversationView _view;
     [SerializeField] private Transform _conversationHolder;
+    [SerializeField] private A_Input _alternateInput;
 
     private ConversationComponent _currentConversation;
     private int _currentConversationStep;
@@ -44,10 +45,19 @@ public class HUD_Conversation : MonoBehaviour
         _currentConversation = con;
         _currentConversationStep = 0;
         _view.Show();
-        Actor.i.input.ADown += ProgressDialogue;
+
+        if (Actor.i != null)
+        {
+            Actor.i.input.ADown += ProgressDialogue;
+        }
+        else
+        {
+            if (_alternateInput != null)
+            {
+                _alternateInput.ADown += ProgressDialogue;
+            }
+        }
         ProgressDialogue();
-        //Actor.i.paused = true;
-        //Actor.i.movement.PauseMovement = true;
     }
 
     private void ProgressDialogue()
@@ -68,7 +78,14 @@ public class HUD_Conversation : MonoBehaviour
 
     private void CloseDialogue()
     {
-        Actor.i.input.ADown -= ProgressDialogue;
+        if (Actor.i != null)
+        {
+            Actor.i.input.ADown -= ProgressDialogue;
+        }
+        else
+        {
+            _alternateInput.ADown -= ProgressDialogue;
+        }
         _view.Hide();
         _currentConversationStep = 0;
         _currentConversation = null;

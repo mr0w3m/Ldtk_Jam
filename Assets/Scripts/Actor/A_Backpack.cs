@@ -37,7 +37,6 @@ public class A_Backpack : MonoBehaviour
             AddBackpack();
         }
 
-        Debug.Log("Check Add");
     }
 
     private void CheckRemove(string id)
@@ -49,7 +48,6 @@ public class A_Backpack : MonoBehaviour
             Debug.Log("Removed backpack");
             RemoveBackpack();
         }
-        Debug.Log("Check Remove");
     }
 
     private void AddBackpack()
@@ -61,8 +59,6 @@ public class A_Backpack : MonoBehaviour
     {
         Actor.i.inventory.totalInventoryCount -= 2;
 
-        Debug.Log("Player inventory item count: " + (Actor.i.inventory.inventoryItemStrings.Count - 1));
-        Debug.Log("Total inventory: " + Actor.i.inventory.totalInventoryCount);
 
         if (Actor.i.inventory.inventoryItemStrings.Count - 1 > Actor.i.inventory.totalInventoryCount)
         {
