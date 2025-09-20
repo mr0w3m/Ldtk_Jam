@@ -294,9 +294,9 @@ MonoBehaviour:
   _wallCheckStartDistanceMultiplier: 1
   _startForwardCastObj: {fileID: 3230244205251013483}
   _endForwardCastObj: {fileID: 5603848729941061402}
-  _pitCheckRadius: 1
-  _pitCheckDepth: 1
-  _pitCheckStartDistanceMultiplier: 0.5
+  _pitCheckRadius: 0.6
+  _pitCheckDepth: 0.001
+  _pitCheckStartDistanceMultiplier: 1
   _startDownwardCastObj: {fileID: 6777796491717954739}
   _endDownwardCastObj: {fileID: 5534542010230845660}
 --- !u!61 &5869654788221712615

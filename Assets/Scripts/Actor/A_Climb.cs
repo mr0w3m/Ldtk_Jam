@@ -25,7 +25,7 @@ public class A_Climb : MonoBehaviour
     {
         //check climbable
 
-        Collider2D hitObj = Physics2D.OverlapCircle((Vector2)_playerCenterRef.transform.position, 0.75f, _targetLayer);
+        Collider2D hitObj = Physics2D.OverlapCircle((Vector2)_playerCenterRef.transform.position, 0.25f, _targetLayer);
         if (hitObj != null)
         {
             //we hit a trigger

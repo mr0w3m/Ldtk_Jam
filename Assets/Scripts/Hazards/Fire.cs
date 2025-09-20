@@ -5,6 +5,7 @@ using UnityEngine;
 public class Fire : MonoBehaviour
 {
     [SerializeField] private AudioClip _fireLoop;
+    [SerializeField] private bool _alwaysPlay = false;
 
     private bool _soundLooping = false;
 
@@ -18,6 +19,16 @@ public class Fire : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (_alwaysPlay)
+        {
+            if (!_soundLooping)
+            {
+                _soundLooping = true;
+                AudioController.control.PlayLoopingAudio(_fireLoop, _fireLoop.length, false, "fireLoop" + _randomfloat, 0.666f);
+            }
+            return;
+        }
+
         if (Actor.i != null)
         {
             if (Vector2.Distance((Vector2)transform.position, (Vector2)Actor.i.playerCenterT.position) < 8)

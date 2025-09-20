@@ -42,6 +42,7 @@ public class LevelGen : MonoBehaviour
     [SerializeField] private List<GameObject> _chunks_LRU;
     [SerializeField] private List<GameObject> _chunks_LRUD;
     [SerializeField] private List<GameObject> _chunks_SP;
+    [SerializeField] private List<GameObject> _chunks_Challenge;
     [SerializeField] private GameObject _chunk_Exterior;
 
 
@@ -53,6 +54,8 @@ public class LevelGen : MonoBehaviour
     [SerializeField] private List<LevelGenData> _mainPathLevelGenData = new List<LevelGenData>();
     [SerializeField] private Vector2Int _startingRoomCoordinate = Vector2Int.zero;
     [SerializeField] private Vector2Int _endRoomCoordinate = Vector2Int.zero;
+
+    [SerializeField] private bool _is2ndLevel;
 
     private Vector2 _playerPosition;
     
@@ -106,7 +109,15 @@ public class LevelGen : MonoBehaviour
         for (int i = 0; i <= _levelSizeY - 1; i++)
         {
             int travel = Random.Range(0, 3);
-            
+
+            //if is2ndLvl
+            if (_is2ndLevel && i > 0 && i <_levelSizeY)
+            {
+                //if it's the 2nd level And it's not the first floor
+                travel = 3;
+            }
+
+
             while (travel == pastTravel)
             {
                 travel = Random.Range(0, 3);
@@ -222,11 +233,22 @@ public class LevelGen : MonoBehaviour
 
         //Debug.Log("StartingCoordinates: " + _startingRoomCoordinate);
 
+        bool spawnedChallengeRoom = false;
 
         foreach (LevelGenData data in _mainPathLevelGenData)
         {
             //Debug.Log(data.coordinate);
-            SpawnRoom(data);
+            //SpawnMainPath
+            //Before this though we need to guarantee that the path has travel along the x
+            if (_is2ndLevel && !spawnedChallengeRoom && data.coordinate.y > 0 && data.coordinate.y < _levelSizeY && !data.fromBelow && data.hasCeiling)
+            {
+                spawnedChallengeRoom = true;
+                SpawnRoom(_chunks_Challenge[Random.Range(0, _chunks_Challenge.Count)], data.coordinate.x, data.coordinate.y);
+            }
+            else
+            {
+                SpawnRoom(data);
+            }
         }
 
         bool spawnedSpRoom = false;

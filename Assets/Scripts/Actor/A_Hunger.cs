@@ -79,6 +79,7 @@ public class A_Hunger : MonoBehaviour
                 _timer = _timeToLoseHunger;
                 if (_hunger <= (15))
                 {
+                    _timer = 1.5f;
                     A_CameraController.i.AddCameraShake(_shakeTime, 0.1f);
                     AudioController.control.PlayClip(_starvingClip, Random.Range(0.85f, 2), 0.5f);
                 }

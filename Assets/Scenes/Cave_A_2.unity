@@ -175,6 +175,9 @@ MonoBehaviour:
   - {fileID: 247314694119394933, guid: 5258ee73ef3b80f41a8eae3346886010, type: 3}
   _chunks_SP:
   - {fileID: 247314694119394933, guid: 71b7081c6fb08f846a73476e2a394992, type: 3}
+  _chunks_Challenge:
+  - {fileID: 247314694119394933, guid: 66876744c917e684180675f694526292, type: 3}
+  - {fileID: 247314694119394933, guid: 9f92659dfd47ced47a6c36894fdcac5e, type: 3}
   _chunk_Exterior: {fileID: 1871638223600732584, guid: 0dd804bceb78d5f47b699fa11fe6d505, type: 3}
   _chunkSize: {x: 10, y: 8}
   _levelSizeX: 5
@@ -182,6 +185,7 @@ MonoBehaviour:
   _mainPathLevelGenData: []
   _startingRoomCoordinate: {x: 0, y: 0}
   _endRoomCoordinate: {x: 0, y: 0}
+  _is2ndLevel: 1
 --- !u!4 &442562707
 Transform:
   m_ObjectHideFlags: 0
